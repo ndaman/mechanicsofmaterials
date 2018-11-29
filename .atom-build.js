@@ -2,7 +2,8 @@ module.exports = {
   cmd: "reveal-md",
   sh: true,
   cwd: "{FILE_ACTIVE_PATH}",
-  args: ["{FILE_ACTIVE_NAME}", "--static", "docs", "--static-dirs=images","&& ping localhost -n 2 >NUL", "&& move docs\\index.html docs\\{FILE_ACTIVE_NAME_BASE}.html"],
+  args: ["{FILE_ACTIVE_NAME}", "--static", "docs", "--static-dirs=images","&& ping localhost -n 2 >NUL",
+  "&& move docs\\index.html docs\\{FILE_ACTIVE_NAME_BASE}.html", "&& copy index.html docs\\index.html"],
   keymap: "ctrl-alt-b",
   atomCommandName: "user:reveal-md-static"/*,
   postBuild: function () {
