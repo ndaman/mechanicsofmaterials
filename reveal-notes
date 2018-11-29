@@ -1,0 +1,33 @@
+custom themes can be added to this directory:
+C:\Users\a723k873\AppData\Roaming\npm\node_modules\reveal-md\node_modules\reveal.js\css\theme
+
+build command
+reveal-md slides.md --static docs --static-dirs=images
+
+want to write some customizations
+  automatically build a shell/outline given some main topics
+  snippets for new section and new sub-slide
+  build script to write slides.md to static html and update index file appropriately
+
+other thoughts
+  images folder?
+  group lectures by exam sub-folders?
+  allow users to change theme
+
+
+autocomplete figures (add to config.cson)
+    {
+      extensions: [
+        "png"
+        "PNG"
+        "jpeg"
+        "jpg"
+      ]
+      prefixes: [
+        "!\\[.*\\]\\("
+      ]
+      relative: true
+      scopes: [
+        "source.gfm"
+      ]
+    }
