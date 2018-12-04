@@ -31,7 +31,7 @@ November 27, 2018
 ---
 
 ## about me
-![family picture](./images/IMG_5266_edit.jpg)
+![family picture](images\IMG_5266_edit.jpg)
 
 ----
 

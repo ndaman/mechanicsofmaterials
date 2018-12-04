@@ -3,15 +3,17 @@ C:\Users\a723k873\AppData\Roaming\npm\node_modules\reveal-md\node_modules\reveal
 
 build command
 reveal-md slides.md --static docs --static-dirs=images
+  NOTE: I think this is completely unnecessary?!? instead of reveal-md I'm just using reveal.js, html file header points to the markdown file for slide content, no compiling needed at all
 
 want to write some customizations
   automatically build a shell/outline given some main topics
   snippets for new section and new sub-slide
-  build script to write slides.md to static html and update index file appropriately
+  build script to update index file after creating new lecture (no script, just use doctoc)
+  make handout version?
 
 other thoughts
-  images folder?
-  group lectures by exam sub-folders?
+  images folder? (done)
+  group lectures by exam sub-folders? (would be easy, is it worthwhile?)
   allow users to change theme
 
 
