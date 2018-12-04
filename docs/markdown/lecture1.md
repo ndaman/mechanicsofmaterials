@@ -1,10 +1,3 @@
----
-title: Lecture 1
-theme: shocker
-revealOptions:
-    transition: 'fade'
----
-
 # AE333
 ## Mechanics of Materials
 Lecture 1 - Equilibrium
