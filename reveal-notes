@@ -24,24 +24,4 @@ want to write some customizations
   make handout version?
 
 other thoughts
-  images folder? (done)
-  group lectures by exam sub-folders? (would be easy, is it worthwhile?)
   allow users to change theme
-
-
-autocomplete figures (add to config.cson)
-    {
-      extensions: [
-        "png"
-        "PNG"
-        "jpeg"
-        "jpg"
-      ]
-      prefixes: [
-        "!\\[.*\\]\\("
-      ]
-      relative: true
-      scopes: [
-        "source.gfm"
-      ]
-    }
