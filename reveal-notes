@@ -1,9 +1,21 @@
 custom themes can be added to this directory:
 C:\Users\a723k873\AppData\Roaming\npm\node_modules\reveal-md\node_modules\reveal.js\css\theme
 
-build command
-reveal-md slides.md --static docs --static-dirs=images
-  NOTE: I think this is completely unnecessary?!? instead of reveal-md I'm just using reveal.js, html file header points to the markdown file for slide content, no compiling needed at all
+latex find and replace regex:
+  (easier to first convert w/ pandoc, then edit that)
+
+convert tikz drawings to svg files
+  copy filname.tex to filename-figs.tex
+  add to preamble:
+    \usepackage[active,tightpage]{preview}
+    \PreviewEnvironment{tikzpicture}
+  pdf2svg filename-figs.pdf output-page%03d.svg all
+
+
+internal links:
+  add id to slide using: <!-- -- id="test-slide" -->
+  with this line in html: data-attributes="--\s(.*?)$"
+  then link using: [test](#/test-slide)
 
 want to write some customizations
   automatically build a shell/outline given some main topics
