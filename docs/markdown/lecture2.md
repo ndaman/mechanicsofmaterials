@@ -31,7 +31,7 @@ January 25, 2019
 - 25 Jan - Stress
 - 28 Jan - Average stress, Intro HW Due
 - 30 Jan - Assessment Test
-- 1 Feb - Allowable stress, Strain
+- 1 Feb - Allowable stress, Strain, HW1 Due
 
 ----
 
