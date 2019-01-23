@@ -362,6 +362,8 @@ January 23, 2019
 
 Find the internal forces at point C.
 
+<!-- spring 2019 we finished in the middle of this problem-->
+
 ----
 
 ## example 1.4

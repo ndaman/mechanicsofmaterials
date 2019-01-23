@@ -18,7 +18,7 @@
 
 # AE333
 ## Mechanics of Materials
-Lecture 3 - Stress
+Lecture 3 - Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
@@ -180,19 +180,19 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
 ## bearing stress
 
-  ![image](../figures/bearing-stress){width="60.00000%"}
+  ![A column under compressive loading, bearing stress is the stress developed under the column under this load.](images\bearing-stress.jpg)<!-- .element width="40%" -->
 
 ----
 
 ## embedded shear stress
 
-![image](../figures/embedded-shear){width="40.00000%"}
+![A rod embedded in concrete is under tension pulling it out. The shear stress on the outer edge of the rod inside the concrete is known as embedded shear stress.](images\embedded-shear.jpg)<!-- .element width="30%" -->
 
 ----
 
 ## lap joint shear
 
-![image](images\lap-shear.jpg)
+![Two plates are attached together and pulled in opposite directions. The shear stress between the two where they are attached is called lap shear.](images\lap-shear.jpg)<!-- .element width="50%" -->
 
 ---
 # limit state design
@@ -252,12 +252,20 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
 ## example 1-12
 
-![](images\example-1-12.jpg)
+<div class="left">
+![An l-shaped bracket has an 8 inch vertical leg and a 5 inch horizontal leg. A single shear pinned connector holds the point of the leg, A, in place while a double shear pinned connector holds the base of the L at point C in position. There is 3 kilopound load 3 inches to the right of C acting downward and a 5 kilopound load 2 inches to the right of that acting down and to the right in the direction of a 3-4-5 triangle (3 down, 4 to the right).](images\example-1-12.jpg)
+</div>
+<div class="right">
 Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the factor of safety in shear is 1.5 and the failure shear stress is 12 ksi.
+</div>
 
 ----
 
 ## example 1-15
 
-![](images\example-1-15.png)
+<div class="left">
+![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](images\example-1-15.png)
+</div>
+<div class="right">
 The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \si{MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
+</div>

@@ -48,9 +48,21 @@ January 25, 2019
 
 ----
 
-## example 1.4
+## example 1.1
 
-![Example 1.4 from the text, depicting an l-shaped shaft with the two legs being 1.25 meters long. If we consider the fixed end of the shaft to be the origin, the shaft proceeds 1.25 meters along the y-axis, then angles 90 degrees to continue 1.25 meters along the x-axis. At the free end, there is a 70 newton-meter couple moment applied about the x-axis, as well as a 50 newton load in the negative z-direction and a 30 newton load in the positive y-direction. Find the internal forces at point d, located 0.75 meters from the fixed end (along the y-axis).](images\example-1-4.jpg)<!-- .element width="50%" -->
+![Example 1.1 from the text, showing a cantilever beam with a distributed load, 270 newtons per meter at the end closest to the fixed support decreasing linearly to 0 newtons per meter at the end. The beam is 9 meters long and we need to find the internal forces at Point C, located 3 meters away from the fixed end.](images\example-1-1.png)<!-- .element width="70%" -->
+
+Find the internal forces at point C.
+
+----
+
+## example 1.4
+<div class="left">
+![Example 1.4 from the text, depicting an l-shaped shaft with the two legs being 1.25 meters long. If we consider the fixed end of the shaft to be the origin, the shaft proceeds 1.25 meters along the y-axis, then angles 90 degrees to continue 1.25 meters along the x-axis. At the free end, there is a 70 newton-meter couple moment applied about the x-axis, as well as a 50 newton load in the negative z-direction and a 30 newton load in the positive y-direction. Find the internal forces at point d, located 0.75 meters from the fixed end (along the y-axis).](images\example-1-4.jpg)<!-- .element width="90%" -->
+</div>
+<div class="right">
+Find the internal forces at point D.
+</div>
 
 ----
 
@@ -58,17 +70,31 @@ January 25, 2019
 
 ![A 6 meter long beam is supported by pins at A (2 meters from the left end) and B (2 meters from right end). Point C is located exactly between A and B, 3 meters from either end of the beam. A couple moment of 60 kilo-newton-meters is applied at the left end and a load of 10 kilonewtons pointing down is applied at the right end. Find the internal loading at C.](images\group1-1.png)<!-- .element width="50%" -->
 
+Find the internal forces at C.
+
 ----
 
 ## group two
 
 ![A 3 meter long beam is supported by pins at both ends, A and B. There are two uniformly distributed loads applied, one beginning at A with a magnitude of 100 newtons per meter ending at the middle of the beam. The other begins at the middle with a magnitude of 200 newtons per meter and ends at B. Find the internal loading at the middle of the beam.](images\group1-2.png)<!-- .element width="50%" -->
 
+Find the internal forces at C.
+
 ----
 
 ## group three
 
 ![A 6 meter long beam is supported by pins at A, located 2 meters from the left end of the beam, and B, at the right end of the beam. A uniformly distributed load of 20 kilonewtons per meter is applied between the left end and A. Find the internal loading at point C located halfway between points A and B.](images\group1-3.png)<!-- .element width="50%" -->
+
+Find the internal forces at C.
+
+----
+
+## group four
+
+![A 6 meter long beam is supported at both ends by pins. There is a uniformly distributed load of 10 kilonewtons per meter on the left half of the beam and a linear distributed load on the right half of the beam, with the left end at 10 kilonewtons per meter and the right end at zero. The point C is located at the center of the beam.](images\group1-4.jpg)<!-- .element width="50%" -->
+
+Find the internal forces at C.
 
 ---
 
