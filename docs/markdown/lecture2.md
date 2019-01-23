@@ -18,7 +18,7 @@
 
 # AE333
 ## Mechanics of Materials
-Lecture 2 - Stress
+Lecture 2 - Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
