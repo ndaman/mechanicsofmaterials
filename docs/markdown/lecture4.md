@@ -180,7 +180,7 @@ Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the 
 ![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](images\example-1-15.png)
 </div>
 <div class="right">
-The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \si{MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
+The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \text{ MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
 </div>
 
 ---
