@@ -18,7 +18,7 @@
 
 # AE333
 ## Mechanics of Materials
-Lecture 3 - Average Stress<br/>
+Lecture 4 - Strain<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
@@ -28,104 +28,17 @@ January 25, 2019
 
 ## schedule
 
-- 28 Jan - Average stress, Intro HW Due
-- 30 Jan - Assessment Test
 - 1 Feb - Allowable stress, Strain
 - 4 Feb - Strain, Mechanical Properties
+- 6 Feb - Mechanical Properties, Exam 1 Review, HW2 Due
+- 8 Feb - Exam 1
 
 ----
-
 ## outline
 
-  - assessment test
-  - stress review
-  - average normal stress
-  - average shear stress
-
----
-
-#  assessment test
-
-----
-## assessment test
-
-  -   5 (multi-part) problems
-  -   Integration of basic functions (polynomials, not trig)
-  -   Moment with respect to an axis
-  -   Vector addition, particle equilibrium
-  -   Distributed loads
-  -   Moments of inertia
-
-
----
-# review
-
-----
-## example 1.8
-
-<div class="left">
-![A block 200 mm long has a leg resting against the floor at its right end, point C, and is supported by a vertical hanging rod at its left end (points A and B). A 3 kilonewton force pointing down is applied at some distance, x, from the left end.](images\example-1-8.jpg)
-</div>
-
-<div class="right">
-Determine the position, x, of the load so that the average compressive stress at C is equal to the average tensile stress in the rod AB. The rod has an area of `$400\si{mm}^2$` and the contact at $C$ has an area of `$650\si{mm}^2$`.
-</div>
-
----
-
-# average shear stress
-
-----
-
-## shear stress
-
--   If we consider a section from a bridge-like structure we can
-    demonstrate one way shear stress can be formed in a material
--   As a reminder, shear stress is formed by forces acting in the plane
-    of a section cut
-
-----
-
-## shear stress
-
-![A block bridging across two other blocks is loaded over the gap it is bridging. This loading creates a shear stress directly above the blocks it is bridging, which is further illustrated with some free body diagrams.](images\shear-stress.jpg)<!-- .element width="30%" -->
-
-----
-
-## shear stress equilibrium
-
--   If we consider equilibrium of an element subjected to shear on one
-    face, we will find that there must be shear forces on other faces to
-    remain in equilibrium
--   In the following example, we will consider the sum of forces in the
-    y-direction and the sum of moments about the x-axis
--   We can convert between stresses and forces by recalling that
-    `$\sigma = F/A$`, or `$F = \sigma A$`
-
-----
-
-## shear stress equilibrium
-
-![A block section is loaded horizontally along its top edge. For the block to remain in equilibrium, it is shown that equal and opposite shear stresses must develop along the other 3 faces.](images\shear-equilibrium.jpg)<!-- .element width="90%" -->
-
-----
-
-## example 1-9
-
-![A 6 meter long beam is shown with a pin support at the left end, a downward vertical load of 30 kilonewtons 2 meters from the left end and a rope support at a 3-4-5 triangle on the right edge (3 in the horizontal direction, 4 vertically). At the left end, the pin is in double shear, while the rope is attached with a single-shear bolt.](images\example-1-9.jpg)<!-- .element width="50%" -->
-
-Determine the average shear stress in the 20-mm diameter pin at `$A$` and the 30-mm diameter pin at `$B$`.
-
-----
-
-## example 1-11
-
-<div class="left">
-![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](images\example-1-11.jpg)
-</div>
-<div class="right">
-Determine the average compressive stress along the smooth contact of `$AB$` and `$BC$` and the average shear stress along the horizontal plane `$DB$`.
-</div>
+- allowable stress
+- limit state
+- strain
 
 ---
 # allowable stress design
@@ -269,3 +182,67 @@ Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the 
 <div class="right">
 The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \si{MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
 </div>
+
+---
+# strain
+
+----
+## deformation
+
+-   When forces are applied to a body, it will change its shape and size
+-   We call these changes *deformation*
+-   Sometimes they are barely noticeable (steel), other times they are very significant (rubber)
+
+----
+## strain
+
+-   Strain is a more precise measurement of the deformation of a body
+-   Normal strain is given as the change in length divided by the original length
+$$\\epsilon = \\frac{L-L\_0}{L\_0}$$
+-   We can consider the average normal strain (over an entire body) or the local strain (take an infinitely small portion and calculate the strain there)
+
+----
+## units
+
+-   Since we divide length by length, strain is unitless
+-   However it is customary to use *in/in* or for stiff specimens to use the phrase *microstrain* as a unit
+-   Strain can also sometimes be represented as a percent
+
+----
+## shear strain
+
+-   Normal strain causes a line segement to expand or contract
+-   Deformation can also cause two lines to change their relative angle
+-   The change in angle between two originally perpeindicular line segments is called shear strain
+$$\\gamma = \\frac{\\pi}{2} - \\theta$$
+
+----
+## shear strain
+
+![](images\shear-strain.jpg) TODO: alt text
+
+----
+## cartesian components
+
+-   If we consider a very small cube/prism with sides of $\Delta x$, $\Delta y$, and $\Delta z$, normal strains will change the side lengths to
+$$(1 + \epsilon_x)\Delta x  (1 + \epsilon_y)\Delta  y  (1 + \epsilon_z)\Delta z$$
+-   And the shear strains will change the shape
+$$\\frac{\\pi}{2}-\\gamma\_{xy} \\qquad \\frac{\\pi}{2}-\\gamma\_{yz} \\qquad \\frac{\\pi}{2}-\\gamma\_{xz}$$
+
+----
+## small strain
+
+-   Most engineering analysis is based on the assumption of small strains
+-   This is valid for many materials (wood, metal), but not for rubbers and some other polymers
+-   When strains are small, we assume that the change in angle, `$\Delta \theta$` is very small
+-   `$\sin \Delta \theta \approx \Delta \theta$`, `$\cos\Delta \theta \approx 1$`, `$\tan\Delta \theta\approx \Delta \theta$`
+
+----
+## example 2.1
+
+![Find the normal strains in the two wires if A moves to A prime](docs\images\example-2-1.jpg) TODO: fix alt text
+
+----
+## example 2.3
+
+![The plate is fixed along AB and held in horizontal guides along AD and BC. If the right side is displaced 2 mm find the average normal strain along AC and the shear strain at E relative to the x and y axes.](docs\images\example-2-3.jpg) TODO: fix alt text
