@@ -10,7 +10,7 @@
   left:31.25%;
   top: 75px;
   float: right;
-  text-align: right;
+  text-align: left;
   z-index:-10;
   width:50%;
 }
@@ -219,13 +219,13 @@ $$\\gamma = \\frac{\\pi}{2} - \\theta$$
 ----
 ## shear strain
 
-![](images\shear-strain.jpg) TODO: alt text
+![Three stages are shown, the first is a rectangular block at rest, with a fixed support on the ground. The second shows the block after it deforms with a horizontal force acting along the top to the right. The third showns the block after it deforms with a force acting along the top to the left. The first case causes a decrease in angle between the legs of the rectangle, the difference between 90 degrees and the new angle is called gamma, the engineering shear strain. When the angle becomes larger than 90 degrees, as in the third block, the engineernig shear strain is negative.](images\shear-strain.jpg)
 
 ----
 ## cartesian components
 
 -   If we consider a very small cube/prism with sides of $\Delta x$, $\Delta y$, and $\Delta z$, normal strains will change the side lengths to
-$$(1 + \epsilon_x)\Delta x  (1 + \epsilon_y)\Delta  y  (1 + \epsilon_z)\Delta z$$
+$$(1+\epsilon_x)\Delta x (1 + \epsilon_y)\Delta y (1 + \epsilon_z)\Delta z$$
 -   And the shear strains will change the shape
 $$\\frac{\\pi}{2}-\\gamma\_{xy} \\qquad \\frac{\\pi}{2}-\\gamma\_{yz} \\qquad \\frac{\\pi}{2}-\\gamma\_{xz}$$
 
@@ -235,14 +235,21 @@ $$\\frac{\\pi}{2}-\\gamma\_{xy} \\qquad \\frac{\\pi}{2}-\\gamma\_{yz} \\qquad \\
 -   Most engineering analysis is based on the assumption of small strains
 -   This is valid for many materials (wood, metal), but not for rubbers and some other polymers
 -   When strains are small, we assume that the change in angle, `$\Delta \theta$` is very small
--   `$\sin \Delta \theta \approx \Delta \theta$`, `$\cos\Delta \theta \approx 1$`, `$\tan\Delta \theta\approx \Delta \theta$`
+-   `$\sin \Delta \theta \approx \Delta \theta$`, `$\cos\Delta \theta \approx 1$`, `$\tan\Delta \theta\approx \Delta \theta$`
 
 ----
 ## example 2.1
 
-![Find the normal strains in the two wires if A moves to A prime](docs\images\example-2-1.jpg) TODO: fix alt text
+![Two supports, B and C are spaced six meters apart horizontally. A cable is hanging from each support and joined by a ring at point A, which is horizontally between points B and C but 4 meters below them. The ring is pulled to A prime which is 20 mm below A and 10 mm to the left](images\example-2-1.jpg)<!-- .element width="45%" -->
+
+Find the normal strains in the two wires if A moves to `$A^\prime$`
 
 ----
 ## example 2.3
 
-![The plate is fixed along AB and held in horizontal guides along AD and BC. If the right side is displaced 2 mm find the average normal strain along AC and the shear strain at E relative to the x and y axes.](docs\images\example-2-3.jpg) TODO: fix alt text
+<div class="left">
+![A 150 mm square block is constrained along the top, left, and bottom faces, but pushed 2 mm to the left on its right face. AC is the diagonal line going from the top left to the bottom right. E is the center point of the block (where the two diagonals intersect after deformation).](images\example-2-3.jpg)
+</div>
+<div class="right">
+The plate is fixed along AB and held in horizontal guides along AD and BC. If the right side is displaced 2 mm find the average normal strain along AC and the shear strain at E relative to the x and y axes.
+</div>
