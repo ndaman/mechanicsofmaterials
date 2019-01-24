@@ -22,7 +22,7 @@ Lecture 3 - Average Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 25, 2019
+January 28, 2019
 
 ----
 
