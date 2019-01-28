@@ -35,6 +35,14 @@ January 28, 2019
 
 ----
 
+## office hours
+
+- Office hours will be Fridays from 11:00 - 12:00
+- Send me an e-mail if you have a question and can't make it then
+- My office is in WH 200D (inside the main AE offices in Wallace Hall)
+
+----
+
 ## outline
 
   - assessment test
