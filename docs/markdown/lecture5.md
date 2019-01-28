@@ -37,7 +37,10 @@ February 4, 2019
 ## outline
 
 - strain
-- mechanical properties
+- stress-strain
+- strain energy
+- poisson's ratio
+- shear stress-strain
 
 ---
 # strain
@@ -124,7 +127,7 @@ The plate is fixed along AB and held in horizontal guides along AD and BC. If th
 ----
 ## stress-strain
 
-![](images\stress-strain.jpg) TODO: alt text
+![A stress-strain diagram for a typical metal. From left to right, the stress increases linearly until reaching the proportional limit, or yield stress, at which point the stress does not increase very much with increasing strain. When the strain reaches the strain hardening region, the stress begins to increase again with increasing strain until the material fails.](images\stress-strain.jpg)<!-- .element width="70%"-->
 
 ----
 ## elastic behavior
@@ -136,13 +139,13 @@ The plate is fixed along AB and held in horizontal guides along AD and BC. If th
 ## elastic behavior
 
 -   Because the stress-strain curve is a straight line, we can relate stress and strain with a single constant
--   This constant is known as the *modulus of elasticity* or *young’s modulus*
-`$$ \sigma = E \epsilon $$`
+-   This constant is known as the *modulus of elasticity* or *Young's modulus*
+`$$ \sigma=E \epsilon $$`
 
 ----
 ## plastic behavior
 
--   Yielding occurs when stress increases beyond the “yield stress” or “elastic limit”, this is when plastic deformation occurs, meaning the material will not go back to its original shape
+-   Yielding occurs when stress increases beyond the *yield stress* or *elastic limit*, this is when plastic deformation occurs, meaning the material will not go back to its original shape
 -   Strain hardening is common in many metals, and means as more stress is applied the material becomes more stiff
 
 ----
@@ -174,7 +177,7 @@ The plate is fixed along AB and held in horizontal guides along AD and BC. If th
 ----
 ## strain hardening
 
-![](images\strain-hardening.jpg) TODO: alt text
+![A stress-strain diagram showing how strain hardening works. A material is loaded beyond its elastic limit, and then unloaded. If it is loaded again, it will not yield until it reaches the final stress to which it had been previously loaded (but it will not have as much toughness).](images\strain-hardening.jpg) <!-- .element width="40%"-->
 
 ---
 # strain energy
@@ -197,10 +200,13 @@ $$u = \\frac{1}{2} \\sigma \\epsilon$$
 ----
 ## example 3.3
 
-![](images\example-3-3.png)TODO: alt text
+<div class="left">
+![A bar is under a 10 kilonewton tensile load. One section of the bar is 600 mm long with a 20 mm diameter, while the other section is 400 mm long with a 15 mm diameter. The stress-strain diagram below shows that for a stress of 56.59 MPa there will be a strain of .045](images\example-3-3.png)
+</div>
 
-
+<div class="right">
 The aluminum rod shown has a circular cross-section. Determine the elongation of the rod when load is applied using the given stress-strain diagram.
+</div>
 
 ---
 # poisson's ratio
@@ -220,7 +226,7 @@ $$\\nu = - \\frac{\\epsilon\_{transverse}}{\\epsilon\_{axial}}$$
 
 -   It can be experimentally difficult to obtain a state of pure shear, but a common method for many materials is to place a thin tube in torsion
 -   For most engineering materials, the shear stress-strain behavior is linear in the elastic region, but has a different constant relating stress to strain, known as the *Shear Modulus*
-$$\tau = G \gamma $$
+$$\tau=G \gamma $$
 
 ----
 ## elastic constants
@@ -231,6 +237,9 @@ $$G = \\frac{E}{2(1+\\nu)}$$
 ----
 ## example 3.5
 
-![](images\example-3-5.png) TODO: alt text
-
+<div class="left">
+![A block 4 inches deep, 3 inches wide, and 2 inches tall is loaded in shear (in the 3 inch direction). The stress-strain diagram shows that at the elastic limit of 52 ksi there is a strain of 0.008.](images\example-3-5.png)
+</div>
+<div class="right">
 Determine G for the specimen shown. Also find the maximum distance d, that the top could be displaced horizontally while remaining elastic. What force V is required to cause this displacement?
+</div>
