@@ -148,7 +148,7 @@ The plate is fixed along AB and held in horizontal guides along AD and BC. If th
 ----
 ## plastic behavior
 
--   Necking occurs when the material begins to have a noticeable “neck” due to being stretched very thin and lower forces are required to deform the material
+-   Necking occurs when the material begins to have a noticeable "neck" due to being stretched very thin and lower forces are required to deform the material
 
 ----
 ## true stress-strain
