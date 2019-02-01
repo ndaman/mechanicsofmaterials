@@ -178,8 +178,8 @@ Determine G for the specimen shown. Also find the maximum distance d, that the t
 ----
 ## exam
 
--   4 questions
--   Same equation sheet as assessment test will be provided
+-   6 questions
+-   Equation sheet posted to web-site/Blackboard
 -   Follow directions
 
 ----
