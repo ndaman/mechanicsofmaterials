@@ -137,7 +137,7 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
   -   For example, a building can have loading from a few different
       sources, such as its own weight, people in the building, and snow on
       top of the building
-  -   Weight is considered a “dead load” and can usually be determined
+  -   Weight is considered a *dead load* and can usually be determined
       more precisely than moving things like people
 
 ----
