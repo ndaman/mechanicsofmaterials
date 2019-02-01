@@ -40,6 +40,16 @@ February 1, 2019
 - limit state
 - strain
 
+----
+## example 1-11
+
+<div class="left">
+![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](images\example-1-11.jpg)
+</div>
+<div class="right">
+Determine the average compressive stress along the smooth contact of `$AB$` and `$BC$` and the average shear stress along the horizontal plane `$DB$`.
+</div>
+
 ---
 # allowable stress design
 
