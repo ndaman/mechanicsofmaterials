@@ -24,6 +24,16 @@ February 11, 2019
 - statically indeterminate
 
 ---
+# exam 1
+
+----
+## scores
+- class average: 66.7 -> 74.9
+- curve formula: old score x 0.926 + 12.963
+- hardest question: 3
+- easiest question: 4
+
+---
 # saint venant's principle
 
 ----
