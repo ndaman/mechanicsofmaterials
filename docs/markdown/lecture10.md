@@ -1,72 +1,31 @@
 
-# AE333
+## AE333
 ## Mechanics of Materials
-Lecture 9 - Axial Load, Torsion<br/>
+Lecture 10 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 15, 2019
+February 18, 2019
 
 ----
 
 ## schedule
 
-- 15 Feb - Axial Load, Torsion
 - 18 Feb - Torsion, HW3 Due
 - 20 Feb - Torsion
 - 22 Feb - Bending
+- 25 Feb - Bending, HW4 Due
 
 ----
 ## outline
-- superposition
-- statically indeterminate
+<!-- TOC depthFrom:1 depthTo:1 withLinks:0 updateOnSave:1 orderedList:0 -->
+
 - force method
 - thermal stress
 - torsion
+- power transmission
 
----
-# superposition
-
-----
-## superposition
-
--   Some problems are too complicated to solve all at once
--   Instead, we break them up into two simpler problems
--   Each "sub-problem" must still satisfy equilibrium
--   Problem must be linear and the deformation should be small enough that it does not cause moment-equilibrium isssues
-
----
-# statically indeterminate
-
-----
-## statically indeterminate
-
--   There are many problems that are at least slightly over-constrained
--   While this is common engineering practice, it creates too many variables for statics analysis
--   These problems are called "statically indeterminate"
-
-----
-## statically indeterminate
-
--   One extra equation we can use is called "compatibility" or the "kinematic condition"
--   We know that at the displacement must be equal on both sides of any arbitrary section we make in a member
--   We can separate a member into two parts, then use compatibility to relate the two unknown forces
-
-----
-## statically indeterminate
-
-![A 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top.](images\statically-indeterminate.jpg) <!-- .element width="25%" -->
-
-----
-## example 4.7
-
-<div class="left">
-![A 0.8 m long rigid horizontal bar is supported by hanging from 3 vertical rods. Rod AB supports the left end, rod CD supports the middle and rod EF supports the right end. A 15 kN load is applied 0.2 m from the left end.](images\example-4-7.jpg)
-</div>
-<div class="right">
-Assuming the bottom bar is rigid, find the force developed in each bar.
-AB and EF have cross-sectional areas of 50 mm<sup>2</sup> while CD has a cross-sectional area of 30 mm<sup>2</sup>.
-</div>
+<!-- /TOC -->
 
 ---
 # force method
@@ -184,4 +143,40 @@ $$J = \\int\_{c\_1}^{c\_2} \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}(c\_2^4
 </div>
 <div class="right">
 The allowable shear stress is 75 MPa. Determine the maximum torque that can be applied to each of the cross-sections shown and find the stress acting on a small element at A, B and C.
+</div>
+
+---
+# power transmission
+
+----
+## power transmission
+
+-   Shafts and tubes are often connected to belts and drives, and the torque, speed, and power are all related
+-   Power is the rate of work done, for rotation problems, $P = T \omega$
+-   We are often given the frequency *f* instead of the angular velocity, $\omega$, in this case $P = 2\pi f T$
+
+----
+## power units
+
+-   In SI Units, power is expressed in Watts 1 W = 1 N m / sec
+-   In Freedom Units, power is expressed in Horsepower 1 hp = 555 ft lb / sec
+
+----
+## shaft design
+
+-   We often know the power and frequency of a drive, and need to design a shaft such that the shear stress is acceptable
+-   We can easily find the torque as $T=P/2\pi f$, we can use this combined with the torsion equation
+$$\\tau\_{max} = \\frac{Tc}{J}$$
+to find the appropriate shaft diameter.
+-   For solid shafts we can solve for *c* uniquely, but not for hollow shafts
+
+----
+## example 5.4
+
+<div class="left">
+![A rotating shaft connected to a motor](images\example-5-4.jpg)
+</div>
+
+<div class="right">
+The steel shaft shown is connected to a 5 hp motor that rotates at $\omega=175$ rpm. If `$\tau_{allow}=14.5$` ksi, determine the required shaft diameter.
 </div>
