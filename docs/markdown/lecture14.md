@@ -1,29 +1,23 @@
 
 ## AE333
 ## Mechanics of Materials
-Lecture 13 - Bending<br/>
+Lecture 14 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 25, 2019
+February 27, 2019
 
 ----
 
 ## schedule
 
-- 25 Feb - Bending
 - 27 Feb - Bending
 - 1 Mar - Bending
 - 4 Mar - Transverse Shear, HW 5 Due
+- 6 Mar - Transverse Shear
 
 ----
 ## outline
-<!-- TOC START min:1 max:1 link:false update:true -->
-- thin-walled tubes
-- shear and moment diagrams
-- graphical method
-
-<!-- TOC END -->
 
 ----
 ## shear-moment diagrams
@@ -31,46 +25,6 @@ February 25, 2019
 - Drawing shear-moment diagrams is a very important skill
 - Learning MasteringEngineering's drawing system is not as important (in my opinion)
 - If you are more comfortable doing your shear-moment diagrams by hand, you may turn them into me in class on Monday and I will grade them by hand
-
----
-# thin-walled tubes
-
-----
-## shear flow
-
--   Thin-walled tubes of non-circular cross-sections are commonly found in aerospace and other applications
--   We can analyze these using a technique called shear flow
--   Because the walls of the tube are thin, we assume that the shear stress is uniformly distributed through the wall thickness
-
-----
-## shear flow
-
--   If we consider an arbitrary segment of a tube with varying thickness, we find from equilibrium that the product of the average shear stress and the thickness must be the same at every location on the cross-section
-$$q = \tau_{avg} t$$
--   *q* is called the shear flow
-
-----
-## average shear stress
-
--   We can relate the average shear stress to the torque by considering the torque produced about some point within the tubes boundary
-`$$T = \oint h \tau_{avg} t ds$$`
--   Where *h* is the distance from the reference point, *ds* is the differential arc length and *t* is the tube thickness.
-
-----
-## average shear stress
-
--   We notice that `$\tau_{avg}t$` is equal to the shear flow, *q*, which must be constant
--   We can also simplify the integral by relating a similar area integral to the arc length integral
-$$dA_m = 1/2 h ds$$
--   Thus
-$$T = \oint h\tau_{avg} t ds = 2 q \int dA_m = 2 q A_m$$
-
-----
-## example 5.13
-
-![A hollow rectangular tube is 40 mm wide and 60 mm tall with thickness of 5 mm horizontally and 3 mm vertically. It is fixed at one end with a torque of -25 N.m applied 1.5 m away from the fixed end and a torque of 60 N.m applied at the free end, 2.0 m away from the fixed end. A and B are both at the middle of the tube, A on a horizontal wall and B on a vertical wall.](images\example-5-13.jpg) <!-- .element width="60%" -->
-
-Determine the average shear stress at A and B.
 
 
 ---
@@ -172,3 +126,111 @@ $$\Delta M = M_0 $$
 ## example 7.10
 
 ![A beam is 12 feet long with pin supports at both ends and a linearly increasing distributed load, beginning with 0 at the left end and rising to 120 lb/ft at the right end.](images\example-7-10.jpg) <!-- .element width="60%" -->
+
+---
+# bending deformation
+
+----
+## bending deformation
+
+-   If we drew a grid on a specimen in bending, we would find that vertical lines tend to stay straight (but rotate)
+-   Horizontal lines will become curved
+-   If bending lifts the ends up (like a smile), then the top face will be in compression (and expand), while the bottom face will be in tension (and contract)
+
+----
+## bending deformation
+
+![](images\beam-deformation.jpg)
+
+----
+## neutral axis
+
+-   Since the bottom is in tension and the top is in compression, there must be somewhere in between that is under no stress
+-   We call that the neutral axis, and assume it does not change in length
+-   We also assume that planar sections remain planar (no warping)
+-   Finally, Poisson's effects are neglected (cross-sections keep the same size and shape)
+
+----
+## strain
+
+-   We will now consider an infinitesimal beam element before and after deformation
+-   $\Delta x$ is located on the neutral axis and thus does not change in length after deformation
+-   Some other line segment, $\Delta s$ is located *y* away from the neutral axis and changes its length to $\Delta s ^\prime$ after deformation
+
+----
+## strain
+
+![](images\beam-element.jpg)
+
+----
+## strain
+
+-   We can now define strain at the line segment $\Delta s$ as
+$$\\epsilon = \\lim\_{\\Delta s \\to 0} \\frac{\\Delta s^\\prime - \\Delta s}{\\Delta s}$$
+
+----
+## strain
+
+-   If we define $\rho$ as the radius of curvature after deformation, thus $\Delta x = \Delta s = \rho \Delta \theta $
+-   The radius of curvature at $\Delta s$ is $\rho - y$, thus we can write
+$$\\epsilon = \\lim\_{\\Delta \\theta \\to 0} \\frac{(\\rho-y)\\Delta \\theta - \\rho \\Delta \\theta}{\\rho \\Delta \\theta}$$
+-   Which gives
+$$\\epsilon = -\\frac{y}{\\rho}$$
+
+---
+# flexure formula
+
+----
+## hooke's law
+
+-   If the beam is a linear material that follows Hooke's Law, the stress must be linearly proportional to the strain
+-   Thus the stress will vary linearly through the beam, just like the strain does
+
+----
+## neutral axis
+
+-   We have already hypothesized that a neutral axis must exist, we will now find its location
+-   To be in equilibrium, the resultant force(s) produced by the stress must sum to zero, which means
+$$\\begin{aligned}
+  \\sum F\_x &= 0 = \\int\_A dF = \\int\_A \\sigma dA\\\\
+  &= \\int\_A -\\left( \\frac{y}{c} \\right) \\sigma\_{max} dA\\\\
+  &= -\\frac{\\sigma\_{max}}{c} \\int\_A y dA
+\\end{aligned}$$
+
+----
+## neutral axis
+
+-   Since $\sigma_{max}$ and *c* are both non-zero constants, we know that
+$$ \int_A y dA = 0$$
+-   Which can only be satisfied at the horizontal centroidal axis, so the neutral axis is the centroidal axis
+
+----
+## bending moment
+
+-   The internal bending moment must be equal to the total moment produced by the stress distribution
+$$\\begin{aligned}
+  M &= \\int\_A y dF = \\int\_A y (\\sigma dA) \\\\
+  &= \\int\_A y \\left( \\frac{y}{c} \\sigma\_{max} \\right) dA \\\\
+  &= \\frac{\\sigma\_{max}}{c} \\int\_A y^2 dA
+\\end{aligned}$$
+
+----
+## bending moment
+
+-   We recognize that `$\int_A y^2 dA = I$`, and we re-arrange to write
+$$\\sigma\_{max} = \\frac{Mc}{I}$$
+
+----
+## procedure
+
+-   Find the internal moment at the point of interest, or draw a moment diagram to find the maximum point (if needed)
+-   Determine the moment of inertia for the beam section
+-   Find the neutral axis and/or the distance from the neutral axis to the point of interest
+-   Use the flexure formula to find the stress
+
+----
+## example 6.12
+
+![](images\example-6-12.png)
+
+Find the maximum bending stress and draw the stress distribution through the thickness at that point.
