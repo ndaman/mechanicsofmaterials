@@ -81,24 +81,24 @@ Determine the average shear stress at A and B.
 ----
 ## sign convention
 
-![](images\beam-internal.jpg)
+![A cantilever beam with some arbitrary loads and a section marked](images\beam-internal.jpg) <!-- .element width="60%" -->
 
-![](images\beam-internal-cut.jpg)
-
-----
-## example beam
-
-![](images\piece-wise-beam.jpg)
+![A free body diagram of the above beam with internal loads shown where the section cut was made.](images\beam-internal-cut.jpg) <!-- .element width="60%" -->
 
 ----
 ## example beam
 
-![](images\shear-diagram.jpg)
+![A simply supported beam with a distruted load acting over one portion and a concentrated load later. This beam is to illustrate the method of setting up multiple coordinate systems for different sections.](images\piece-wise-beam.jpg) <!-- .element width="60%" -->
 
 ----
 ## example beam
 
-![](images\moment-diagram.jpg)
+![A shear diagram for the above beam](images\shear-diagram.jpg) <!-- .element width="60%" -->
+
+----
+## example beam
+
+![A moment diagram for the above beam](images\moment-diagram.jpg) <!-- .element width="60%" -->
 
 ---
 # graphical method
@@ -112,7 +112,7 @@ Determine the average shear stress at A and B.
 ----
 ## distributed load
 
-![](images\distributed-load.jpg)
+![Internal loading shown on a differential element sectioned from a beam.](images\distributed-load.jpg) <!-- .element width="40%" -->
 
 ----
 ## distributed load
@@ -147,7 +147,7 @@ $$\\frac{dM}{dx} = V$$
 ## concentrated forces
 
 -   If we consider a concentrated force (instead of a distributed load) we find
-$$$\Delta V = F $$
+$$\Delta V = F $$
 -   This means that concentrated loads will cause the shear diagram to "jump" by the amount of the concentrated force (causing a discontinuity on our graph)
 
 ----
@@ -160,9 +160,9 @@ $$\Delta M = M_0 $$
 ----
 ## example 7.9
 
-![](images\example-7-9.jpg)
+![A beam is 6 meters long with pin supports at the left end, A, and at B, 4 meters to the right of A. From B to the right end of the beam is a uniform distributed load of 4 kN/m.](images\example-7-9.jpg)
 
 ----
 ## example 7.10
 
-![](images\example-7-10.jpg)
+![A beam is 12 feet long with pin supports at both ends and a linearly increasing distributed load, beginning with 0 at the left end and rising to 120 lb/ft at the right end.](images\example-7-10.jpg) <!-- .element width="60%" -->
