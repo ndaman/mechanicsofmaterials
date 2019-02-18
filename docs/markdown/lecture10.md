@@ -68,7 +68,7 @@ The steel rod shown has a diamater of 10 mm. Determine the reactions at A and B'
 ----
 ## thermal stress
 
--   A change in temperature cases a material to either expand or contract
+-   A change in temperature causes a material to either expand or contract
 -   For most materials this is linear and can be described using the coefficient of linear expansion
 `$$\delta_T = \alpha \Delta T L$$`
 
@@ -107,7 +107,7 @@ An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve fo
 ----
 ## torsion formula
 
--   For a linearly elastic material, Hooke’s Law in shear will hold (`$\tau = G \gamma$`)
+-   For a linearly elastic material, Hooke's Law in shear will hold (`$\tau = G \gamma$`)
 -   This means that, like shear strain, shear stress will vary linearly along the radius
 
 ----

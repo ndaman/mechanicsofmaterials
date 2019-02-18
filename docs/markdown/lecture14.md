@@ -18,6 +18,14 @@ February 27, 2019
 
 ----
 ## outline
+<!-- TOC START min:1 max:1 link:false update:true -->
+- shear and moment diagrams
+- graphical method
+- bending deformation
+- flexure formula
+
+<!-- TOC END -->
+
 
 ----
 ## shear-moment diagrams
@@ -140,7 +148,7 @@ $$\Delta M = M_0 $$
 ----
 ## bending deformation
 
-![](images\beam-deformation.jpg)
+![An example beam drawn in 3D with a grid drawn on it while it bends.](images\beam-deformation.jpg) <!-- .element width="60%" -->
 
 ----
 ## neutral axis
@@ -160,7 +168,7 @@ $$\Delta M = M_0 $$
 ----
 ## strain
 
-![](images\beam-element.jpg)
+![A small beam section before and after deformation](images\beam-element.jpg) <!-- .element width="40%" -->
 
 ----
 ## strain
@@ -231,6 +239,6 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 ----
 ## example 6.12
 
-![](images\example-6-12.png)
+![A 6 meter long beam is pinned at both ends and subjected to a uniformly distruted load of 5 kN/m. ](images\example-6-12.png) <!-- .element width="50%" -->
 
 Find the maximum bending stress and draw the stress distribution through the thickness at that point.
