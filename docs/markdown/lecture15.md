@@ -1,30 +1,31 @@
 
 ## AE333
 ## Mechanics of Materials
-Lecture 14 - Bending<br/>
+Lecture 15 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 27, 2019
+1 Mar, 2019
 
 ----
 
 ## schedule
 
-- 27 Feb - Bending
 - 1 Mar - Bending
 - 4 Mar - Transverse Shear, HW 5 Due
 - 6 Mar - Transverse Shear
+- 8 Mar - Exam 2
 
 ----
 ## outline
 <!-- TOC START min:1 max:1 link:false update:true -->
-- shear and moment diagrams
-- graphical method
 - bending deformation
 - flexure formula
+- moment of inertia
+- group problems
 
 <!-- TOC END -->
+
 
 
 ----
@@ -33,107 +34,6 @@ February 27, 2019
 - Drawing shear-moment diagrams is a very important skill
 - Learning MasteringEngineering's drawing system is not as important (in my opinion)
 - If you are more comfortable doing your shear-moment diagrams by hand, you may turn them into me in class on Monday and I will grade them by hand
-
-
----
-# shear and moment diagrams
-
-----
-## shear and moment diagrams
-
--   The general approach to shear and moment diagrams is to first find the support reactions
--   Next we section the beam and instead of finding the internal force and moment at a single point, we find it as a function of *x*
--   Many beams will require piecewise sectioning
--   We then draw this as a shear and moment diagram
-
-----
-## sign convention
-
-![A cantilever beam with some arbitrary loads and a section marked](images\beam-internal.jpg) <!-- .element width="60%" -->
-
-![A free body diagram of the above beam with internal loads shown where the section cut was made.](images\beam-internal-cut.jpg) <!-- .element width="60%" -->
-
-----
-## example beam
-
-![A simply supported beam with a distruted load acting over one portion and a concentrated load later. This beam is to illustrate the method of setting up multiple coordinate systems for different sections.](images\piece-wise-beam.jpg) <!-- .element width="60%" -->
-
-----
-## example beam
-
-![A shear diagram for the above beam](images\shear-diagram.jpg) <!-- .element width="60%" -->
-
-----
-## example beam
-
-![A moment diagram for the above beam](images\moment-diagram.jpg) <!-- .element width="60%" -->
-
----
-# graphical method
-
-----
-## relation between load, shear, moment
-
--   When there are several forces, supports, or loading conditions applied to a beam, the piecewise method can be cumbersome
--   In this section we will examine the differential relationships between distributed load, shear, and bending moments
-
-----
-## distributed load
-
-![Internal loading shown on a differential element sectioned from a beam.](images\distributed-load.jpg) <!-- .element width="40%" -->
-
-----
-## distributed load
-
--   Consider a beam subjected to only distributed loading
--   If we section this beam in the middle (to remove both supports) we can relate *V* to the loading function *w*(*x*)
--   Considering the sum of forces in *y*:
-$$\\begin{aligned}
-  V + w(x)\\Delta x - (V + \\Delta V) &= 0\\\\
-  \\Delta V &= w(x) \\Delta x
-\\end{aligned}$$
-
-----
-## distributed load
-
--   If we divide by $\Delta x$ and let $\Delta x \to 0$ we find
-$$\\frac{dV}{dx} = w(x)$$
--   Thus the slope of the shear diagram is equal to the distributed load function
-
-----
-## moment diagram
-
--   If we consider the sum of moments about *O* on the same section we find
-$$\\begin{aligned}
-  (M + \\Delta M) - (w(x)\\Delta x)k \\Delta x - V\\Delta x - M &= 0\\\\
-  \\Delta M &= V \\Delta x + k w(x) \\Delta x ^2
-\\end{aligned}$$
--   Dividing by $\Delta x$ and letting $\Delta x \to 0$ gives
-$$\\frac{dM}{dx} = V$$
-
-----
-## concentrated forces
-
--   If we consider a concentrated force (instead of a distributed load) we find
-$$\Delta V = F $$
--   This means that concentrated loads will cause the shear diagram to "jump" by the amount of the concentrated force (causing a discontinuity on our graph)
-
-----
-## couple moments
-
--   If our section includes a couple moment, we find (from the moment equation) that
-$$\Delta M = M_0 $$
--   Thus the moment diagram will have a jump discontinuity
-
-----
-## example 7.9
-
-![A beam is 6 meters long with pin supports at the left end, A, and at B, 4 meters to the right of A. From B to the right end of the beam is a uniform distributed load of 4 kN/m.](images\example-7-9.jpg)
-
-----
-## example 7.10
-
-![A beam is 12 feet long with pin supports at both ends and a linearly increasing distributed load, beginning with 0 at the left end and rising to 120 lb/ft at the right end.](images\example-7-10.jpg) <!-- .element width="60%" -->
 
 ---
 # bending deformation
@@ -246,3 +146,69 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 <div class="right">
   Find the maximum bending stress and draw the stress distribution through the thickness at that point.
 </div>
+
+---
+# moment of inertia
+
+----
+## moment of inertia
+
+-   We know that `$I = \int_A y^2 dA$`
+-   For common shapes, this integral has been pre-calculated (about the centroid of the shape)
+-   For compound shapes, we use the parallel axis theorem to combine inertias from multiple areas
+
+----
+## parallel axis theorem
+
+-   The parallel axis theorem is used to find the moment about any axis parallel to an axis passing through the centroid
+-   If we consider an axis parallel to the *x*-axis, separated by some *dy* we have
+`$$I_X = \int_A (y + dy)^2 dA$$`
+-   Which gives
+`$$I_x = \int_A y^2 dA + 2dy \int_A ydA + dy^2 \int_A dA$$`
+
+----
+## parallel axis theorem
+
+-   The first integral is the moment of inertia about the original *x*-axis, which we will call $\\bar{I}\_x$
+-   The second integral is zero since the *x*-axis passes through the centroid
+-   This gives the parallel axis theorem
+$$I\_x = \\bar{I}\_x + A dy^2$$
+
+----
+## parallel axis theorem
+
+-   Similarly for the *y*-axis and polar moment of inertia we find
+$$I\_y = \\bar{I}\_y + A dx^2$$
+$$J\_O = \\bar{J}\_C + A d^2$$
+
+---
+# group problems
+
+----
+## group one
+
+<div class="left">
+![A hollow rectangular tube 0.4m tall and 0.2m wide on the outside and 0.2 m tall and 0.1 wide on the inside.](images\group-6-1.jpg)  
+</div>
+
+<div class="right">
+  Determine the moment of inertia about the neutral axis
+</div>
+
+----
+## group two
+
+<div class="left">
+![An upside-down t-section is 0.2m wide at the base, which is 0.1 m tall, the web is 0.1 m wide and 0.3 m tall.](images\group-6-2.jpg)  
+</div>
+
+<div class="right">
+  Find the neutral axis and determine the moment of inertia about the neutral axis
+</div>
+
+----
+## group three
+
+![A beam is supported by pins at the right end and a point some distance away from the left end. A vertical load is applied at the left end, point B as it at the bottom side of the beam between the load and the first pin support, point A is between the two pin supports.](images\group-6-3.jpg)
+
+Show how the bending stress acts on a differential volume at point A and B.
