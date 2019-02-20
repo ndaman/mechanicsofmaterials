@@ -12,7 +12,7 @@ February 20, 2019
 ## schedule
 
 - 20 Feb - Torsion
-- 22 Feb - Bending
+- 22 Feb - Torsion
 - 25 Feb - Bending, HW4 Due
 - 27 Feb - Bending
 
