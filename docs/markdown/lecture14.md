@@ -14,7 +14,7 @@ February 27, 2019
 - 27 Feb - Bending
 - 1 Mar - Bending
 - 4 Mar - Transverse Shear, HW 5 Due
-- 6 Mar - Transverse Shear
+- 6 Mar - Exam 2 Review
 
 ----
 ## outline

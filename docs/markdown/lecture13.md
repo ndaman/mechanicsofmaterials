@@ -8,7 +8,6 @@ Wichita State University, Department of Aerospace Engineering
 February 25, 2019
 
 ----
-
 ## schedule
 
 - 25 Feb - Bending
@@ -71,7 +70,6 @@ $$T = \oint h\tau_{avg} t ds = 2 q \int dA_m = 2 q A_m$$
 ![A hollow rectangular tube is 40 mm wide and 60 mm tall with thickness of 5 mm horizontally and 3 mm vertically. It is fixed at one end with a torque of -25 N.m applied 1.5 m away from the fixed end and a torque of 60 N.m applied at the free end, 2.0 m away from the fixed end. A and B are both at the middle of the tube, A on a horizontal wall and B on a vertical wall.](images\example-5-13.jpg) <!-- .element width="60%" -->
 
 Determine the average shear stress at A and B.
-
 
 ---
 # shear and moment diagrams

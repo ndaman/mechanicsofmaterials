@@ -13,7 +13,7 @@ Wichita State University, Department of Aerospace Engineering
 
 - 1 Mar - Bending
 - 4 Mar - Transverse Shear, HW 5 Due
-- 6 Mar - Transverse Shear
+- 6 Mar - Exam 2 Review
 - 8 Mar - Exam 2
 
 ----
@@ -25,8 +25,6 @@ Wichita State University, Department of Aerospace Engineering
 - group problems
 
 <!-- TOC END -->
-
-
 
 ----
 ## shear-moment diagrams
