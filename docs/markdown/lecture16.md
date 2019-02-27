@@ -17,6 +17,13 @@ Wichita State University, Department of Aerospace Engineering
 
 ----
 ## outline
+<!-- TOC START min:1 max:1 link:false update:true -->
+- compound centroids
+- shear in straight members
+- the shear formula
+
+<!-- TOC END -->
+
 
 ---
 # compound centroids
@@ -53,8 +60,9 @@ $$\\begin{aligned}
 ----
 ## shear
 
-![](images\bonded-boards.png)
+![A comparison of three boards stacked on top of each other and loaded with pin supports at both ends. The top shows how the boards look if they are stacked with no bond, while the bottom shows the boards bonded together.](images\bonded-boards.png) <!-- .element width="60%" -->
 
+---
 # the shear formula
 
 ----
@@ -66,27 +74,27 @@ $$\\begin{aligned}
 ----
 ## equilibrium
 
-![](images\beam-fbd.png)
+![A free body diagram of an arbitrary beam.](images\beam-fbd.png)
 
 ----
 ## equilibrium
 
-![](images\fbd-newsection.jpg)
+![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](images\fbd-newsection.jpg) <!-- .element width="50%" -->
 
 ----
 ## equilibrium
 
 -   There must be a shear force along the bottom to equilibrate the different stresses on either side of the section
 -   If we assume that this shear is constant through the thickness, we obtain the following from equilibrium
-$$\sum F_x = 0 = \int_{A^\prime} \sigma^\prime dA^\prime - \int_{A^\prime} \sigma dA^\prime - \tau (t dx)$$
+`$$\sum F_x = 0 = \int_{A^\prime} \sigma^\prime dA^\prime - \int_{A^\prime} \sigma dA^\prime - \tau (t dx)$$`
 
 ----
 ## equilibrium
-$$\\begin{aligned}
+$$\\tiny{\\begin{aligned}
   0 &= \\int\_{A^\\prime} \\left( \\frac{M + dM}{I} \\right) y dA^\\prime - \\int\_{A^\\prime} \\left( \\frac{M}{I} \\right)y dA^\\prime - \\tau(t dx) \\\\
   \\left( \\frac{M}{I} \\right) \\int\_{A^\\prime} y dA^\\prime &= \\tau (t dx)\\\\
   \\tau &= \\frac{1}{It} \\left( \\frac{dM}{dx} \\right)\\int\_{A^\\prime} y dA^\\prime
-\\end{aligned}$$
+\\end{aligned}}$$
 
 ----
 ## shear formula
@@ -112,7 +120,7 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## Q
 
-![](images\Q.jpg)
+![Some beam cross-sections to illustrate the calculation of Q](images\Q.jpg) <!-- .element width="35%" -->
 
 ----
 ## shear formula limitations
@@ -133,11 +141,13 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## example 7.1
 
-![](images\example-7-1.jpg)
+![A simply supported beam 8 meters long has a uniformly distributed load of 6.5 kN/m applied on the rightmost 4 meters. The beam has a t-shaped cross section with the top 150 mm wide and 30 mm tall and the bottom 150 mm tall and 30 mm wide.](images\example-7-1.jpg) <!-- .element width="35%" -->
 
 Determine the maximum stress needed by a glue to hold the boards together.
 
 ----
 ## example 7.3
 
-![](images\example-7-3.jpg)
+![An I-beam is shown with a width of 300 mm and height of 240 mm, a web 15 mm thick, and flanges 20 mm thick. There is a shear force of 80 kN applied.](images\example-7-3.jpg) <!-- .element width="50%" -->
+
+Plot the shear stress distribution through the beam.
