@@ -1,16 +1,15 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 16 - Bending<br/>
+Lecture 17 - Exam Review<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-4 Mar, 2019
+6 Mar, 2019
 
 ----
 
 ## schedule
 
-- 4 Mar - Transverse Shear
 - 6 Mar - Exam Review
 - 8 Mar - Exam 2
 - 11-15 Mar - Spring Break
@@ -25,7 +24,7 @@ Wichita State University, Department of Aerospace Engineering
 ## exam format
 
 - Similar format to last exam
-- TODO questions
+- Five questions
 - Covers Axial Load, Torsion, and Bending
 - Past exams included Transverse Shear, which will not be on this exam
 
