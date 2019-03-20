@@ -4,19 +4,26 @@ Lecture 18 - Transverse Shear<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-18 Mar, 2019
+20 Mar, 2019
 
 ----
 
 ## schedule
 
-- 18 Mar - Exam Return, Transverse Shear
 - 20 Mar - Transverse Shear
 - 22 Mar - Transverse Shear
 - 25 Mar - Combined Loading, HW6 Due
 
 ----
 ## outline
+<!-- TOC START min:1 max:1 link:false update:true -->
+- shear in straight members
+- the shear formula
+- group problems
+- shear flow in built-up members
+
+<!-- TOC END -->
+
 
 ---
 # shear in straight members
@@ -129,21 +136,21 @@ Plot the shear stress distribution through the beam.
 ----
 ## group one
 
-![](images\group-7-1.jpg)
+![](images\group-7-1.jpg) <!-- .element width="30%" -->
 
 Find Q and t that would be used to find the shear stress at A.
 
 ----
 ## group two
 
-![](images\group-7-2.jpg)
+![](images\group-7-2.jpg) <!-- .element width="30%" -->
 
 Find Q and t that would be used to find the shear stress at A.
 
 ----
 ## group three
 
-![](images\group-7-3.jpg)
+![](images\group-7-3.jpg) <!-- .element width="30%" -->
 
 Find Q and t that would be used to find the shear stress at A.
 
@@ -167,7 +174,7 @@ Find Q and t that would be used to find the shear stress at A.
 
 -   From equilibrium we see that
 $$dF = \\frac{dM}{I} \\int\_{A^\\prime} y dA^\\prime$$
--   We recall that this integral represents *Q*, we can also define the shear flow as *q* = *dF*/*dx* and recall that *dM*/*dx* = *V* to find
+-   We recall that this integral represents *Q*, we can also define the shear flow as *q*=*dF*/*dx* and recall that *dM*/*dx*=*V* to find
 $$q = \\frac{VQ}{I}$$
 
 ----
@@ -176,7 +183,7 @@ $$q = \\frac{VQ}{I}$$
 -   We can use shear flow to determine fastener spacing
 -   Say a fastener can support a shear force of *F*<sub>0</sub> before failure
 -   The shear flow (force/distance) times the spacing (distance) will give the shear force per fastener
-    *F* = *qs*
+    *F*=*qs*
 
 ----
 ## multiple fasteners
@@ -192,20 +199,24 @@ $$q = \\frac{VQ}{I}$$
 ----
 ## example 7.4
 
-![](images\example-7-4.jpg)
+![](images\example-7-4.jpg) <!-- .element width="30%" -->
 
 Determine the shear flow at B and B' that must be resisted by glue to bond the boards together.
 
 ----
 ## example 7.5
 
-![](images\example-7-5.jpg)
+<div class="left">
+  ![](images\example-7-5.jpg)
+</div>
 
-If each nail can support a maximum shear force of 30 lb, determine the maximum spacing of the nails at B and at C so that the beam can support the force of 80 lb.
+<div class="right">
+  If each nail can support a maximum shear force of 30 lb, determine the maximum spacing of the nails at B and at C so that the beam can support the force of 80 lb.
+</div>
 
 ----
 ## example 7.6
 
-![](images\example-7-6.jpg)
+![](images\example-7-6.jpg) <!-- .element width="50%" -->
 
 Nails with a shear strength of 40 lb are used in a beam that can be constructed as shown in Case I or Case II. If the nails are spaced at 9 in determine the largest vertical shear that can be supported.
