@@ -17,7 +17,11 @@ Wichita State University, Department of Aerospace Engineering
 
 ----
 ## outline
+<!-- TOC START min:1 max:1 link:false update:true -->
+- shear flow in built-up members
+- thin-walled pressure vessels
 
+<!-- TOC END -->
 
 ---
 # shear flow in built-up members
@@ -98,7 +102,7 @@ Nails with a shear strength of 40 lb are used in a beam that can be constructed 
 ----
 ## cylindrical vessels
 
-![](images\cylinder-slice.jpg)
+![](images\cylinder-slice.jpg) <!-- .element width="30%" -->
 
 ----
 ## cylindrical vessels
@@ -113,7 +117,7 @@ $$\\begin{aligned}
 ----
 ## cylindrical vessels
 
-![](images\cylinder-end.jpg)
+![](images\cylinder-end.jpg) <!-- .element width="50%" -->
 
 ----
 ## cylindrical vessels
