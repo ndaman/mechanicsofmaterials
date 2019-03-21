@@ -1,74 +1,75 @@
-<span>schedule</span>
+## AE333
+## Mechanics of Materials
+Lecture 20 - Combined loading<br/>
+Dr. Nicholas Smith<br/>
+Wichita State University, Department of Aerospace Engineering
 
--   12 Oct - Combined Loading
+22 Mar, 2019
 
--   15 Oct - (Fall Break)
+----
 
--   17 Oct - Combined Loading
+## schedule
 
--   19 Oct - Stress Transformation
+- 25 Mar - Combined Loading, HW6 Due
+- 27 Mar - Combined Loading
+- 29 Mar - Combined Loading
+- 1 Apr - Stress Transformation, HW7 Due
 
-<span>outline</span>
 
-exam
-====
+----
+## outline
 
-<span>exam 2</span>
+---
+# thin-walled pressure vessels
 
--   Pre-curve avg: 64.6, post-curve avg: 75.7
-
--   1: 66.1, 2: 59.5, 3: 68.1
-
--   Curve formula: new score = old score x (0.92) + 16.2
-
-thin-walled pressure vessels
-============================
-
-<span>thin-walled pressure vessels</span>
+----
+## thin-walled pressure vessels
 
 -   If the radius to wall thickness ratio is 10 or more, we can treet a pressure vessule as “thin-walled”
-
 -   Cylindrical pressure vessels will have two primary sources of stress, and serve as an introduction to more general states of combined loading
 
-<span>cylindrical vessels</span>
+----
+## cylindrical vessels
 
-<img src="../figures/cylinder-slice" alt="image" style="width:40.0%" />
+![](../images/cylinder-slice.jpg)
 
-<span>cylindrical vessels</span>
+----
+## cylindrical vessels
 
 -   From equilibrium of a section of a cylindrical vessel, we see that
-    $$\\begin{aligned}
-                \\sum F\_x &= 0\\\\
-                &= 2(\\sigma\_1 t dy) - p (2r) dy\\\\
-                \\sigma\_1 &= \\frac{pr}{t}
-            \\end{aligned}$$
+$$\\begin{aligned}
+  \\sum F\_x &= 0\\\\
+  &= 2(\\sigma\_1 t dy) - p (2r) dy\\\\
+  \\sigma\_1 &= \\frac{pr}{t}
+\\end{aligned}$$
 
-<span>cylindrical vessels</span>
+----
+## cylindrical vessels
 
-<img src="../figures/cylinder-end" alt="image" style="width:60.0%" />
+![](../images/cylinder-end.jpg)
 
-<span>cylindrical vessels</span>
+----
+## cylindrical vessels
 
 -   Considering another section we can find the longitudinal stress
-    $$\\begin{aligned}
-                \\sum F\_y &= 0\\\\
-                &= \\sigma\_2 (2\\pi rt) - p (\\pi r^2)\\\\
-                \\sigma\_2 &= \\frac{pr}{2t}
-            \\end{aligned}$$
+$$\\begin{aligned}
+  \\sum F\_y &= 0\\\\
+  &= \\sigma\_2 (2\\pi rt) - p (\\pi r^2)\\\\
+  \\sigma\_2 &= \\frac{pr}{2t}
+\\end{aligned}$$
 
-<span>spherical vessels</span>
+----
+## spherical vessels
 
 -   We can find the stress in spherical vessels using an identical section to the longitudinal section for a cylindrical vessel, and we find that
-    $$\\sigma = \\frac{pr}{2t}$$
-
+$$\\sigma = \\frac{pr}{2t}$$
 -   Which is valid everywhere in a cylindrical vessel
 
-<span>example 8.1</span>
+----
+## example 8.1
 
--   A cylindrical pressure vessel has an inner diameter of $\\US{4}{ft}$ and a thickness of $\\frac{1}{2}$ in.
-
--   Determine the maximum internal pressure it can sustain if the maximum stress it can support is $\\US{20}{ksi}$.
-
+-   A cylindrical pressure vessel has an inner diameter of 4 ft and a thickness of 1/2 in.
+-   Determine the maximum internal pressure it can sustain if the maximum stress it can support is 20 ksi.
 -   What is the maximum internal pressure a spherical pressure vessel could sustain under identical conditions?
 
 
