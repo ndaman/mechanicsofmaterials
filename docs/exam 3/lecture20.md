@@ -72,4 +72,46 @@ $$\\sigma = \\frac{pr}{2t}$$
 -   Determine the maximum internal pressure it can sustain if the maximum stress it can support is 20 ksi.
 -   What is the maximum internal pressure a spherical pressure vessel could sustain under identical conditions?
 
+---
+# combined loading
 
+----
+## combined loading
+
+-   We can use the principle of superposition to treat various loading conditions separately and then add them together to find the total stress
+
+----
+## procedure
+
+-   Section the member at the point of interest, internal force components should be drawn acting through the centroid of the section
+-   Moment components should be calculated about the centroidal axis
+
+----
+## stress components
+
+-   Normal stress: *σ* = *N*/*A*
+-   Shear: *τ* = *V**Q*/*I**t*
+-   Bending: *σ* = *M**y*/*I*
+-   Torsion: *τ* = *T**ρ*/*J*
+-   Pressure Vessels: *σ*<sub>1</sub> = *p**r*/*t*, *σ*<sub>2</sub> = *p**r*/2*t*
+
+----
+## example 8.2
+
+![](../images/example-8-2.jpg)
+
+Neglect the weight of the member and find the stress at B and C.
+
+----
+## example 8.4
+
+![](../images/example-8-4.jpg)
+
+Determine the stress at C and D.
+
+----
+## example 8.5
+
+![](../images/example-8-5.jpg)
+
+The rod shown has a radius of 0.75 in. Find the stress at A.
