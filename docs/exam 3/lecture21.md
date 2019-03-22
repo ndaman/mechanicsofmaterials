@@ -4,7 +4,7 @@ Lecture 20 - Combined loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-22 Mar, 2019
+25 Mar, 2019
 
 ----
 
@@ -19,12 +19,6 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## outline
 
-<!-- vim-markdown-toc GFM -->
-
-* thin-walled pressure vessels
-* combined loading
-
-<!-- vim-markdown-toc -->
 
 ---
 # thin-walled pressure vessels
@@ -122,3 +116,63 @@ Determine the stress at C and D.
 ![](../images/example-8-5.jpg) <!-- .element width="30%" -->
 
 The rod shown has a radius of 0.75 in. Find the stress at A.
+
+---
+# group problems
+
+----
+## group one
+
+![](../images/group-8-1.jpg)
+
+Find the stress at the corners A and B for the column shown.
+
+----
+## group two
+
+![](../images/group-8-2.jpg)
+
+Find the stress at point A for the cantilever beam shown.
+
+----
+## group three
+
+![](../images/group-8-3.jpg)
+
+Find the load P that will cause a maximum normal stress of &sigma;=30 ksi along the section a-a.
+
+---
+# plane stress transformation
+
+----
+## plane stress
+
+-   In general, the state of stress at a point is characterized by six stress components
+-   In practice, this is rare, as most stresses and forces act in the same plane
+-   This case is referred to as plane stress
+
+----
+## transformation
+
+![](../images/transformation.png)
+
+----
+## procedure
+
+-   If the state of stress (*σ*<sub>*x*</sub>, *σ*<sub>*y*</sub>, *τ*<sub>*xy*</sub>) is known for a known axis system *x* and *y*, we can find the stress relative to some rotated coordinate system
+-   We do this by considering a section of the element perpendicular to the *x*<sup>′</sup> axis
+-   Sum of forces in *x* and *y* will give *σ*<sub>*x*<sup>′</sup></sub> and *τ*<sub>*x*<sup>′</sup>*y*<sup>′</sup></sub>
+-   A second section is needed to find *σ*<sub>*y*<sup>′</sup></sub>, perpendicular to the *y*<sup>′</sup> axis
+
+----
+## procedure
+
+![](../images/transformation-2.png)
+
+----
+## example 9.1
+
+![](../images/example-9-1.jpg)
+
+Represent the state of stress shown on the fuselage section on an element rotated 30&deg; clockwise from the position shown.
+<img src="../figures/example-9-1" alt="Represent the state of stress shown on the fuselage section on an element rotated 30^\circ clockwise from the position shown." style="width:80.0%" />
