@@ -23,6 +23,7 @@ Wichita State University, Department of Aerospace Engineering
 
 * thin-walled pressure vessels
 * combined loading
+* group problems
 
 <!-- vim-markdown-toc -->
 
@@ -122,3 +123,29 @@ Determine the stress at C and D.
 ![](../images/example-8-5.jpg) <!-- .element width="30%" -->
 
 The rod shown has a radius of 0.75 in. Find the stress at A.
+
+---
+# group problems
+
+----
+## group one
+
+![](../images/group-8-1.jpg)
+
+Find the stress at the corners A and B for the column shown.
+
+----
+## group two
+
+![](../images/group-8-2.jpg)
+
+Find the stress at point A for the cantilever beam shown.
+
+----
+## group three
+
+![](../images/group-8-3.jpg)
+
+Find the load P that will cause a maximum normal stress of &sigma;=30 ksi along the section a-a.
+
+

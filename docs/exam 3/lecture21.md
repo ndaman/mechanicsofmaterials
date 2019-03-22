@@ -1,6 +1,6 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 20 - Combined loading<br/>
+Lecture 21 - Combined loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
@@ -19,6 +19,14 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## outline
 
+<!-- vim-markdown-toc GFM -->
+
+* thin-walled pressure vessels
+* combined loading
+* group problems
+* plane stress transformation
+
+<!-- vim-markdown-toc -->
 
 ---
 # thin-walled pressure vessels
