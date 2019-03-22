@@ -130,21 +130,21 @@ The rod shown has a radius of 0.75 in. Find the stress at A.
 ----
 ## group one
 
-![](../images/group-8-1.jpg)
+![](../images/group-8-1.jpg) <!-- .element width="40%" -->
 
 Find the stress at the corners A and B for the column shown.
 
 ----
 ## group two
 
-![](../images/group-8-2.jpg)
+![](../images/group-8-2.jpg) <!-- .element width="30%" -->
 
 Find the stress at point A for the cantilever beam shown.
 
 ----
 ## group three
 
-![](../images/group-8-3.jpg)
+![](../images/group-8-3.jpg)  <!-- .element width="30%" -->
 
 Find the load P that will cause a maximum normal stress of &sigma;=30 ksi along the section a-a.
 
