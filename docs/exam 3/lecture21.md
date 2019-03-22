@@ -11,14 +11,21 @@ Wichita State University, Department of Aerospace Engineering
 ## schedule
 
 - 25 Mar - Combined Loading, HW6 Due
-- 27 Mar - Combined Loading
-- 29 Mar - Combined Loading
+- 27 Mar - Stress Transformation 
+- 29 Mar - Stress Transformation 
 - 1 Apr - Stress Transformation, HW7 Due
 
 
 ----
 ## outline
 
+<!-- vim-markdown-toc GFM -->
+
+* combined loading
+* group problems
+* plane stress transformation
+
+<!-- vim-markdown-toc -->
 
 ---
 # combined loading
