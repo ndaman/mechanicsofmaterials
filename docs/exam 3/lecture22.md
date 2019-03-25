@@ -4,16 +4,16 @@ Lecture 22 - Mohr's Circle<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-27 Mar, 2019
+29 Mar, 2019
 
 ----
 
 ## schedule
 
-- 27 Mar - Mohr's Circle 
-- 29 Mar - Strain Transformation 
-- 1 Apr - Strain Transformation, HW7 Due
-- 3 Apr - Deflection of Beams
+- 29 Mar - Mohr's Circle 
+- 1 Apr - Strain Transformation 
+- 3 Apr - Strain Transformation, HW7 Due
+- 5 Apr - Deflection of Beams
 
 
 ----
@@ -70,10 +70,10 @@ Represent the state of stress shown on the fuselage section on an element rotate
 
 -   We can follow the methodology from the previous section to develop equations for some arbitrary rotation and a completely general state of stress
 -   We use some trig identities to simplify the formulae
-    $$\\begin{aligned}
-                \\sigma\_{x^\\prime} &= \\frac{\\sigma\_x+\\sigma\_y}{2} + \\frac{\\sigma\_x-\\sigma\_y}{2} \\cos 2\\theta + \\tau\_{xy} \\sin 2\\theta \\\\
-                \\tau\_{x^\\prime y^\\prime} &= - \\frac{\\sigma\_x-\\sigma\_y}{2}\\sin 2\\theta + \\tau\_{xy} \\cos 2\\theta
-            \\end{aligned}$$
+$$\\begin{aligned}
+  \\sigma\_{x^\\prime} &= \\frac{\\sigma\_x+\\sigma\_y}{2} + \\frac{\\sigma\_x-\\sigma\_y}{2} \\cos 2\\theta + \\tau\_{xy} \\sin 2\\theta \\\\
+  \\tau\_{x^\\prime y^\\prime} &= - \\frac{\\sigma\_x-\\sigma\_y}{2}\\sin 2\\theta + \\tau\_{xy} \\cos 2\\theta
+\\end{aligned}$$
 -   To find *σ*<sub>*y*<sup>′</sup></sub> we can simply add 90<sup>∘</sup> to *θ*
 
 ----
@@ -85,7 +85,7 @@ Represent the state of stress shown on the fuselage section on an element rotate
 ----
 ## example 9.2
 
-![](../images/example-9-2.jpg)
+![](../images/example-9-2.jpg) <!-- .element width="40%" -->
 
 Determine the stress at this point on an element rotated 30&deg; clockwise from the position shown.
 
@@ -118,7 +118,7 @@ Determine the stress at this point on an element rotated 30&deg; clockwise from 
 ----
 ## example 9.3
 
-![](../images/example-9-3.jpg)
+![](../images/example-9-3.jpg) <!-- .element width="45%" -->
 
 Find the principal stress for the stress state shown.
 
