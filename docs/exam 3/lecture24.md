@@ -121,12 +121,12 @@ Represent the state of stress shown on an element rotated 30&deg; counterclockwi
 ----
 ## mohr’s circle
 
-![](..\images\max-shear.png)
+![](..\images\max-shear.png) <!-- .element width="40%" -->
 
 ----
 ## mohr’s circle
 
-![](..\images\mohr-absolute.jpg)
+![](..\images\mohr-absolute.jpg) <!-- .element width="40%" -->
 
 ----
 ## absolute max shear
@@ -178,7 +178,7 @@ $$\\begin{aligned}
 ----
 ## engineering strain
 
--   Side note: there is another definition of shear strain known as tensorial shear strain, where *γ*<sub>*x**y*</sub> = 2*ϵ*<sub>*x**y*</sub>
+-   Side note: there is another definition of shear strain known as tensorial shear strain, where *γ*<sub>*xy*</sub> = 2*ϵ*<sub>*xy*</sub>
 -   Under tensorial strain, the transformation equations are exactly the same (as in this case both stress and strain are tensors)
 -   *γ*<sub>*xy*</sub> is known as engineering strain, you will need to pay attention to which strain convention is used when extracting data from finite elements or other sources
 
@@ -203,7 +203,7 @@ $$\\begin{aligned}
 ----
 ## example 10.4
 
-![](..\images\example-10-4.jpg)
+![](..\images\example-10-4.jpg) <!-- .element width="40%" -->
 
 The state of plane strain at a point has components of `$\epsilon_x = 250 \mu \epsilon`, `\epsilon_y = -150 \mu \epsilon`, and `\gamma_{xy} = 120 \mu \epsilon`. Determine the principal strains and the direction they act.
 
