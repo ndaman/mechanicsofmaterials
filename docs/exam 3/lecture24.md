@@ -190,7 +190,7 @@ $$\\begin{aligned}
 ## mohr’s circle
 
 -   Mohr’s circle can also be used in exactly the same way for strain as it is for stress
--   The only difference is that the vertical axis is tensor strain, or *γ*<sub>*x**y*</sub>/2
+-   The only difference is that the vertical axis is tensor strain, or *γ*<sub>*xy*</sub>/2
 
 ----
 ## example 10.4
