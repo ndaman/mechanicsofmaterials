@@ -1,19 +1,19 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 24 - Strain Transformation<br/>
+Lecture 25 - Strain Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-3 Apr, 2019
+5 Apr, 2019
 
 ----
 
 ## schedule
 
-- 3 Apr - Strain Transformation, HW7 Due
 - 5 Apr - Deflection of Beams
 - 8 Apr - Deflection of Beams, HW8 Due
 - 10 Apr - Deflection of Beams
+- 12 Apr - Deflection of Beams
 
 
 ----
@@ -21,126 +21,13 @@ Wichita State University, Department of Aerospace Engineering
 
 <!-- vim-markdown-toc GFM -->
 
-* mohr’s circle
-* absolute maximum shear
 * plane strain
 * principal strains and mohr’s circle
 * strain rosettes
 * material property relationships
+* deflection of beams and shafts
 
 <!-- vim-markdown-toc -->
-
----
-# mohr’s circle
-
-----
-## mohr’s circle
-
--   We can visualize plane stress transformation using a technique known as Mohr’s circle
--   If we re-write the stress transformation equations we find
-
-$$\\begin{aligned}
- \\sigma\_{x^\\prime} - \\left( \\frac{\\sigma\_x + \\sigma\_y}{2} \\right) &= \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right) \\cos 2 \\theta + \\tau\_{xy} \\sin 2\\theta \\\\
- \\tau\_{x^\\prime y^\\prime} &= -\\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right) \\sin 2\\theta + \\tau\_{xy} \\cos 2\\theta
-\\end{aligned}$$
-
-
-----
-## mohr’s circle
-
--   If we square each equation and add them together, we find
-
-$$\\left\[\\sigma\_{x^\\prime} - \\left( \\frac{\\sigma\_x + \\sigma\_y}{2} \\right) \\right\]^2 + \\tau\_{x^\\prime y^\\prime}^2 = \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right)^2+\\tau\_{xy}^2$$
-
-
-----
-## mohr’s circle
-
--   Since *σ*<sub>*x*</sub>, *σ*<sub>*y*</sub> and *τ*<sub>*xy*</sub> are known constants, we can write a more compact form by letting
-
-$$\\begin{aligned}
-  (\\sigma\_{x^\\prime}-\\sigma\_{avg})^2 + \\tau\_{x^\\prime y^\\prime}^2 &= R^2\\\\
-   \\sigma\_{avg} &= \\frac{\\sigma\_x+\\sigma\_y}{2}\\\\
-   R &= \\sqrt{ \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right)^2 + \\tau\_{xy}^2}
-\\end{aligned}$$
-
-
-----
-## mohr’s circle
-
--   Re-written in this way, we can see that the previous equation is the equation of a circle on the *σ*, *τ* axis
--   The center of the circle is at *τ* = 0 and *σ* = *σ*<sub>*avg*</sub>
--   The radius of the circle is $\\sqrt{ \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right)^2 + \\tau\_{xy}^2}$
--   Each point on the circle represents *σ*<sub>*x*<sup>′</sup></sub>, *τ*<sub>*x*<sup>′</sup>*y*<sup>′</sup></sub>
-
-----
-## mohr’s circle
-
-![](../images/mohr.jpg) <!-- .element width="60%" -->
-
-----
-## visual construction of Mohr’s circle
-
--   By convention, positive *τ* points down, use this convention to plot the center of the circle and a reference point at (*σ*<sub>*x*</sub>, *τ*<sub>*xy*</sub>) where the *x*<sup>′</sup> axis is coincident with the *x* axis
--   Use these two points to sketch the circle
-
-----
-## principal stress
-
--   The principal stresses, *σ*<sub>1</sub> and *σ*<sub>2</sub> are the coordinates where Mohr’s circle intersects the *σ* axis
--   The angles *θ*<sub>*p*1</sub> and *θ*<sub>*p*2</sub> can be found by calculating the angle between the reference line and the *σ* axis (note that this angle is equal to 2*θ*<sub>*p*</sub>)
--   Note that the direction from the the reference point to the *σ* axis will be the same as the direction from the *x* axis to the principal axis
-
-----
-## maximum shear stress
-
--   The top and bottom of the circle represent the maximum shear stress
--   The angles *θ*<sub>*s*1</sub> and *θ*<sub>*s*2</sub> can be found in a similar method to that described for the principal stress
-
-----
-## stress on arbitrary plane
-
--   To find the stress at some arbitrary plane some known angle *θ* away from our reference plane, we find the angle 2*θ* away from the reference line on Mohr’s circle
--   We can use trigonometry to find the value of the coordinates at that point
--   We must draw our angle in the same direction as the desired rotation
-
-----
-## example 9.9
-
-![](../images/example-9-9.jpg) <!-- .element width="35%" -->
-
-Represent the state of stress shown on an element rotated 30&deg; counterclockwise from the position shown.
-
----
-# absolute maximum shear
-
-----
-## absolute maximum shear
-
--   We already know how to find the maximum in-plane shear, but sometimes the maximum shear stress can occur in another plane
--   We can do this (without treating it as a fully 3D problem) by treating each plane as its own plane stress problem
-
-----
-## mohr’s circle
-
-![](..\images\max-shear.png) <!-- .element width="40%" -->
-
-----
-## mohr’s circle
-
-![](..\images\mohr-absolute.jpg) <!-- .element width="40%" -->
-
-----
-## absolute max shear
-
--   The maximum absolute shear will depend on whether *σ*<sub>1</sub> and *σ*<sub>2</sub> are in the same or opposite directions
-
-$$\\begin{aligned}
-  \\tau\_{abs,max} &= \\frac{\\sigma\_1}{2} & \\qquad \\text{same direction} \\\\
-  \\tau\_{abs,max} &= \\frac{\\sigma\_1-\\sigma\_2}{2} & \\qquad \\text{opposite directions}
-\\end{aligned}$$
-
--   Which of the three mohr’s circles the maximum occurs in will determine which plane the shear acts in
 
 ---
 # plane strain
@@ -285,3 +172,40 @@ $$\\frac{p}{e} = -\\frac{E}{3(1-2\\nu)}$$
 -   We call the term on the right (with no negative sign) the bulk modulus, *k*
 
 
+---
+# deflection of beams and shafts
+
+----
+## elastic curve
+
+-   Before finding the exact displacement, it is useful to sketch the approximate deformed shape of a beam
+-   For difficult beams, it is useful to draw the moment curve first
+-   Positive internal moment tends to bend the beam concave up, while negative moment tends to bend the beam concave down
+
+----
+## elastic curve
+
+![](..\images\elastic-curve.jpg)
+
+----
+## elastic curve
+
+![](..\images\elastic-curve2.jpg)
+
+----
+## moment-curvature
+
+-   In Chapter 6 we compared the strain in a segement of a beam to the radius of curvature and found
+
+$$\\frac{1}{\\rho} = -\\frac{\\epsilon}{y}$$
+
+-   Since Hooke’s Law applies, *ϵ* = *σ*/*E* = −*My*/*EI*, substituting gives
+
+$$\\frac{1}{\\rho} = \\frac{M}{EI}$$
+
+----
+## sign convention
+
+![](..\images\curvature.jpg)
+
+`$\rho$` is positive when the center of the arc is above the beam, negative when it is below.
