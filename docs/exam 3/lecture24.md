@@ -19,6 +19,14 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## outline
 
+<!-- vim-markdown-toc GFM -->
+
+* mohr’s circle
+* absolute maximum shear
+* plane strain
+* principal strains and mohr’s circle
+
+<!-- vim-markdown-toc -->
 
 ---
 # mohr’s circle
