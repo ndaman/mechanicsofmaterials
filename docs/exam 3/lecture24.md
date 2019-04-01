@@ -203,7 +203,10 @@ $$\\begin{aligned}
 ----
 ## example 10.4
 
-![](..\images\example-10-4.jpg) <!-- .element width="40%" -->
+<div class="left">
+![](..\images\example-10-4.jpg) 
+</div>
 
+<div class="right">
 The state of plane strain at a point has components of `$\epsilon_x = 250 \mu \epsilon`, `\epsilon_y = -150 \mu \epsilon`, and `\gamma_{xy} = 120 \mu \epsilon`. Determine the principal strains and the direction they act.
-
+</div>
