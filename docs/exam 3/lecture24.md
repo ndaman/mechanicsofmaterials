@@ -221,7 +221,7 @@ The state of plane strain at a point has components of `$\epsilon_x = 250 \mu \e
 
 -   Normal strain is fairly easy to measure using a strain gage
 -   Shear strain is more difficult to measure directly, so instead a “rossette” of normal strain gages is used
--   We can use the strain transformation equations to determine *τ*<sub>*x**y*</sub>
+-   We can use the strain transformation equations to determine *τ*<sub>*xy*</sub>
 
 ----
 ## rosettes
@@ -237,9 +237,13 @@ $$\\begin{aligned}
 ----
 ## example 10.8
 
-![](..\images\example-10-8.jpg)
+<div class="left">
+![](..\images\example-10-8.jpg) 
+</div>
 
+<div class="right">
 The readings from the rosette shown are `$\epsilon_a=60\mu\epsilon$`, `$\epsilon_b=135\mu\epsilon$` and `$\epsilon_c=264\mu\epsilon$`. Find the in-plane principal strains and their directions.
+</div>
 
 ---
 # material property relationships
