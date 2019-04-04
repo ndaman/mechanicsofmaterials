@@ -61,7 +61,7 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ----
 ## discontinuity functions
 
-![](..\images\discontinuity.jpg)
+![](..\images\discontinuity.jpg) <!-- .element width="40%" -->
 
 ----
 ## example 12.5
@@ -81,14 +81,14 @@ Find the maximum deflection using either direct integration or discontinuity fun
 ----
 ## group two
 
-![](..\images\group-12-2.jpg)
+![](..\images\group-12-2.jpg) <!-- .element width="50%" -->
 
 Find the maximum deflection using either direct integration or discontinuity functions.
 
 ----
 ## group three
 
-![](..\images\group-12-3.jpg)
+![](..\images\group-12-3.jpg) <!-- .element width="50%" -->
 
 Find the maximum deflection using either direct integration or discontinuity functions.
 

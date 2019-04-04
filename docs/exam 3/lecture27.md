@@ -81,13 +81,14 @@ $$\\begin{aligned}
 ----
 ## example 12.1
 
-![](..\images\example-12-1.jpg)
+![](..\images\example-12-1.jpg) <!-- .element width="60%" -->
+
 Determine the maximum deflection if EI is constant.
 
 ----
 ## example 12.4
 
-![](..\images\example-12-4.jpg)
+![](..\images\example-12-4.jpg) <!-- .element width="60%" -->
 
 Determine the displacement at C, EI is constant.
 
@@ -123,9 +124,9 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ----
 ## discontinuity functions
 
-![](..\images\discontinuity.jpg)
+![](..\images\discontinuity.jpg) <!-- .element width="40%" -->
 
 ----
 ## example 12.5
 
-![](..\images\example-12-5.jpg)
+![](..\images\example-12-5.jpg) 
