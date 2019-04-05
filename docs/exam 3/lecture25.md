@@ -189,12 +189,12 @@ $$\\frac{p}{e} = -\\frac{E}{3(1-2\\nu)}$$
 ----
 ## elastic curve
 
-![](..\images\elastic-curve.jpg)
+![](..\images\elastic-curve.jpg) <!-- .element width="40%" -->
 
 ----
 ## elastic curve
 
-![](..\images\elastic-curve2.jpg)
+![](..\images\elastic-curve2.jpg) <!-- .element width="40%" -->
 
 ----
 ## moment-curvature
