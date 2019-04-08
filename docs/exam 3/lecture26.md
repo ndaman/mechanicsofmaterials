@@ -43,12 +43,12 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## elastic curve
 
-![](..\images\elastic-curve.jpg) <!-- .element width="60%" -->
+![](..\images\elastic-curve.jpg) <!-- .element width="40%" -->
 
 ----
 ## elastic curve
 
-![](..\images\elastic-curve2.jpg) <!-- .element width="60%" -->
+![](..\images\elastic-curve2.jpg) <!-- .element width="40%" -->
 
 ----
 ## moment-curvature
