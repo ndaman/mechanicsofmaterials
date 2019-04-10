@@ -107,8 +107,8 @@ Determine the displacement at C, EI is constant.
 -   Macaulay functions can be used to describe various loading conditions, the general definition is
 
 $$\\langle x-a\\rangle^n = \\begin{cases}
-  0 & \\text{for} x &lt; a\\\\
-  (x-a)^2 & \\text{for} x \\ge a
+  0 & \\text{for } x &lt; a\\\\
+  (x-a)^2 & \\text{for } x \\ge a
 \\end{cases}$$
 
 ----
@@ -117,8 +117,8 @@ $$\\langle x-a\\rangle^n = \\begin{cases}
 -   Singularity functions are used for concentrated forces and can be written
     
 $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
-  0 & \\text{for} x\\ne a\\\\
-  P & \\text{for} x=a
+  0 & \\text{for } x\\ne a\\\\
+  P & \\text{for } x=a
 \\end{cases}$$
 
 ----
