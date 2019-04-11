@@ -44,9 +44,10 @@ Wichita State University, Department of Aerospace Engineering
 -   Macaulay functions can be used to describe various loading conditions, the general definition is
 
 $$\\langle x-a\\rangle^n = \\begin{cases}
-  0 & \\text{for} x &lt; a\\\\
-  (x-a)^2 & \\text{for} x \\ge a
-\\end{cases}$$
+  0 & \\text{for } x &lt; a\\\\
+  (x-a)^n & \\text{for } x \\ge a
+\\end{cases}
+n \ge 0$$
 
 ----
 ## singularity functions
@@ -54,8 +55,8 @@ $$\\langle x-a\\rangle^n = \\begin{cases}
 -   Singularity functions are used for concentrated forces and can be written
     
 $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
-  0 & \\text{for} x\\ne a\\\\
-  P & \\text{for} x=a
+  0 & \\text{for } x\\ne a\\\\
+  P & \\text{for } x=a
 \\end{cases}$$
 
 ----
@@ -64,9 +65,31 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ![](..\images\discontinuity.jpg) <!-- .element width="40%" -->
 
 ----
+## discontinuity functions
+
+1. We add these up for each loading case along our beam
+2. We integrate as usual to find displacement from load, slope, or moment
+
+----
+## integration
+
+- discontinuity functions follow special rules for integration
+- when n &ge; 0, they integrate like a normal polynomial
+- when n &lt; 0, they instead follow 
+
+$$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
+
+----
+## signs
+
+- we need to be careful to match the sign convention
+- loads are defined as positive when they act upward
+- moments are defined as positive when they act clockwise
+
+----
 ## example 12.5
 
-![](..\images\example-12-5.jpg)
+![](..\images\example-12-5.jpg) 
 
 ---
 # group problems
