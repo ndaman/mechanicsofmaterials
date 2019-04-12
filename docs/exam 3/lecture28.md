@@ -97,7 +97,7 @@ $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 ----
 ## group one
 
-![](..\images\group-12-1.jpg)
+![](..\images\group-12-1.jpg) <!-- .element width="50%" -->
 
 Find the maximum deflection using either direct integration or discontinuity functions.
 
