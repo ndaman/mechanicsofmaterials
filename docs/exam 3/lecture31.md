@@ -4,13 +4,12 @@ Lecture 31 - Statically Indeterminate Beams<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-17 Apr, 2019
+19 Apr, 2019
 
 ----
 
 ## schedule
 
-- 17 Apr - Statically Indeterminate Beams
 - 19 Apr - Statically Indeterminate Beams
 - 22 Apr - Exam 3 Review, HW 10 Due
 - 24 Apr - Exam 3
