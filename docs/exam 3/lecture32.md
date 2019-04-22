@@ -53,7 +53,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## shear
 
-![A comparison of three boards stacked on top of each other and loaded with pin supports at both ends. The top shows how the boards look if they are stacked with no bond, while the bottom shows the boards bonded together.](images\bonded-boards.png) <!-- .element width="60%" -->
+![A comparison of three boards stacked on top of each other and loaded with pin supports at both ends. The top shows how the boards look if they are stacked with no bond, while the bottom shows the boards bonded together.](..\images\bonded-boards.png) <!-- .element width="60%" -->
 
 ----
 ## shear formula
@@ -64,12 +64,12 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## equilibrium
 
-![A free body diagram of an arbitrary beam.](images\beam-fbd.png)
+![A free body diagram of an arbitrary beam.](..\images\beam-fbd.png)
 
 ----
 ## equilibrium
 
-![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](images\fbd-newsection.jpg) <!-- .element width="50%" -->
+![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](..\images\fbd-newsection.jpg) <!-- .element width="50%" -->
 
 ----
 ## equilibrium
@@ -110,7 +110,7 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## Q
 
-![Some beam cross-sections to illustrate the calculation of Q](images\Q.jpg) <!-- .element width="35%" -->
+![Some beam cross-sections to illustrate the calculation of Q](..\images\Q.jpg) <!-- .element width="35%" -->
 
 ----
 ## shear formula limitations
@@ -138,7 +138,7 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## equilibrium
 
-![](images\built-up-equilibrium.jpg)
+![](..\images\built-up-equilibrium.jpg)
 
 ----
 ## equilibrium
@@ -162,7 +162,7 @@ $$q = \\frac{VQ}{I}$$
 ----
 ## multiple fasteners
 
-![](images\shear-flow-multiple.jpg)
+![](..\images\shear-flow-multiple.jpg)
 
 ----
 ## multiple fasteners
