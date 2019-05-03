@@ -167,22 +167,22 @@ Find the largest axial load the A992 steel member shown can support before it bu
 ## length factors
 
 <div class="left">
-![](..\images\col-free.jpg)
+![](..\images\col-free.jpg) 
 </div>
 
 <div class="right">
-![](..\images\col-fixed-free.jpg)
+![](..\images\col-fixed-free.jpg) <!-- .element width="80%" -->
 </div>
 
 ----
 ## length factors
 
 <div class="left">
-![](..\images\col-fixed-fixed.jpg)
+![](..\images\col-fixed-fixed.jpg) 
 </div>
 
 <div class="right">
-![](..\images\col-fixed-pinned.jpg)
+![](..\images\col-fixed-pinned.jpg) <!-- .element width="70%" -->
 </div>
 
 ----
@@ -199,7 +199,7 @@ Find the largest axial load the A992 steel member shown can support before it bu
 ----
 ## example 13.2
 
-![](..\images\example-13-2.jpg)
+![](..\images\example-13-2.jpg) <!-- .element width="20%" -->
 
 The column shown is braced by cables preventing movement in *x*.
 Determine the largest *P* that can be applied if *E=70* GPa, σ<sub>y</sub>=215 MPa, *A* = 7.5 (10<sup>3</sup>) m<sup>2</sup>, I<sub>x</sub> = 61.3 (10<sup>-6</sup>) m<sup>4</sup> and I<sub>y</sub> = 23.2(10<sup>-6</sup>) m<sup>4</sup>.
@@ -207,7 +207,7 @@ Determine the largest *P* that can be applied if *E=70* GPa, σ<sub>y</sub>=215 
 ----
 ## example 13.3
 
-![](..\images\example-13-3.jpg)
+![](..\images\example-13-3.jpg) <!-- .element width="20%" -->
 
 A W6 x 15 steel column is fixed at its ends and braced in the *y-y* axis assumed to be pinned at the midpoint.
 Determine the maximum load before buckling or yield with E<sub>st</sub> = 29 Msi and σ<sub>y</sub> = 60 ksi.
