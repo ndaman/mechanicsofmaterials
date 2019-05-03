@@ -1,16 +1,15 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 35 - Buckling<br/>
+Lecture 36 - Buckling<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-1 May, 2019
+3 May, 2019
 
 ----
 
 ## schedule
 
-- 1 May - SPTE, Buckling
 - 3 May - Buckling
 - 6 May - Final Review, HW11 Due
 - 8 May - Final Review
@@ -24,6 +23,7 @@ Wichita State University, Department of Aerospace Engineering
 
 * buckling
 * ideal pin-supported column
+* columns with other supports
 
 <!-- vim-markdown-toc -->
 
@@ -145,3 +145,69 @@ $$\\sigma\_{cr} = \\frac{\\pi^2 E}{(L/r)^2}$$
 ![](..\images\example-13-1.jpg) <!-- .element width="20%" -->
 
 Find the largest axial load the A992 steel member shown can support before it buckles or yields, use σ <sub>y</sub>=50 ksi.
+
+---
+# columns with other supports
+
+----
+## other supports
+
+- we can still use Euler-Bernoulli beam theory when handling columns with other supports
+- the general derivation is the same, but with different boundary conditions
+
+----
+## effective length
+
+- One simple way to use the same formula for different supports is to modify the effective length of the column
+- We can also use a length factor, *K*, to define the effective length
+
+`$L_e = K L$`
+
+----
+## length factors
+
+<div class="left">
+![](..\images\col-free.jpg)
+</div>
+
+<div class="right">
+![](..\images\col-fixed-free.jpg)
+</div>
+
+----
+## length factors
+
+<div class="left">
+![](..\images\col-fixed-fixed.jpg)
+</div>
+
+<div class="right">
+![](..\images\col-fixed-pinned.jpg)
+</div>
+
+----
+## effective length
+
+- The formulas now become
+
+`$ P_{cr} = \frac{\pi^2 EI}{(KL)^2} $`
+
+- or 
+
+`$ \sigma_{cr} = \frac{\pi^2 E}{(KL/r)^2} $`
+
+----
+## example 13.2
+
+![](..\images\example-13-2.jpg)
+
+The column shown is braced by cables preventing movement in *x*.
+Determine the largest *P* that can be applied if *E=70* GPa, σ<sub>y</sub>=215 MPa, *A* = 7.5 (10<sup>3</sup>) m<sup>2</sup>, I<sub>x</sub> = 61.3 (10<sup>-6</sup>) m<sup>4</sup> and I<sub>y</sub> = 23.2(10<sup>-6</sup>) m<sup>4</sup>.
+
+----
+## example 13.3
+
+![](..\images\example-13-3.jpg)
+
+A W6 x 15 steel column is fixed at its ends and braced in the *y-y* axis assumed to be pinned at the midpoint.
+Determine the maximum load before buckling or yield with E<sub>st</sub> = 29 Msi and σ<sub>y</sub> = 60 ksi.
