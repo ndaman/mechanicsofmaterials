@@ -1,24 +1,18 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 36 - Buckling<br/>
+Lecture 37 - Final Exam Review<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-3 May, 2019
+6 May, 2019
 
 ----
 
 ## schedule
 
-- 3 May - Buckling
 - 6 May - Final Review, HW11 Due
 - 8 May - Final Review
 - 15 May 1:00 - 2:50 - Final Exam
-
-
-----
-## outline
-
 
 ---
 # final exam
@@ -26,9 +20,9 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## exam format
 
--   Same format as previous exams, but about twice as long (6-7 problems)
+-   Same format as previous exams, but about twice as long (7-9 problems)
 -   Equations/references provided will also be the same, with the addition of stress concentration factor charts
--   Comprehensive, weighted to new material
+-   Comprehensive, weighted (slightly) to new material
 
 ----
 ## content
