@@ -98,10 +98,10 @@ $$\\sigma = \\frac{pr}{2t}$$
 ## stress components
 
 -   Normal stress: *σ* = *N*/*A*
--   Shear: *τ* = Q*/*It
--   Bending: *σ* = y*/*I
--   Torsion: *τ* = ρ*/*J
--   Pressure Vessels: *σ*<sub>1</sub> = r*/*t*, *σ*<sub>2</sub> =*r*/2*t
+-   Shear: *τ* = *Q*/*It*
+-   Bending: *σ* = -*My*/*I*
+-   Torsion: *τ* = *Tρ*/*J
+-   Pressure Vessels: *σ*<sub>1</sub> = *r*/*t*, *σ*<sub>2</sub> =*r*/2*t*
 
 ----
 ## example 8.2
