@@ -69,16 +69,19 @@ January 23, 2019
 
 ## research
 
-  <div class='left'>
-![picture illustrating the fused deposition modeling 3D printing process, where plastic filament is melted and deposited next to other filament, and fuses together](../images/3D-printing.png)
-  </div>
+<div class='left'>
 
-  <div class='right'>
-  <ul>
-  <li> Composites are being used in 3D printing now </li>
-  <li> Printing patterns are optimized for isotropic materials </li>
-  <li> Sometimes composites hurt more than they help when not utilized properly </li>
-  </div>
+![picture illustrating the fused deposition modeling 3D printing process, where plastic filament is melted and deposited next to other filament, and fuses together](../images/3D-printing.png)
+
+</div>
+
+<div class='right'>
+
+-  Composites are being used in 3D printing now 
+-  Printing patterns are optimized for isotropic materials 
+-  Sometimes composites hurt more than they help when not utilized properly 
+
+</div>
 
 ----
 
