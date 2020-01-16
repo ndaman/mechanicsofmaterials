@@ -4,7 +4,7 @@ Lecture 1 - Equilibrium
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 23, 2019
+January 22, 2020
 
 ----
 
