@@ -287,9 +287,16 @@ January 22, 2020
 
 ## equilibrium
 
+<div class="left">
+	
 -   For a body to be in equilibrium the balance of forces and the
     balance of moments must both be zero
 `$$\sum F_i =0$$ $$\sum M_i =0$$`
+
+</div>
+
+<div class="right">
+	
 -   For 2D problems, this reduces to
 `$$\begin{aligned}
   \sum F_x &= 0\\
@@ -297,6 +304,8 @@ January 22, 2020
   \sum M_O &= 0
 \end{aligned}$$
 `
+
+</div>
 
 ----
 
