@@ -177,15 +177,15 @@ The bar shown as a width of 35 mm and a thickness of 10 mm. Find the maximum ave
 
 ## example 1.8
 
-<div class="left">
+<div class="left"> <!-- .element width="40%" -->
 
 ![A block 200 mm long has a leg resting against the floor at its right end, point C, and is supported by a vertical hanging rod at its left end (points A and B). A 3 kilonewton force pointing down is applied at some distance, x, from the left end.](../images/example-1-8.jpg)
 
 </div>
 
-<div class="right">
+<div class="right"> <!-- .element width="50%" -->
 
-Determine the position, x, of the load so that the average compressive stress at C is equal to the average tensile stress in the rod AB. The rod has an area of `$400\si{mm}^2$` and the contact at $C$ has an area of `$650\si{mm}^2$`.
+Determine the position, x, of the load so that the average compressive stress at C is equal to the average tensile stress in the rod AB. The rod has an area of `$400 \text{ mm}^2$` and the contact at $C$ has an area of `$650 \text{ mm}^2$`.
 
 </div>
 
