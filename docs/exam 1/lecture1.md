@@ -31,7 +31,7 @@ January 22, 2020
 ----
 
 ## about me
-![family picture](../images/IMG_0004.JPG)
+![family picture](../images/IMG_0004.JPG) <!-- .element width="40%" -->
 
 ----
 
