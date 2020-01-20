@@ -4,7 +4,7 @@ Lecture 2 - Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 25, 2019
+January 24, 2020
 
 ----
 
@@ -19,7 +19,7 @@ January 25, 2019
 
 ## office hours
 
-- With 6/18 students reporting it looks like Tuesday from 10:00 - 11:00 is (so far) the best option
+- TBD
 - You have until next Monday's class to vote for your preferred time, that is when I would like to finalize office hours
 - As always, if you can't make it to office hours, just send me an e-mail and we'll try to work something out
 
