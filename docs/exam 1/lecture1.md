@@ -1,6 +1,6 @@
 # AE333
 ## Mechanics of Materials
-Lecture 1 - Equilibrium
+Lecture 1 - Equilibrium<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
