@@ -10,10 +10,10 @@ January 22, 2020
 
 ## schedule
 
-- 23 Jan - Introduction, Equilibrium
-- 25 Jan - Stress
-- 28 Jan - Average stress, Intro HW Due
-- 30 Jan - Assessment Test
+- 22 Jan - Introduction, Equilibrium
+- 24 Jan - Stress
+- 27 Jan - Average stress, Intro HW Due
+- 29 Jan - Assessment Test
 
 ----
 
@@ -31,7 +31,7 @@ January 22, 2020
 ----
 
 ## about me
-![family picture](../images/IMG_5266_edit.jpg)
+![family picture](../images/IMG_0004.JPG)
 
 ----
 
@@ -103,7 +103,7 @@ January 22, 2020
 
 ----
 
-## office hourse
+## office hours
 
 -   I will e-mail everyone in the course a Doodle link we can use to
     find the optimal office hours
@@ -117,41 +117,41 @@ January 22, 2020
 ## tentative course outline
 
 -   Section 1 - stress, strain, mechanical properties
-    -   Ch 1 - Stress (23 Jan)
-    -   Ch 2 - Strain (30 Jan)
-    -   Ch 3 - Mechanical Properties (4 Feb)
-    -   Exam 1 (8 Feb)
+    -   Ch 1 - Stress (22 Jan)
+    -   Ch 2 - Strain (29 Jan)
+    -   Ch 3 - Mechanical Properties (3 Feb)
+    -   Exam 1 (7 Feb)
 
 ----
 
 ## tentative course outline
 
 -   Section 2 - loading
-    -   Ch 4 - Axial Load (11 Feb)
-    -   Ch 5 - Torsion (18 Feb)
-    -   Ch 6 - Bending (25 Feb)
-    -   Ch 7 - Transverse Shear (4 Mar)
-    -   Exam 2 (8 Mar)
+    -   Ch 4 - Axial Load (10 Feb)
+    -   Ch 5 - Torsion (17 Feb)
+    -   Ch 6 - Bending (24 Feb)
+    -   Ch 7 - Transverse Shear (2 Mar)
+    -   Exam 2 (5 Mar)
 
 ----
 
 ## tentative course outline
 
 -   Section 3 - beams, shafts, combined loading
-    -   Ch 8 - Combined Loading (18 Mar)
-    -   Ch 9 - Stress Transformation (25 Mar)
-    -   Ch 10 - Strain Transformation (1 Apr)
-    -   Ch 12 - Deflection of Beams and Shafts (8 Apr)
-    -   Exam 3 (26 Apr)
+    -   Ch 8 - Combined Loading (16 Mar)
+    -   Ch 9 - Stress Transformation (23 Mar)
+    -   Ch 10 - Strain Transformation (30 Mar)
+    -   Ch 12 - Deflection of Beams and Shafts (6 Apr)
+    -   Exam 3 (24 Apr)
 
 ----
 
 ## tentative course outline
 
 -   Section 4 - buckling, stress concentration
-    -   Ch 4.7, 5.8, 6.9 - Stress concentration (29 Apr)
-    -   Ch 13 - Buckling (6 May)
-    -   Final Exam (comprehensive) (15 May)
+    -   Ch 4.7, 5.8, 6.9 - Stress concentration (27 Apr)
+    -   Ch 13 - Buckling (4 May)
+    -   Final Exam (comprehensive) (13 May)
 
 ----
 
