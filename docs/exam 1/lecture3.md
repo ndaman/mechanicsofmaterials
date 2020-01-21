@@ -4,22 +4,22 @@ Lecture 3 - Average Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 28, 2019
+January 27, 2019
 
 ----
 
 ## schedule
 
-- 28 Jan - Average stress, Intro HW Due
-- 30 Jan - Assessment Test
-- 1 Feb - Allowable stress, Strain
-- 4 Feb - Strain, Mechanical Properties
+- 27 Jan - Average stress, Intro HW Due
+- 29 Jan - Assessment Test
+- 31 Jan - Allowable stress, Strain
+- 3 Feb - Strain, Mechanical Properties
 
 ----
 
 ## office hours
 
-- Office hours will be Fridays from 11:00 - 12:00
+- Office hours will be TBD
 - Send me an e-mail if you have a question and can't make it then
 - My office is in WH 200D (inside the main AE offices in Wallace Hall)
 
@@ -54,11 +54,14 @@ January 28, 2019
 ## example 1.8
 
 <div class="left">
-![A block 200 mm long has a leg resting against the floor at its right end, point C, and is supported by a vertical hanging rod at its left end (points A and B). A 3 kilonewton force pointing down is applied at some distance, x, from the left end.](images\example-1-8.jpg)
+
+![A block 200 mm long has a leg resting against the floor at its right end, point C, and is supported by a vertical hanging rod at its left end (points A and B). A 3 kilonewton force pointing down is applied at some distance, x, from the left end.](../images/example-1-8.jpg)
 </div>
 
 <div class="right">
-Determine the position, x, of the load so that the average compressive stress at C is equal to the average tensile stress in the rod AB. The rod has an area of `$400\si{mm}^2$` and the contact at $C$ has an area of `$650\si{mm}^2$`.
+
+Determine the position, x, of the load so that the average compressive stress at C is equal to the average tensile stress in the rod AB. The rod has an area of `$400\text{ mm}^2$` and the contact at $C$ has an area of `$650\text{ mm}^2$`.
+
 </div>
 
 ---
@@ -78,7 +81,7 @@ Determine the position, x, of the load so that the average compressive stress at
 
 ## shear stress
 
-![A block bridging across two other blocks is loaded over the gap it is bridging. This loading creates a shear stress directly above the blocks it is bridging, which is further illustrated with some free body diagrams.](images\shear-stress.jpg)<!-- .element width="30%" -->
+![A block bridging across two other blocks is loaded over the gap it is bridging. This loading creates a shear stress directly above the blocks it is bridging, which is further illustrated with some free body diagrams.](../images/shear-stress.jpg)<!-- .element width="30%" -->
 
 ----
 
@@ -96,13 +99,13 @@ Determine the position, x, of the load so that the average compressive stress at
 
 ## shear stress equilibrium
 
-![A block section is loaded horizontally along its top edge. For the block to remain in equilibrium, it is shown that equal and opposite shear stresses must develop along the other 3 faces.](images\shear-equilibrium.jpg)<!-- .element width="90%" -->
+![A block section is loaded horizontally along its top edge. For the block to remain in equilibrium, it is shown that equal and opposite shear stresses must develop along the other 3 faces.](../images/shear-equilibrium.jpg)<!-- .element width="90%" -->
 
 ----
 
 ## example 1-9
 
-![A 6 meter long beam is shown with a pin support at the left end, a downward vertical load of 30 kilonewtons 2 meters from the left end and a rope support at a 3-4-5 triangle on the right edge (3 in the horizontal direction, 4 vertically). At the left end, the pin is in double shear, while the rope is attached with a single-shear bolt.](images\example-1-9.jpg)<!-- .element width="50%" -->
+![A 6 meter long beam is shown with a pin support at the left end, a downward vertical load of 30 kilonewtons 2 meters from the left end and a rope support at a 3-4-5 triangle on the right edge (3 in the horizontal direction, 4 vertically). At the left end, the pin is in double shear, while the rope is attached with a single-shear bolt.](../images/example-1-9.jpg)<!-- .element width="50%" -->
 
 Determine the average shear stress in the 20-mm diameter pin at `$A$` and the 30-mm diameter pin at `$B$`.
 
@@ -111,10 +114,14 @@ Determine the average shear stress in the 20-mm diameter pin at `$A$` and the 30
 ## example 1-11
 
 <div class="left">
-![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](images\example-1-11.jpg)
+
+![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](../images/example-1-11.jpg)
+
 </div>
 <div class="right">
+
 Determine the average compressive stress along the smooth contact of `$AB$` and `$BC$` and the average shear stress along the horizontal plane `$DB$`.
+
 </div>
 
 ---
@@ -161,6 +168,7 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
   -   We can rearrange the equations `$\sigma=N/A$` and `$\tau=V/A$` to size
       components based on some allowable stress
+
 `$$\begin{aligned}
   A &= \frac{N}{\sigma_{allow}}\\
   A &= \frac{V}{\tau_{allow}}
@@ -170,19 +178,19 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
 ## bearing stress
 
-  ![A column under compressive loading, bearing stress is the stress developed under the column under this load.](images\bearing-stress.jpg)<!-- .element width="40%" -->
+  ![A column under compressive loading, bearing stress is the stress developed under the column under this load.](../images/bearing-stress.jpg)<!-- .element width="40%" -->
 
 ----
 
 ## embedded shear stress
 
-![A rod embedded in concrete is under tension pulling it out. The shear stress on the outer edge of the rod inside the concrete is known as embedded shear stress.](images\embedded-shear.jpg)<!-- .element width="30%" -->
+![A rod embedded in concrete is under tension pulling it out. The shear stress on the outer edge of the rod inside the concrete is known as embedded shear stress.](../images/embedded-shear.jpg)<!-- .element width="30%" -->
 
 ----
 
 ## lap joint shear
 
-![Two plates are attached together and pulled in opposite directions. The shear stress between the two where they are attached is called lap shear.](images\lap-shear.jpg)<!-- .element width="50%" -->
+![Two plates are attached together and pulled in opposite directions. The shear stress between the two where they are attached is called lap shear.](../images/lap-shear.jpg)<!-- .element width="50%" -->
 
 ---
 # limit state design
@@ -243,10 +251,14 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 ## example 1-12
 
 <div class="left">
-![An l-shaped bracket has an 8 inch vertical leg and a 5 inch horizontal leg. A single shear pinned connector holds the point of the leg, A, in place while a double shear pinned connector holds the base of the L at point C in position. There is 3 kilopound load 3 inches to the right of C acting downward and a 5 kilopound load 2 inches to the right of that acting down and to the right in the direction of a 3-4-5 triangle (3 down, 4 to the right).](images\example-1-12.jpg)
+
+![An l-shaped bracket has an 8 inch vertical leg and a 5 inch horizontal leg. A single shear pinned connector holds the point of the leg, A, in place while a double shear pinned connector holds the base of the L at point C in position. There is 3 kilopound load 3 inches to the right of C acting downward and a 5 kilopound load 2 inches to the right of that acting down and to the right in the direction of a 3-4-5 triangle (3 down, 4 to the right).](../images/example-1-12.jpg)
+
 </div>
 <div class="right">
+
 Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the factor of safety in shear is 1.5 and the failure shear stress is 12 ksi.
+
 </div>
 
 ----
@@ -254,8 +266,12 @@ Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the 
 ## example 1-15
 
 <div class="left">
-![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](images\example-1-15.png)
+
+![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](../images/example-1-15.png)
+
 </div>
 <div class="right">
-The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \si{MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
+
+The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \text{ MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
+
 </div>
