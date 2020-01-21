@@ -4,16 +4,16 @@ Lecture 4 - Strain<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 1, 2019
+January 31, 2019
 
 ----
 
 ## schedule
 
-- 1 Feb - Allowable stress, Strain
-- 4 Feb - Strain, Mechanical Properties
-- 6 Feb - Mechanical Properties, Exam 1 Review, HW2 Due
-- 8 Feb - Exam 1
+- 31 Jan - Allowable stress, Strain
+- 3 Feb - Strain, Mechanical Properties
+- 5 Feb - Mechanical Properties, Exam 1 Review, HW2 Due
+- 7 Feb - Exam 1
 
 ----
 ## outline
@@ -26,10 +26,14 @@ February 1, 2019
 ## example 1-11
 
 <div class="left">
-![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](images\example-1-11.jpg)
+
+![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](../images/example-1-11.jpg)
+
 </div>
 <div class="right">
+
 Determine the average compressive stress along the smooth contact of `$AB$` and `$BC$` and the average shear stress along the horizontal plane `$DB$`.
+
 </div>
 
 ---
@@ -51,6 +55,7 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
   -   The factor of safety is the failure load divided by the allowable
       load
+
 `$$FS = \frac{F_{fail}}{F_{allow}}$$`
 
   -   Since load and stress are linearly proportional, we could also
@@ -76,6 +81,7 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
   -   We can rearrange the equations `$\sigma=N/A$` and `$\tau=V/A$` to size
       components based on some allowable stress
+
 `$$\begin{aligned}
   A &= \frac{N}{\sigma_{allow}}\\
   A &= \frac{V}{\tau_{allow}}
@@ -85,7 +91,7 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
 ## bearing stress
 
-  ![A column under compressive loading, bearing stress is the stress developed under the column under this load.](images\bearing-stress.jpg)<!-- .element width="40%" -->
+  ![A column under compressive loading, bearing stress is the stress developed under the column under this load.](../images/bearing-stress.jpg) <!-- .element width="40%" -->
 
 ----
 
@@ -97,7 +103,7 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
 ## lap joint shear
 
-![Two plates are attached together and pulled in opposite directions. The shear stress between the two where they are attached is called lap shear.](images\lap-shear.jpg)<!-- .element width="50%" -->
+![Two plates are attached together and pulled in opposite directions. The shear stress between the two where they are attached is called lap shear.](../images/lap-shear.jpg) <!-- .element width="50%" -->
 
 ---
 # limit state design
@@ -158,10 +164,14 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 ## example 1-12
 
 <div class="left">
-![An l-shaped bracket has an 8 inch vertical leg and a 5 inch horizontal leg. A single shear pinned connector holds the point of the leg, A, in place while a double shear pinned connector holds the base of the L at point C in position. There is 3 kilopound load 3 inches to the right of C acting downward and a 5 kilopound load 2 inches to the right of that acting down and to the right in the direction of a 3-4-5 triangle (3 down, 4 to the right).](images\example-1-12.jpg)
+
+![An l-shaped bracket has an 8 inch vertical leg and a 5 inch horizontal leg. A single shear pinned connector holds the point of the leg, A, in place while a double shear pinned connector holds the base of the L at point C in position. There is 3 kilopound load 3 inches to the right of C acting downward and a 5 kilopound load 2 inches to the right of that acting down and to the right in the direction of a 3-4-5 triangle (3 down, 4 to the right).](../images/example-1-12.jpg)
+
 </div>
 <div class="right">
+
 Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the factor of safety in shear is 1.5 and the failure shear stress is 12 ksi.
+
 </div>
 
 ----
@@ -169,10 +179,14 @@ Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the 
 ## example 1-15
 
 <div class="left">
-![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](images\example-1-15.png)
+
+![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](../images/example-1-15.png)
+
 </div>
 <div class="right">
+
 The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \text{ MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
+
 </div>
 
 ---
@@ -190,7 +204,9 @@ The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B
 
 -   Strain is a more precise measurement of the deformation of a body
 -   Normal strain is given as the change in length divided by the original length
+
 $$\\epsilon = \\frac{L-L\_0}{L\_0}$$
+
 -   We can consider the average normal strain (over an entire body) or the local strain (take an infinitely small portion and calculate the strain there)
 
 ----
@@ -203,22 +219,26 @@ $$\\epsilon = \\frac{L-L\_0}{L\_0}$$
 ----
 ## shear strain
 
--   Normal strain causes a line segement to expand or contract
+-   Normal strain causes a line segment to expand or contract
 -   Deformation can also cause two lines to change their relative angle
--   The change in angle between two originally perpeindicular line segments is called shear strain
+-   The change in angle between two originally perpendicular line segments is called shear strain
+
 $$\\gamma = \\frac{\\pi}{2} - \\theta$$
 
 ----
 ## shear strain
 
-![Three stages are shown, the first is a rectangular block at rest, with a fixed support on the ground. The second shows the block after it deforms with a horizontal force acting along the top to the right. The third showns the block after it deforms with a force acting along the top to the left. The first case causes a decrease in angle between the legs of the rectangle, the difference between 90 degrees and the new angle is called gamma, the engineering shear strain. When the angle becomes larger than 90 degrees, as in the third block, the engineernig shear strain is negative.](images\shear-strain.jpg)
+![Three stages are shown, the first is a rectangular block at rest, with a fixed support on the ground. The second shows the block after it deforms with a horizontal force acting along the top to the right. The third shows the block after it deforms with a force acting along the top to the left. The first case causes a decrease in angle between the legs of the rectangle, the difference between 90 degrees and the new angle is called gamma, the engineering shear strain. When the angle becomes larger than 90 degrees, as in the third block, the engineering shear strain is negative.](../images/shear-strain.jpg)
 
 ----
 ## cartesian components
 
 -   If we consider a very small cube/prism with sides of $\Delta x$, $\Delta y$, and $\Delta z$, normal strains will change the side lengths to
+
 $$(1+\epsilon_x)\Delta x (1 + \epsilon_y)\Delta y (1 + \epsilon_z)\Delta z$$
+
 -   And the shear strains will change the shape
+
 $$\\frac{\\pi}{2}-\\gamma\_{xy} \\qquad \\frac{\\pi}{2}-\\gamma\_{yz} \\qquad \\frac{\\pi}{2}-\\gamma\_{xz}$$
 
 ----
@@ -232,7 +252,7 @@ $$\\frac{\\pi}{2}-\\gamma\_{xy} \\qquad \\frac{\\pi}{2}-\\gamma\_{yz} \\qquad \\
 ----
 ## example 2.1
 
-![Two supports, B and C are spaced six meters apart horizontally. A cable is hanging from each support and joined by a ring at point A, which is horizontally between points B and C but 4 meters below them. The ring is pulled to A prime which is 20 mm below A and 10 mm to the left](images\example-2-1.jpg)<!-- .element width="45%" -->
+![Two supports, B and C are spaced six meters apart horizontally. A cable is hanging from each support and joined by a ring at point A, which is horizontally between points B and C but 4 meters below them. The ring is pulled to A prime which is 20 mm below A and 10 mm to the left](../images/example-2-1.jpg) <!-- .element width="45%" -->
 
 Find the normal strains in the two wires if A moves to `$A^\prime$`
 
@@ -240,8 +260,12 @@ Find the normal strains in the two wires if A moves to `$A^\prime$`
 ## example 2.3
 
 <div class="left">
-![A 150 mm square block is constrained along the top, left, and bottom faces, but pushed 2 mm to the left on its right face. AC is the diagonal line going from the top left to the bottom right. E is the center point of the block (where the two diagonals intersect after deformation).](images\example-2-3.jpg)
+
+![A 150 mm square block is constrained along the top, left, and bottom faces, but pushed 2 mm to the left on its right face. AC is the diagonal line going from the top left to the bottom right. E is the center point of the block (where the two diagonals intersect after deformation).](../images/example-2-3.jpg)
+
 </div>
 <div class="right">
+
 The plate is fixed along AB and held in horizontal guides along AD and BC. If the right side is displaced 2 mm find the average normal strain along AC and the shear strain at E relative to the x and y axes.
+
 </div>
