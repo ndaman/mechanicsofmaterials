@@ -97,7 +97,7 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
 ## embedded shear stress
 
-![A rod embedded in concrete is under tension pulling it out. The shear stress on the outer edge of the rod inside the concrete is known as embedded shear stress.](images\embedded-shear.jpg)<!-- .element width="30%" -->
+![A rod embedded in concrete is under tension pulling it out. The shear stress on the outer edge of the rod inside the concrete is known as embedded shear stress.](../images/embedded-shear.jpg) <!-- .element width="30%" -->
 
 ----
 
