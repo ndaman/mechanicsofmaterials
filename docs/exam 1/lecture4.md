@@ -4,7 +4,7 @@ Lecture 4 - Strain<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 31, 2019
+January 31, 2020
 
 ----
 
