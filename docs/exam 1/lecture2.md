@@ -8,6 +8,10 @@ January 24, 2020
 
 ----
 
+![jimmy](../images/jimmyg.jpg)
+
+----
+
 ## schedule
 
 - 24 Jan - Stress
@@ -20,7 +24,7 @@ January 24, 2020
 ## office hours
 
 - 17/45 students reporting
-- Tuesday 1:00 - 2:00 or Friday 10:00 - 11:00 look like the best options
+- Tuesday 1:00 - 2:00 looks like the best option so far
 - You have until next Monday's class to vote for your preferred time, that is when I would like to finalize office hours
 - As always, if you can't make it to office hours, just send me an e-mail and we'll try to work something out
 
