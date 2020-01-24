@@ -10,16 +10,17 @@ January 24, 2020
 
 ## schedule
 
-- 25 Jan - Stress
-- 28 Jan - Average stress, Intro HW Due
-- 30 Jan - Assessment Test
-- 1 Feb - Allowable stress, Strain, HW1 Due
+- 24 Jan - Stress
+- 27 Jan - Average stress, Intro HW Due
+- 29 Jan - Assessment Test
+- 31 Jan - Allowable stress, Strain, HW1 Due
 
 ----
 
 ## office hours
 
-- TBD
+- 17/45 students reporting
+- Tuesday 1:00 - 2:00 or Friday 10:00 - 11:00 look like the best options
 - You have until next Monday's class to vote for your preferred time, that is when I would like to finalize office hours
 - As always, if you can't make it to office hours, just send me an e-mail and we'll try to work something out
 
