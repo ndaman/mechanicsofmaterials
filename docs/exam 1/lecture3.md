@@ -8,6 +8,12 @@ January 27, 2020
 
 ----
 
+<section>
+	<video controls id="plasticity" src="../images/xhh0i.mp4" type="video/mp4" style="height: 50%; width: 50%;" />
+</section>
+
+----
+
 ## schedule
 
 - 27 Jan - Average stress, Intro HW Due
@@ -19,7 +25,7 @@ January 27, 2020
 
 ## office hours
 
-- Office hours will be TBD
+- Office hours will be Fridays 2:00 - 3:00
 - Send me an e-mail if you have a question and can't make it then
 - My office is in WH 200D (inside the main AE offices in Wallace Hall)
 
