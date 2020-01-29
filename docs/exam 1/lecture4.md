@@ -12,8 +12,8 @@ January 31, 2020
 
 - 31 Jan - Allowable stress, Strain
 - 3 Feb - Strain, Mechanical Properties
-- 5 Feb - Mechanical Properties, Exam 1 Review, HW2 Due
-- 7 Feb - Exam 1
+- 5 Feb - Mechanical Properties, Exam 1 Review
+- 7 Feb - Exam 1, HW2 Due
 
 ----
 ## outline
@@ -21,6 +21,15 @@ January 31, 2020
 - allowable stress
 - limit state
 - strain
+
+----
+## office hours
+
+- Office hours will be Fridays 2:00 - 3:00
+- Send me an e-mail if you have a question and can't make it then
+- My office is in WH 200D (inside the main AE offices in Wallace Hall)
+- Back-up office hours (AE 737 Office Hours) are Tuesdays 3:00 - 4:00
+
 
 ----
 ## example 1-11
