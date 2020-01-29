@@ -88,7 +88,7 @@ A steel rod with a 10mm diameter is attached to a rigid collar passing through a
 
 <div class="left">
 
-![A cone has a radius of 0.3 m and a length of 3 m. The large end is fixed while the pointed end hangs down.](../images/example-4-4.jpg)
+![A cone has a radius of 0.3 m and a length of 3 m. The large end is fixed while the pointed end hangs down.](../images/example-4-4.jpg) <!-- .element width="60%" -->
 
 </div>
 <div class="right">
