@@ -13,7 +13,8 @@ January 31, 2020
 - 31 Jan - Allowable stress, Strain
 - 3 Feb - Strain, Mechanical Properties
 - 5 Feb - Mechanical Properties, Exam 1 Review
-- 7 Feb - Exam 1, HW2 Due
+- 7 Feb - Axial Load, HW2 Due
+- 10 Feb - Exam 1
 
 ----
 ## outline
