@@ -13,7 +13,7 @@ February 7, 2020
 
 - 7 Feb - Axial Load
 - 10 Feb - Exam 1
-- 12 Feb - Torsion
+- 12 Feb - Axial Load
 - 14 Feb - Torsion, HW3 Due
 
 ----
@@ -32,7 +32,7 @@ February 7, 2020
 
 -   We use Saint Venant's principle to generalize various loading applications
 -   If we apply a concentrated force, near where we apply it (for example, along a pin), the stress will not be very uniform
--   Far away from that point, however, the stess will be uniform, whether we apply the force with 1 pin, 2 pins, or via a uniform grip
+-   Far away from that point, however, the stress will be uniform, whether we apply the force with 1 pin, 2 pins, or via a uniform grip
 
 ----
 ## saint venant's principle

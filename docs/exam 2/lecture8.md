@@ -5,51 +5,24 @@ Lecture 8 - Axial Load<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 13, 2019
+February 14, 2020
 
 ----
 
 ## schedule
 
-- 13 Feb - Axial Load
-- 15 Feb - Torsion
-- 18 Feb - Torsion, HW3 Due
-- 20 Feb - Bending
+- 14 Feb - Axial Load
+- 17 Feb - Torsion
+- 19 Feb - Torsion
+- 21 Feb - Bending, HW3 Due
 
 ----
 ## outline
-- review
+
 - superposition
 - statically indeterminate
 - force method
 - thermal stress
-
----
-# review
-
-----
-## review
-
--   What is Saint Venant's Principle?
--   How do we find axial deformation, in general?
-
-----
-## example 4.2
-
-![The steel rod is 600 mm long and has an 80 kN load applied at the right end, the aluminum collar is 400 mm long.](images\example-4-2.jpg)<!-- .element width="60%" -->
-
-A steel rod with a 10mm diameter is attached to a rigid collar passing through an aluminum tube with cross-sectional area of 400 mm<sup>2</sup>. Find the displacement at C if `$E_{st} = 200$` GPa and `$E_{al} = 70$` GPa.
-
-----
-## example 4.4
-
-<div class="left">
-![A cone has a radius of 0.3 m and a length of 3 m. The large end is fixed while the pointed end hangs down.](images\example-4-4.jpg)
-</div>
-<div class="right">
-The cone shown has a specific weight of $\gamma = 6$ kN/m<sup>3</sup> and $E=9$ GPa.
-Determine how far the end is displaced due to gravity.
-</div>
 
 ---
 # superposition
