@@ -130,7 +130,7 @@ The steel rod shown has a diameter of 10 mm. Determine the reactions at A and B'
 
 <div class="left">
 
-![An aluminum tube used as a sleeve for a steel bolt. The tube is 150 mm long.](../images/example-4-12.jpg)
+![An aluminum tube used as a sleeve for a steel bolt. The tube is 150 mm long.](../images/example-4-12.jpg) <!-- .element width="70%" -->
 
 </div>
 <div class="right">
