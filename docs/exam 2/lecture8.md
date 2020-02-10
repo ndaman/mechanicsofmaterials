@@ -33,7 +33,7 @@ February 14, 2020
 -   Some problems are too complicated to solve all at once
 -   Instead, we break them up into two simpler problems
 -   Each "sub-problem" must still satisfy equilibrium
--   Problem must be linear and the deformation should be small enough that it does not cause moment-equilibrium isssues
+-   Problem must be linear and the deformation should be small enough that it does not cause moment-equilibrium issues
 
 ---
 # statically indeterminate
@@ -55,17 +55,21 @@ February 14, 2020
 ----
 ## statically indeterminate
 
-![A 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top.](images\statically-indeterminate.jpg) <!-- .element width="25%" -->
+![A 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top.](../images/statically-indeterminate.jpg) <!-- .element width="25%" -->
 
 ----
 ## example 4.7
 
 <div class="left">
-![A 0.8 m long rigid horizontal bar is supported by hanging from 3 vertical rods. Rod AB supports the left end, rod CD supports the middle and rod EF supports the right end. A 15 kN load is applied 0.2 m from the left end.](images\example-4-7.jpg)
+
+![A 0.8 m long rigid horizontal bar is supported by hanging from 3 vertical rods. Rod AB supports the left end, rod CD supports the middle and rod EF supports the right end. A 15 kN load is applied 0.2 m from the left end.](../images/example-4-7.jpg)
+
 </div>
 <div class="right">
+
 Assuming the bottom bar is rigid, find the force developed in each bar.
 AB and EF have cross-sectional areas of 50 mm<sup>2</sup> while CD has a cross-sectional area of 30 mm<sup>2</sup>.
+
 </div>
 
 ---
@@ -81,7 +85,7 @@ AB and EF have cross-sectional areas of 50 mm<sup>2</sup> while CD has a cross-s
 ----
 ## force method
 
-![An illustration of the force method, we have the same statically indeterminate problem as before, a 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top. We set this equivalent to a a bar with the same load, but no support on the bottom end. We then add a force which will provide enough displacement to cancel out the displacement introduced by removing the load.](images\force-method.png)
+![An illustration of the force method, we have the same statically indeterminate problem as before, a 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top. We set this equivalent to a a bar with the same load, but no support on the bottom end. We then add a force which will provide enough displacement to cancel out the displacement introduced by removing the load.](../images/force-method.png)
 
 ----
 ## force method
@@ -99,9 +103,9 @@ AB and EF have cross-sectional areas of 50 mm<sup>2</sup> while CD has a cross-s
 ----
 ## example 4.9
 
-![A 1200 mm long horizontal rod is fixed at its left end and has a fixed support 0.2 mm away from its right end. A 20 kN load is applied to the right 400 mm away from its left end.](images\example-4-9.jpg)
+![A 1200 mm long horizontal rod is fixed at its left end and has a fixed support 0.2 mm away from its right end. A 20 kN load is applied to the right 400 mm away from its left end.](../images/example-4-9.jpg)
 
-The steel rod shown has a diamater of 10 mm. Determine the reactions at A and B'.
+The steel rod shown has a diameter of 10 mm. Determine the reactions at A and B'.
 
 ---
 # thermal stress
@@ -111,6 +115,7 @@ The steel rod shown has a diamater of 10 mm. Determine the reactions at A and B'
 
 -   A change in temperature cases a material to either expand or contract
 -   For most materials this is linear and can be described using the coefficient of linear expansion
+
 `$$\delta_T = \alpha \Delta T L$$`
 
 ----
@@ -124,8 +129,12 @@ The steel rod shown has a diamater of 10 mm. Determine the reactions at A and B'
 ## example 4.12
 
 <div class="left">
-![An aluminum tube used as a sleeve for a steel bolt. The tube is 150 mm long.](images\example-4-12.jpg)
+
+![An aluminum tube used as a sleeve for a steel bolt. The tube is 150 mm long.](../images/example-4-12.jpg)
+
 </div>
 <div class="right">
+
 An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve for a steel bolt with cross-sectional area of 400 mm<sup>2</sup>. When T=15 degrees Celsius there is negligible force and a snug fit, find the force in the bolt and sleeve when T=80 degrees Celsius.
+
 </div>
