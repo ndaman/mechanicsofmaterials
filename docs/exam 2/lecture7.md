@@ -14,7 +14,7 @@ February 7, 2020
 - 7 Feb - Axial Load
 - 10 Feb - Exam 1
 - 12 Feb - Axial Load
-- 14 Feb - Torsion, HW3 Due
+- 14 Feb - Axial Load
 
 ----
 ## outline
