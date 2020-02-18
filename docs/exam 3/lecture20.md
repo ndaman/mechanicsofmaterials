@@ -4,7 +4,7 @@ Lecture 20 - Combined loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-16 March, 2019
+16 March, 2020
 
 ----
 ## schedule
