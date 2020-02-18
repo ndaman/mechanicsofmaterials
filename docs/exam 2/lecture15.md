@@ -5,19 +5,19 @@ Lecture 15 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-1 Mar, 2019
+4 March, 2020
 
 ----
-
 ## schedule
 
-- 1 Mar - Bending
-- 4 Mar - Transverse Shear, HW 5 Due
-- 6 Mar - Exam 2 Review
-- 8 Mar - Exam 2
+- 4 Mar - Bending
+- 6 Mar - Exam 2 Review, HW 5 Due
+- 9 Mar - Exam 2
+- 11 Mar - Transverse Shear
 
 ----
 ## outline
+
 <!-- TOC START min:1 max:1 link:false update:true -->
 - bending deformation
 - flexure formula
@@ -46,7 +46,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## bending deformation
 
-![An example beam drawn in 3D with a grid drawn on it while it bends.](images\beam-deformation.jpg) <!-- .element width="60%" -->
+![An example beam drawn in 3D with a grid drawn on it while it bends.](../images/beam-deformation.jpg) <!-- .element width="60%" -->
 
 ----
 ## neutral axis
@@ -66,12 +66,13 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## strain
 
-![A small beam section before and after deformation](images\beam-element.jpg) <!-- .element width="40%" -->
+![A small beam section before and after deformation](../images/beam-element.jpg) <!-- .element width="40%" -->
 
 ----
 ## strain
 
 -   We can now define strain at the line segment $\Delta s$ as
+
 $$\\epsilon = \\lim\_{\\Delta s \\to 0} \\frac{\\Delta s^\\prime - \\Delta s}{\\Delta s}$$
 
 ----
@@ -79,8 +80,11 @@ $$\\epsilon = \\lim\_{\\Delta s \\to 0} \\frac{\\Delta s^\\prime - \\Delta s}{\\
 
 -   If we define $\rho$ as the radius of curvature after deformation, thus $\Delta x = \Delta s = \rho \Delta \theta $
 -   The radius of curvature at $\Delta s$ is $\rho - y$, thus we can write
+
 $$\\epsilon = \\lim\_{\\Delta \\theta \\to 0} \\frac{(\\rho-y)\\Delta \\theta - \\rho \\Delta \\theta}{\\rho \\Delta \\theta}$$
+
 -   Which gives
+
 $$\\epsilon = -\\frac{y}{\\rho}$$
 
 ---
@@ -97,6 +101,7 @@ $$\\epsilon = -\\frac{y}{\\rho}$$
 
 -   We have already hypothesized that a neutral axis must exist, we will now find its location
 -   To be in equilibrium, the resultant force(s) produced by the stress must sum to zero, which means
+
 $$\\begin{aligned}
   \\sum F\_x &= 0 = \\int\_A dF = \\int\_A \\sigma dA\\\\
   &= \\int\_A -\\left( \\frac{y}{c} \\right) \\sigma\_{max} dA\\\\
@@ -107,13 +112,16 @@ $$\\begin{aligned}
 ## neutral axis
 
 -   Since $\sigma_{max}$ and *c* are both non-zero constants, we know that
+
 $$ \int_A y dA = 0$$
+
 -   Which can only be satisfied at the horizontal centroidal axis, so the neutral axis is the centroidal axis
 
 ----
 ## bending moment
 
 -   The internal bending moment must be equal to the total moment produced by the stress distribution
+
 $$\\begin{aligned}
   M &= \\int\_A y dF = \\int\_A y (\\sigma dA) \\\\
   &= \\int\_A y \\left( \\frac{y}{c} \\sigma\_{max} \\right) dA \\\\
@@ -124,6 +132,7 @@ $$\\begin{aligned}
 ## bending moment
 
 -   We recognize that `$\int_A y^2 dA = I$`, and we re-arrange to write
+
 $$\\sigma\_{max} = \\frac{Mc}{I}$$
 
 ----
@@ -138,11 +147,15 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 ## example 6.12
 
 <div class="left">
-    ![A 6 meter long beam is pinned at both ends and subjected to a uniformly distruted load of 5 kN/m. ](images\example-6-12.png)
+
+![A 6 meter long beam is pinned at both ends and subjected to a uniformly distributed load of 5 kN/m. ](../images/example-6-12.png)
+
 </div>
 
 <div class="right">
-  Find the maximum bending stress and draw the stress distribution through the thickness at that point.
+
+Find the maximum bending stress and draw the stress distribution through the thickness at that point.
+
 </div>
 
 ---
@@ -160,8 +173,11 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 
 -   The parallel axis theorem is used to find the moment about any axis parallel to an axis passing through the centroid
 -   If we consider an axis parallel to the *x*-axis, separated by some *dy* we have
+
 `$$I_X = \int_A (y + dy)^2 dA$$`
+
 -   Which gives
+
 `$$I_x = \int_A y^2 dA + 2dy \int_A ydA + dy^2 \int_A dA$$`
 
 ----
@@ -170,12 +186,14 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 -   The first integral is the moment of inertia about the original *x*-axis, which we will call $\\bar{I}\_x$
 -   The second integral is zero since the *x*-axis passes through the centroid
 -   This gives the parallel axis theorem
+
 $$I\_x = \\bar{I}\_x + A dy^2$$
 
 ----
 ## parallel axis theorem
 
 -   Similarly for the *y*-axis and polar moment of inertia we find
+
 $$I\_y = \\bar{I}\_y + A dx^2$$
 $$J\_O = \\bar{J}\_C + A d^2$$
 
@@ -186,27 +204,35 @@ $$J\_O = \\bar{J}\_C + A d^2$$
 ## group one
 
 <div class="left">
-![A hollow rectangular tube 0.4m tall and 0.2m wide on the outside and 0.2 m tall and 0.1 wide on the inside.](images\group-6-1.jpg)  
+
+![A hollow rectangular tube 0.4m tall and 0.2m wide on the outside and 0.2 m tall and 0.1 wide on the inside.](../images/group-6-1.jpg)  
+
 </div>
 
 <div class="right">
-  Determine the moment of inertia about the neutral axis
+
+Determine the moment of inertia about the neutral axis
+
 </div>
 
 ----
 ## group two
 
 <div class="left">
-![An upside-down t-section is 0.2m wide at the base, which is 0.1 m tall, the web is 0.1 m wide and 0.3 m tall.](images\group-6-2.jpg)  
+
+![An upside-down t-section is 0.2m wide at the base, which is 0.1 m tall, the web is 0.1 m wide and 0.3 m tall.](../images/group-6-2.jpg)  
+
 </div>
 
 <div class="right">
-  Find the neutral axis and determine the moment of inertia about the neutral axis
+
+Find the neutral axis and determine the moment of inertia about the neutral axis
+
 </div>
 
 ----
 ## group three
 
-![A beam is supported by pins at the right end and a point some distance away from the left end. A vertical load is applied at the left end, point B as it at the bottom side of the beam between the load and the first pin support, point A is between the two pin supports.](images\group-6-3.jpg)
+![A beam is supported by pins at the right end and a point some distance away from the left end. A vertical load is applied at the left end, point B as it at the bottom side of the beam between the load and the first pin support, point A is between the two pin supports.](../images/group-6-3.jpg)
 
 Show how the bending stress acts on a differential volume at point A and B.

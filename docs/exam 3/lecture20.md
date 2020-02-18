@@ -4,17 +4,15 @@ Lecture 20 - Combined loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-25 Mar, 2019
+16 March, 2019
 
 ----
-
 ## schedule
 
-- 25 Mar - Combined Loading, HW6 Due
-- 27 Mar - Combined Loading
-- 29 Mar - Stress Transformation
-- 1 Apr - Stress Transformation, HW7 Due
-
+- 16 Mar - Combined Loading
+- 18 Mar - Combined Loading
+- 20 Mar - Combined Loading, HW6 Due
+- 25-28 Mar - Spring Break
 
 ----
 ## outline
@@ -33,7 +31,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## thin-walled pressure vessels
 
--   If the radius to wall thickness ratio is 10 or more, we can treet a pressure vessule as “thin-walled”
+-   If the radius to wall thickness ratio is 10 or more, we can treat a pressure vessel as “thin-walled”
 -   Cylindrical pressure vessels will have two primary sources of stress, and serve as an introduction to more general states of combined loading
 
 ----
@@ -45,6 +43,7 @@ Wichita State University, Department of Aerospace Engineering
 ## cylindrical vessels
 
 -   From equilibrium of a section of a cylindrical vessel, we see that
+
 $$\\begin{aligned}
   \\sum F\_x &= 0\\\\
   &= 2(\\sigma\_1 t dy) - p (2r) dy\\\\
@@ -60,6 +59,7 @@ $$\\begin{aligned}
 ## cylindrical vessels
 
 -   Considering another section we can find the longitudinal stress
+
 $$\\begin{aligned}
   \\sum F\_y &= 0\\\\
   &= \\sigma\_2 (2\\pi rt) - p (\\pi r^2)\\\\
@@ -70,7 +70,9 @@ $$\\begin{aligned}
 ## spherical vessels
 
 -   We can find the stress in spherical vessels using an identical section to the longitudinal section for a cylindrical vessel, and we find that
+
 $$\\sigma = \\frac{pr}{2t}$$
+
 -   Which is valid everywhere in a cylindrical vessel
 
 ----

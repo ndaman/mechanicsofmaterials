@@ -5,19 +5,19 @@ Lecture 12 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 22, 2019
+February 26, 2020
 
 ----
-
 ## schedule
 
-- 22 Feb - Torsion, HW4 Due
-- 25 Feb - Bending
-- 27 Feb - Bending
-- 1 Mar - Bending
+- 26 Feb - Bending
+- 28 Feb - Bending, HW4 Due
+- 2 Mar - Bending
+- 4 Mar - Bending
 
 ----
 ## outline
+
 <!-- TOC START min:1 max:1 link:false update:true -->
 - angle of twist
 - statically indeterminate torsion
@@ -39,21 +39,25 @@ February 22, 2019
 ----
 ## angle of twist
 
-![A section of an arbitrary cone is shown to depict how we can find the incremental change in angle from one end of the section to the next.](images\generaltorsion.png)
+![A section of an arbitrary cone is shown to depict how we can find the incremental change in angle from one end of the section to the next.](../images/generaltorsion.png)
 
 
 ----
 ## angle of twist
 
 -   $\gamma$ and $d\phi$ are related by
+
 $$d\\phi = \\gamma \\frac{dx}{\\rho}$$
+
 -   We also know that $\gamma = \tau/G$ and $\tau = T(x) \rho / J(x)$ substituting both this gives
+
 $$d\\phi = \\frac{T(x)}{J(x)G(x)}dx$$
 
 ----
 ## multiple torques
 
 -   If a shaft is subjected to multiple torques, or if there is a discontinuous change in shape or material we can sum the change in angle over various segments
+
 $$\\phi = \\sum \\frac{TL}{JG}$$
 
 ----
@@ -67,11 +71,15 @@ $$\\phi = \\sum \\frac{TL}{JG}$$
 ## example 5.8
 
 <div class="left">
-  ![A wrench is attached to a post. 24 inches of the post are embedded in soil, while the other 36 inches continue above the soil. The post has a diameter of 2 inches and a couple moment of 25 lbs. 6 inches away from the center is applied on the wrench.](images\example-5-8.jpg)
+
+![A wrench is attached to a post. 24 inches of the post are embedded in soil, while the other 36 inches continue above the soil. The post has a diameter of 2 inches and a couple moment of 25 lbs. 6 inches away from the center is applied on the wrench.](../images/example-5-8.jpg)
+
 </div>
 
 <div class="right">
+
 Find the maximum shear stress in the post and the angle of twist of the wrench.The torque is about to turn the bottom of the post, the soil exerts uniform torsional resistance of *t* lb.in/in and G=5.5 Msi.
+
 </div>
 
 ---
@@ -88,11 +96,15 @@ Find the maximum shear stress in the post and the angle of twist of the wrench.T
 ## example 5.10
 
 <div class="left">
-  ![The brass core has a radius of 0.5 inches, while the steel tube has an outer radius of 1 inch. The shaft is 4 ft long and fixed at one end with a torque of 250 ft.lb applied at the other end.](images\example-5-10.jpg)
+
+![The brass core has a radius of 0.5 inches, while the steel tube has an outer radius of 1 inch. The shaft is 4 ft long and fixed at one end with a torque of 250 ft.lb applied at the other end.](../images/example-5-10.jpg)
+
 </div>
 
 <div class="right">
+
 The shaft shown is made from a steel tube bonded to a brass core. Plot the shear stress distribution along a radial line on its cross-section where `$G_{ST}=11.4$` Msi and `$G_{BR}=5.20$` Msi.  
+
 </div>
 
 ---
@@ -108,7 +120,7 @@ The shaft shown is made from a steel tube bonded to a brass core. Plot the shear
 ----
 ## theory of elasticity
 
-![A table of theoretical conversion factors between various shaft shapes.](images\torsion-cross-section.jpg) <!-- .element width="40%" -->
+![A table of theoretical conversion factors between various shaft shapes.](../images/torsion-cross-section.jpg) <!-- .element width="40%" -->
 
 ---
 # thin-walled tubes
@@ -124,14 +136,18 @@ The shaft shown is made from a steel tube bonded to a brass core. Plot the shear
 ## shear flow
 
 -   If we consider an arbitrary segment of a tube with varying thickness, we find from equilibrium that the product of the average shear stress and the thickness must be the same at every location on the cross-section
+
 $$q = \tau_{avg} t$$
+
 -   *q* is called the shear flow
 
 ----
 ## average shear stress
 
 -   We can relate the average shear stress to the torque by considering the torque produced about some point within the tubes boundary
+
 `$$T = \oint h \tau_{avg} t ds$$`
+
 -   Where *h* is the distance from the reference point, *ds* is the differential arc length and *t* is the tube thickness.
 
 ----
@@ -139,19 +155,23 @@ $$q = \tau_{avg} t$$
 
 -   We notice that `$\tau_{avg}t$` is equal to the shear flow, *q*, which must be constant
 -   We can also simplify the integral by relating a similar area integral to the arc length integral
+
 $$dA_m = 1/2 h ds$$
+
 -   Thus
+
 $$T = \oint h\tau_{avg} t ds = 2 q \int dA_m = 2 q A_m$$
 
 ----
 ## angle of twist
 
 - The angle of twist for a thin-walled tube is given by
+
 `$$ \phi = \frac{TL}{4A_m^2 G} \oint \frac{ds}{t} $$`
 
 ----
 ## example 5.13
 
-![A hollow rectangular tube is 40 mm wide and 60 mm tall with thickness of 5 mm horizontally and 3 mm vertically. It is fixed at one end with a torque of -25 N.m applied 1.5 m away from the fixed end and a torque of 60 N.m applied at the free end, 2.0 m away from the fixed end. A and B are both at the middle of the tube, A on a horizontal wall and B on a vertical wall.](images\example-5-13.jpg) <!-- .element width="60%" -->
+![A hollow rectangular tube is 40 mm wide and 60 mm tall with thickness of 5 mm horizontally and 3 mm vertically. It is fixed at one end with a torque of -25 N.m applied 1.5 m away from the fixed end and a torque of 60 N.m applied at the free end, 2.0 m away from the fixed end. A and B are both at the middle of the tube, A on a horizontal wall and B on a vertical wall.](../images/example-5-13.jpg) <!-- .element width="60%" -->
 
 Determine the average shear stress at A and B.

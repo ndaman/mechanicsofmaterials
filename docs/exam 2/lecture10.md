@@ -1,20 +1,18 @@
-
 ## AE333
 ## Mechanics of Materials
 Lecture 10 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 18, 2019
+February 21, 2020
 
 ----
-
 ## schedule
 
-- 18 Feb - Torsion, HW3 Due
-- 20 Feb - Torsion
-- 22 Feb - Bending
-- 25 Feb - Bending, HW4 Due
+- 21 Feb - Torsion, HW3 Due
+- 24 Feb - Torsion
+- 26 Feb - Bending
+- 28 Feb - Bending, HW4 Due
 
 ----
 ## outline
@@ -40,7 +38,7 @@ February 18, 2019
 ----
 ## force method
 
-![An illustration of the force method, we have the same statically indeterminate problem as before, a 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top. We set this equivalent to a a bar with the same load, but no support on the bottom end. We then add a force which will provide enough displacement to cancel out the displacement introduced by removing the load.](images\force-method.png)
+![An illustration of the force method, we have the same statically indeterminate problem as before, a 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top. We set this equivalent to a bar with the same load, but no support on the bottom end. We then add a force which will provide enough displacement to cancel out the displacement introduced by removing the load.](../images/force-method.png)
 
 ----
 ## force method
@@ -58,9 +56,9 @@ February 18, 2019
 ----
 ## example 4.9
 
-![A 1200 mm long horizontal rod is fixed at its left end and has a fixed support 0.2 mm away from its right end. A 20 kN load is applied to the right 400 mm away from its left end.](images\example-4-9.jpg)
+![A 1200 mm long horizontal rod is fixed at its left end and has a fixed support 0.2 mm away from its right end. A 20 kN load is applied to the right 400 mm away from its left end.](../images/example-4-9.jpg)
 
-The steel rod shown has a diamater of 10 mm. Determine the reactions at A and B'.
+The steel rod shown has a diameter of 10 mm. Determine the reactions at A and B'.
 
 ---
 # thermal stress
@@ -70,6 +68,7 @@ The steel rod shown has a diamater of 10 mm. Determine the reactions at A and B'
 
 -   A change in temperature causes a material to either expand or contract
 -   For most materials this is linear and can be described using the coefficient of linear expansion
+
 `$$\delta_T = \alpha \Delta T L$$`
 
 ----
@@ -83,10 +82,14 @@ The steel rod shown has a diamater of 10 mm. Determine the reactions at A and B'
 ## example 4.12
 
 <div class="left">
-![An aluminum tube used as a sleeve for a steel bolt. The tube is 150 mm long.](images\example-4-12.jpg)
+
+![An aluminum tube used as a sleeve for a steel bolt. The tube is 150 mm long.](../images/example-4-12.jpg)
+
 </div>
 <div class="right">
+
 An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve for a steel bolt with cross-sectional area of 400 mm<sup>2</sup>. When T=15 degrees Celsius there is negligible force and a snug fit, find the force in the bolt and sleeve when T=80 degrees Celsius.
+
 </div>
 
 ---
@@ -96,13 +99,13 @@ An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve fo
 ## torsion
 
 -   Torque is a moment that tends to twist a member about its axis
--   For small deformation problems, we assume that the length and radius do not change signicantly under torsion
+-   For small deformation problems, we assume that the length and radius do not change significantly under torsion
 -   The primary deformation we are concerned with in torsion is the angle of twist, denoted with $\phi$
 
 ----
 ## shear
 
-![A thin disk under applied torsion. The shear strain varies linearly with radial distance from the center.](images\torsion-disk.jpg)<!-- .element width="40%" -->
+![A thin disk under applied torsion. The shear strain varies linearly with radial distance from the center.](../images/torsion-disk.jpg) <!-- .element width="40%" -->
 
 ----
 ## torsion formula
@@ -114,16 +117,23 @@ An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve fo
 ## torsion formula
 
 -   We can find the total force on an element, *dA* by multiplying the shear stress by the area
+
 `$$ dF = \tau dA$$`
+
 -   The torque (`$dT = \rho dF$`) produced by this force is then
+
 `$$dT = \rho(\tau dA)$$`
+
 
 ----
 ## torsion formula
 
 -   Integrating over the whole cross-section gives
+
 $$T = \\int\_A \\rho (\\tau dA) = \\frac{\\tau\_{max}}{c} \\int\_A \\rho^2 dA$$
+
 -   The integral `$\int_A \rho^2 dA$` is also called the Polar Moment of Inertia, *J*, so we can write
+
 $$\\tau\_{max} = \\frac{Tc}{J}$$
 
 ----
@@ -131,18 +141,25 @@ $$\\tau\_{max} = \\frac{Tc}{J}$$
 
 -   We know that `$J=\int_A \rho^2 dA$`, so we can compute this for some common shapes
 -   For a solid circular cross-section, we have
+
 $$J = \\int\_0^c \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}c^4$$
+
 -   For a circular tube we have
+
 $$J = \\int\_{c\_1}^{c\_2} \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}(c\_2^4-c\_1^4)$$
 
 ----
 ## example 5.1
 
 <div class="left">
-![On left is a solid 100 mm radius tube, while on the right is a hollow tube with outter radius of 100 mm and inner radius of 75 mm. Element A is on the surface of the solid tube on the left, element B is on the outter surface of the hollow tube on the right and Element C is on the inner surface of the hollow tube on the right.](images\example-5-1.png)
+
+![On left is a solid 100 mm radius tube, while on the right is a hollow tube with outer radius of 100 mm and inner radius of 75 mm. Element A is on the surface of the solid tube on the left, element B is on the outer surface of the hollow tube on the right and Element C is on the inner surface of the hollow tube on the right.](../images/example-5-1.png)
+
 </div>
 <div class="right">
+
 The allowable shear stress is 75 MPa. Determine the maximum torque that can be applied to each of the cross-sections shown and find the stress acting on a small element at A, B and C.
+
 </div>
 
 ---
@@ -166,7 +183,9 @@ The allowable shear stress is 75 MPa. Determine the maximum torque that can be a
 
 -   We often know the power and frequency of a drive, and need to design a shaft such that the shear stress is acceptable
 -   We can easily find the torque as $T=P/2\pi f$, we can use this combined with the torsion equation
+
 $$\\tau\_{max} = \\frac{Tc}{J}$$
+
 to find the appropriate shaft diameter.
 -   For solid shafts we can solve for *c* uniquely, but not for hollow shafts
 
@@ -174,9 +193,13 @@ to find the appropriate shaft diameter.
 ## example 5.4
 
 <div class="left">
-![A rotating shaft connected to a motor](images\example-5-4.jpg)
+
+![A rotating shaft connected to a motor](../images/example-5-4.jpg)
+
 </div>
 
 <div class="right">
+
 The steel shaft shown is connected to a 5 hp motor that rotates at $\omega=175$ rpm. If `$\tau_{allow}=14.5$` ksi, determine the required shaft diameter.
+
 </div>

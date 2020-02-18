@@ -5,25 +5,24 @@ Lecture 14 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 27, 2019
+2 March, 2020
 
 ----
-
 ## schedule
 
-- 27 Feb - Bending
-- 1 Mar - Bending
-- 4 Mar - Transverse Shear, HW 5 Due
-- 6 Mar - Exam 2 Review
+- 2 Mar - Bending
+- 4 Mar - Bending
+- 6 Mar - Exam 2 Review, HW 5 Due
+- 9 Mar - Exam 2
 
 ----
 ## outline
+
 <!-- TOC START min:1 max:1 link:false update:true -->
 - shear and moment diagrams
 - graphical method
 - bending deformation
 - flexure formula
-
 <!-- TOC END -->
 
 
@@ -49,24 +48,24 @@ February 27, 2019
 ----
 ## sign convention
 
-![A cantilever beam with some arbitrary loads and a section marked](images\beam-internal.jpg) <!-- .element width="60%" -->
+![A cantilever beam with some arbitrary loads and a section marked](../images/beam-internal.jpg) <!-- .element width="60%" -->
 
-![A free body diagram of the above beam with internal loads shown where the section cut was made.](images\beam-internal-cut.jpg) <!-- .element width="60%" -->
-
-----
-## example beam
-
-![A simply supported beam with a distruted load acting over one portion and a concentrated load later. This beam is to illustrate the method of setting up multiple coordinate systems for different sections.](images\piece-wise-beam.jpg) <!-- .element width="60%" -->
+![A free body diagram of the above beam with internal loads shown where the section cut was made.](../images/beam-internal-cut.jpg) <!-- .element width="60%" -->
 
 ----
 ## example beam
 
-![A shear diagram for the above beam](images\shear-diagram.jpg) <!-- .element width="60%" -->
+![A simply supported beam with a distributed load acting over one portion and a concentrated load later. This beam is to illustrate the method of setting up multiple coordinate systems for different sections.](../images/piece-wise-beam.jpg) <!-- .element width="60%" -->
 
 ----
 ## example beam
 
-![A moment diagram for the above beam](images\moment-diagram.jpg) <!-- .element width="60%" -->
+![A shear diagram for the above beam](../images/shear-diagram.jpg) <!-- .element width="60%" -->
+
+----
+## example beam
+
+![A moment diagram for the above beam](../images/moment-diagram.jpg) <!-- .element width="60%" -->
 
 ---
 # graphical method
@@ -80,7 +79,7 @@ February 27, 2019
 ----
 ## distributed load
 
-![Internal loading shown on a differential element sectioned from a beam.](images\distributed-load.jpg) <!-- .element width="40%" -->
+![Internal loading shown on a differential element sectioned from a beam.](../images/distributed-load.jpg) <!-- .element width="40%" -->
 
 ----
 ## distributed load
@@ -88,6 +87,7 @@ February 27, 2019
 -   Consider a beam subjected to only distributed loading
 -   If we section this beam in the middle (to remove both supports) we can relate *V* to the loading function *w*(*x*)
 -   Considering the sum of forces in *y*:
+
 $$\\begin{aligned}
   V + w(x)\\Delta x - (V + \\Delta V) &= 0\\\\
   \\Delta V &= w(x) \\Delta x
@@ -97,43 +97,52 @@ $$\\begin{aligned}
 ## distributed load
 
 -   If we divide by $\Delta x$ and let $\Delta x \to 0$ we find
+
 $$\\frac{dV}{dx} = w(x)$$
+
 -   Thus the slope of the shear diagram is equal to the distributed load function
 
 ----
 ## moment diagram
 
 -   If we consider the sum of moments about *O* on the same section we find
+
 $$\\begin{aligned}
   (M + \\Delta M) - (w(x)\\Delta x)k \\Delta x - V\\Delta x - M &= 0\\\\
   \\Delta M &= V \\Delta x + k w(x) \\Delta x ^2
 \\end{aligned}$$
+
 -   Dividing by $\Delta x$ and letting $\Delta x \to 0$ gives
+
 $$\\frac{dM}{dx} = V$$
 
 ----
 ## concentrated forces
 
 -   If we consider a concentrated force (instead of a distributed load) we find
+
 $$\Delta V = F $$
+
 -   This means that concentrated loads will cause the shear diagram to "jump" by the amount of the concentrated force (causing a discontinuity on our graph)
 
 ----
 ## couple moments
 
 -   If our section includes a couple moment, we find (from the moment equation) that
+
 $$\Delta M = M_0 $$
+
 -   Thus the moment diagram will have a jump discontinuity
 
 ----
 ## example 7.9
 
-![A beam is 6 meters long with pin supports at the left end, A, and at B, 4 meters to the right of A. From B to the right end of the beam is a uniform distributed load of 4 kN/m.](images\example-7-9.jpg)
+![A beam is 6 meters long with pin supports at the left end, A, and at B, 4 meters to the right of A. From B to the right end of the beam is a uniform distributed load of 4 kN/m.](../images/example-7-9.jpg)
 
 ----
 ## example 7.10
 
-![A beam is 12 feet long with pin supports at both ends and a linearly increasing distributed load, beginning with 0 at the left end and rising to 120 lb/ft at the right end.](images\example-7-10.jpg) <!-- .element width="60%" -->
+![A beam is 12 feet long with pin supports at both ends and a linearly increasing distributed load, beginning with 0 at the left end and rising to 120 lb/ft at the right end.](../images/example-7-10.jpg) <!-- .element width="60%" -->
 
 ---
 # bending deformation
@@ -148,7 +157,7 @@ $$\Delta M = M_0 $$
 ----
 ## bending deformation
 
-![An example beam drawn in 3D with a grid drawn on it while it bends.](images\beam-deformation.jpg) <!-- .element width="60%" -->
+![An example beam drawn in 3D with a grid drawn on it while it bends.](../images/beam-deformation.jpg) <!-- .element width="60%" -->
 
 ----
 ## neutral axis
@@ -168,12 +177,13 @@ $$\Delta M = M_0 $$
 ----
 ## strain
 
-![A small beam section before and after deformation](images\beam-element.jpg) <!-- .element width="40%" -->
+![A small beam section before and after deformation](../images/beam-element.jpg) <!-- .element width="40%" -->
 
 ----
 ## strain
 
 -   We can now define strain at the line segment $\Delta s$ as
+
 $$\\epsilon = \\lim\_{\\Delta s \\to 0} \\frac{\\Delta s^\\prime - \\Delta s}{\\Delta s}$$
 
 ----
@@ -181,8 +191,11 @@ $$\\epsilon = \\lim\_{\\Delta s \\to 0} \\frac{\\Delta s^\\prime - \\Delta s}{\\
 
 -   If we define $\rho$ as the radius of curvature after deformation, thus $\Delta x = \Delta s = \rho \Delta \theta $
 -   The radius of curvature at $\Delta s$ is $\rho - y$, thus we can write
+
 $$\\epsilon = \\lim\_{\\Delta \\theta \\to 0} \\frac{(\\rho-y)\\Delta \\theta - \\rho \\Delta \\theta}{\\rho \\Delta \\theta}$$
+
 -   Which gives
+
 $$\\epsilon = -\\frac{y}{\\rho}$$
 
 ---
@@ -199,6 +212,7 @@ $$\\epsilon = -\\frac{y}{\\rho}$$
 
 -   We have already hypothesized that a neutral axis must exist, we will now find its location
 -   To be in equilibrium, the resultant force(s) produced by the stress must sum to zero, which means
+
 $$\\begin{aligned}
   \\sum F\_x &= 0 = \\int\_A dF = \\int\_A \\sigma dA\\\\
   &= \\int\_A -\\left( \\frac{y}{c} \\right) \\sigma\_{max} dA\\\\
@@ -209,13 +223,16 @@ $$\\begin{aligned}
 ## neutral axis
 
 -   Since $\sigma_{max}$ and *c* are both non-zero constants, we know that
+
 $$ \int_A y dA = 0$$
+
 -   Which can only be satisfied at the horizontal centroidal axis, so the neutral axis is the centroidal axis
 
 ----
 ## bending moment
 
 -   The internal bending moment must be equal to the total moment produced by the stress distribution
+
 $$\\begin{aligned}
   M &= \\int\_A y dF = \\int\_A y (\\sigma dA) \\\\
   &= \\int\_A y \\left( \\frac{y}{c} \\sigma\_{max} \\right) dA \\\\
@@ -226,6 +243,7 @@ $$\\begin{aligned}
 ## bending moment
 
 -   We recognize that `$\int_A y^2 dA = I$`, and we re-arrange to write
+
 $$\\sigma\_{max} = \\frac{Mc}{I}$$
 
 ----
@@ -240,9 +258,12 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 ## example 6.12
 
 <div class="left">
-    ![A 6 meter long beam is pinned at both ends and subjected to a uniformly distruted load of 5 kN/m. ](images\example-6-12.png)
+
+![A 6 meter long beam is pinned at both ends and subjected to a uniformly distributed load of 5 kN/m. ](../images/example-6-12.png)
 </div>
 
 <div class="right">
-  Find the maximum bending stress and draw the stress distribution through the thickness at that point.
+
+Find the maximum bending stress and draw the stress distribution through the thickness at that point.
+
 </div>

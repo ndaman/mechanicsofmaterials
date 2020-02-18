@@ -4,19 +4,19 @@ Lecture 16 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-4 Mar, 2019
+6 March, 2020
 
 ----
-
 ## schedule
 
-- 4 Mar - Transverse Shear
-- 6 Mar - Exam Review
-- 8 Mar - Exam 2
-- 11-15 Mar - Spring Break
+- 6 Mar - Exam 2 Review, HW 5 Due
+- 9 Mar - Exam 2
+- 11 Mar - Transverse Shear
+- 13 Mar - Transverse Shear
 
 ----
 ## outline
+
 <!-- TOC START min:1 max:1 link:false update:true -->
 - compound centroids
 - shear in straight members
@@ -34,6 +34,7 @@ Wichita State University, Department of Aerospace Engineering
 -   Often we have to deal with bodies that are not described by a continuous function, but are made of different materials or different shapes
 
 -   We can use the same logic previously, but with a finite sum instead of an integral
+
 $$\\begin{aligned}
   \\bar{x} \\sum W &= \\sum \\tilde{x} W\\\\
   \\bar{y} \\sum W &= \\sum \\tilde{y} W\\\\
@@ -60,7 +61,7 @@ $$\\begin{aligned}
 ----
 ## shear
 
-![A comparison of three boards stacked on top of each other and loaded with pin supports at both ends. The top shows how the boards look if they are stacked with no bond, while the bottom shows the boards bonded together.](images\bonded-boards.png) <!-- .element width="60%" -->
+![A comparison of three boards stacked on top of each other and loaded with pin supports at both ends. The top shows how the boards look if they are stacked with no bond, while the bottom shows the boards bonded together.](../images/bonded-boards.png) <!-- .element width="60%" -->
 
 ---
 # the shear formula
@@ -74,12 +75,12 @@ $$\\begin{aligned}
 ----
 ## equilibrium
 
-![A free body diagram of an arbitrary beam.](images\beam-fbd.png)
+![A free body diagram of an arbitrary beam.](../images/beam-fbd.png)
 
 ----
 ## equilibrium
 
-![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](images\fbd-newsection.jpg) <!-- .element width="50%" -->
+![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](../images/fbd-newsection.jpg) <!-- .element width="50%" -->
 
 ----
 ## equilibrium
@@ -90,6 +91,7 @@ $$\\begin{aligned}
 
 ----
 ## equilibrium
+
 $$\\tiny{\\begin{aligned}
   0 &= \\int\_{A^\\prime} \\left( \\frac{M + dM}{I} \\right) y dA^\\prime - \\int\_{A^\\prime} \\left( \\frac{M}{I} \\right)y dA^\\prime - \\tau(t dx) \\\\
   \\left( \\frac{M}{I} \\right) \\int\_{A^\\prime} y dA^\\prime &= \\tau (t dx)\\\\
@@ -102,13 +104,16 @@ $$\\tiny{\\begin{aligned}
 -   In this formula, recall that $V = \\frac{dM}{dx}$
 -   We also call *Q* the moment of the area `$A^\prime$` which is equal to `$\int_{a^\prime} y dA^\prime$`
 -   We can also write *Q* in terms of the centroid
+
 $$Q = \\bar{y}^\\prime A^\\prime$$
 
 ----
 ## shear formula
 
 -   Simplified, the shear formula is
+
 $$\\tau = \\frac{VQ}{It}$$
+
 -   *Q* poses the greatest difficulty in calculations, so we will consider a few examples
 
 ----
@@ -120,7 +125,7 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## Q
 
-![Some beam cross-sections to illustrate the calculation of Q](images\Q.jpg) <!-- .element width="35%" -->
+![Some beam cross-sections to illustrate the calculation of Q](../images/Q.jpg) <!-- .element width="35%" -->
 
 ----
 ## shear formula limitations
@@ -141,13 +146,13 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## example 7.1
 
-![A simply supported beam 8 meters long has a uniformly distributed load of 6.5 kN/m applied on the rightmost 4 meters. The beam has a t-shaped cross section with the top 150 mm wide and 30 mm tall and the bottom 150 mm tall and 30 mm wide.](images\example-7-1.jpg) <!-- .element width="35%" -->
+![A simply supported beam 8 meters long has a uniformly distributed load of 6.5 kN/m applied on the rightmost 4 meters. The beam has a t-shaped cross section with the top 150 mm wide and 30 mm tall and the bottom 150 mm tall and 30 mm wide.](../images/example-7-1.jpg) <!-- .element width="35%" -->
 
 Determine the maximum stress needed by a glue to hold the boards together.
 
 ----
 ## example 7.3
 
-![An I-beam is shown with a width of 300 mm and height of 240 mm, a web 15 mm thick, and flanges 20 mm thick. There is a shear force of 80 kN applied.](images\example-7-3.jpg) <!-- .element width="50%" -->
+![An I-beam is shown with a width of 300 mm and height of 240 mm, a web 15 mm thick, and flanges 20 mm thick. There is a shear force of 80 kN applied.](../images/example-7-3.jpg) <!-- .element width="50%" -->
 
 Plot the shear stress distribution through the beam.

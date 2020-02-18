@@ -4,18 +4,20 @@ Lecture 18 - Transverse Shear<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-20 Mar, 2019
+11 March, 2020
 
 ----
-
 ## schedule
 
-- 20 Mar - Transverse Shear
-- 22 Mar - Transverse Shear
-- 25 Mar - Combined Loading, HW6 Due
+- 11 Mar - Transverse Shear
+- 13 Mar - Transverse Shear
+- 16 Mar - Combined Loading
+- 18 Mar - Combined Loading
+- 20 Mar - Stress Transformation, HW6 Due
 
 ----
 ## outline
+
 <!-- TOC START min:1 max:1 link:false update:true -->
 - shear in straight members
 - the shear formula
@@ -38,7 +40,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## shear
 
-![A comparison of three boards stacked on top of each other and loaded with pin supports at both ends. The top shows how the boards look if they are stacked with no bond, while the bottom shows the boards bonded together.](images\bonded-boards.png) <!-- .element width="60%" -->
+![A comparison of three boards stacked on top of each other and loaded with pin supports at both ends. The top shows how the boards look if they are stacked with no bond, while the bottom shows the boards bonded together.](../images/bonded-boards.png) <!-- .element width="60%" -->
 
 ---
 # the shear formula
@@ -52,22 +54,24 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## equilibrium
 
-![A free body diagram of an arbitrary beam.](images\beam-fbd.png)
+![A free body diagram of an arbitrary beam.](../images/beam-fbd.png)
 
 ----
 ## equilibrium
 
-![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](images\fbd-newsection.jpg) <!-- .element width="50%" -->
+![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](../images/fbd-newsection.jpg) <!-- .element width="50%" -->
 
 ----
 ## equilibrium
 
 -   There must be a shear force along the bottom to equilibrate the different stresses on either side of the section
 -   If we assume that this shear is constant through the thickness, we obtain the following from equilibrium
+
 `$$\sum F_x = 0 = \int_{A^\prime} \sigma^\prime dA^\prime - \int_{A^\prime} \sigma dA^\prime - \tau (t dx)$$`
 
 ----
 ## equilibrium
+
 $$\\tiny{\\begin{aligned}
   0 &= \\int\_{A^\\prime} \\left( \\frac{M + dM}{I} \\right) y dA^\\prime - \\int\_{A^\\prime} \\left( \\frac{M}{I} \\right)y dA^\\prime - \\tau(t dx) \\\\
   \\left( \\frac{M}{I} \\right) \\int\_{A^\\prime} y dA^\\prime &= \\tau (t dx)\\\\
@@ -80,13 +84,16 @@ $$\\tiny{\\begin{aligned}
 -   In this formula, recall that $V = \\frac{dM}{dx}$
 -   We also call *Q* the moment of the area `$A^\prime$` which is equal to `$\int_{a^\prime} y dA^\prime$`
 -   We can also write *Q* in terms of the centroid
+
 $$Q = \\bar{y}^\\prime A^\\prime$$
 
 ----
 ## shear formula
 
 -   Simplified, the shear formula is
+
 $$\\tau = \\frac{VQ}{It}$$
+
 -   *Q* poses the greatest difficulty in calculations, so we will consider a few examples
 
 ----
@@ -98,7 +105,7 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## Q
 
-![Some beam cross-sections to illustrate the calculation of Q](images\Q.jpg) <!-- .element width="35%" -->
+![Some beam cross-sections to illustrate the calculation of Q](../images/Q.jpg) <!-- .element width="35%" -->
 
 ----
 ## shear formula limitations
@@ -119,14 +126,14 @@ $$\\tau = \\frac{VQ}{It}$$
 ----
 ## example 7.1
 
-![A simply supported beam 8 meters long has a uniformly distributed load of 6.5 kN/m applied on the rightmost 4 meters. The beam has a t-shaped cross section with the top 150 mm wide and 30 mm tall and the bottom 150 mm tall and 30 mm wide.](images\example-7-1.jpg) <!-- .element width="35%" -->
+![A simply supported beam 8 meters long has a uniformly distributed load of 6.5 kN/m applied on the rightmost 4 meters. The beam has a t-shaped cross section with the top 150 mm wide and 30 mm tall and the bottom 150 mm tall and 30 mm wide.](../images/example-7-1.jpg) <!-- .element width="35%" -->
 
 Determine the maximum stress needed by a glue to hold the boards together.
 
 ----
 ## example 7.3
 
-![An I-beam is shown with a width of 300 mm and height of 240 mm, a web 15 mm thick, and flanges 20 mm thick. There is a shear force of 80 kN applied.](images\example-7-3.jpg) <!-- .element width="50%" -->
+![An I-beam is shown with a width of 300 mm and height of 240 mm, a web 15 mm thick, and flanges 20 mm thick. There is a shear force of 80 kN applied.](../images/example-7-3.jpg) <!-- .element width="50%" -->
 
 Plot the shear stress distribution through the beam.
 
@@ -136,21 +143,21 @@ Plot the shear stress distribution through the beam.
 ----
 ## group one
 
-![](images\group-7-1.jpg) <!-- .element width="30%" -->
+![](../images/group-7-1.jpg) <!-- .element width="30%" -->
 
 Find Q and t that would be used to find the shear stress at A.
 
 ----
 ## group two
 
-![](images\group-7-2.jpg) <!-- .element width="30%" -->
+![](../images/group-7-2.jpg) <!-- .element width="30%" -->
 
 Find Q and t that would be used to find the shear stress at A.
 
 ----
 ## group three
 
-![](images\group-7-3.jpg) <!-- .element width="30%" -->
+![](../images/group-7-3.jpg) <!-- .element width="30%" -->
 
 Find Q and t that would be used to find the shear stress at A.
 
@@ -167,14 +174,17 @@ Find Q and t that would be used to find the shear stress at A.
 ----
 ## equilibrium
 
-![](images\built-up-equilibrium.jpg)
+![](../images/built-up-equilibrium.jpg)
 
 ----
 ## equilibrium
 
 -   From equilibrium we see that
+
 $$dF = \\frac{dM}{I} \\int\_{A^\\prime} y dA^\\prime$$
+
 -   We recall that this integral represents *Q*, we can also define the shear flow as *q*=*dF*/*dx* and recall that *dM*/*dx*=*V* to find
+
 $$q = \\frac{VQ}{I}$$
 
 ----
@@ -188,18 +198,18 @@ $$q = \\frac{VQ}{I}$$
 ----
 ## multiple fasteners
 
-![](images\shear-flow-multiple.jpg)
+![](../images/shear-flow-multiple.jpg)
 
 ----
 ## multiple fasteners
 
 -   When multiple arms are connecting the same area (as shown in the previous slide)
--   The shear flow "seen" by each fastener is *q*/*n* where *n* is the number of fastners per area
+-   The shear flow "seen" by each fastener is *q*/*n* where *n* is the number of fasteners per area
 
 ----
 ## example 7.4
 
-![](images\example-7-4.jpg) <!-- .element width="30%" -->
+![](../images/example-7-4.jpg) <!-- .element width="30%" -->
 
 Determine the shear flow at B and B' that must be resisted by glue to bond the boards together.
 
@@ -207,16 +217,20 @@ Determine the shear flow at B and B' that must be resisted by glue to bond the b
 ## example 7.5
 
 <div class="left">
-  ![](images\example-7-5.jpg)
+
+  ![](../images/example-7-5.jpg)
+
 </div>
 
 <div class="right">
-  If each nail can support a maximum shear force of 30 lb, determine the maximum spacing of the nails at B and at C so that the beam can support the force of 80 lb.
+
+If each nail can support a maximum shear force of 30 lb, determine the maximum spacing of the nails at B and at C so that the beam can support the force of 80 lb.
+
 </div>
 
 ----
 ## example 7.6
 
-![](images\example-7-6.jpg) <!-- .element width="50%" -->
+![](../images/example-7-6.jpg) <!-- .element width="50%" -->
 
 Nails with a shear strength of 40 lb are used in a beam that can be constructed as shown in Case I or Case II. If the nails are spaced at 9 in determine the largest vertical shear that can be supported.
