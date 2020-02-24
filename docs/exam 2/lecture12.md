@@ -10,7 +10,7 @@ February 26, 2020
 ----
 ## schedule
 
-- 26 Feb - Bending
+- 26 Feb - Torsion
 - 28 Feb - Bending, HW4 Due
 - 2 Mar - Bending
 - 4 Mar - Bending
