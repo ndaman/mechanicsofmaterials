@@ -31,7 +31,7 @@ Wichita State University, Department of Aerospace Engineering
 
 - Drawing shear-moment diagrams is a very important skill
 - Learning MasteringEngineering's drawing system is not as important (in my opinion)
-- If you are more comfortable doing your shear-moment diagrams by hand, you may turn them into me in class on Monday and I will grade them by hand
+- If you are more comfortable doing your shear-moment diagrams by hand, you may turn them into me in class on Friday and I will grade them by hand
 
 
 ---
