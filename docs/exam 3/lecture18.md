@@ -4,16 +4,16 @@ Lecture 18 - Transverse Shear<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-11 March, 2020
+30 March, 2020
 
 ----
 ## schedule
 
-- 11 Mar - Transverse Shear
-- 13 Mar - Transverse Shear
-- 16 Mar - Combined Loading
-- 18 Mar - Combined Loading
-- 20 Mar - Stress Transformation, HW6 Due
+- 30 Mar - Transverse Shear
+- 1 Apr - Transverse Shear
+- 3 Apr - Combined Loading, HW6 Due
+- 6 Apr - Combined Loading
+- 8 Apr - Stress Transformation
 
 ----
 ## outline
@@ -59,7 +59,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## equilibrium
 
-![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](../images/fbd-newsection.jpg) <!-- .element width="50%" -->
+![A section of some arbitrary cut of an arbitrary beam cross-section showing the shear acting on a sub-section of this element.](../images/transverse-fbd.png) <!-- .element width="50%" -->
 
 ----
 ## equilibrium
@@ -72,9 +72,9 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## equilibrium
 
-$$\\tiny{\\begin{aligned}
+$$\\small{\\begin{aligned}
   0 &= \\int\_{A^\\prime} \\left( \\frac{M + dM}{I} \\right) y dA^\\prime - \\int\_{A^\\prime} \\left( \\frac{M}{I} \\right)y dA^\\prime - \\tau(t dx) \\\\
-  \\left( \\frac{M}{I} \\right) \\int\_{A^\\prime} y dA^\\prime &= \\tau (t dx)\\\\
+  \\left( \\frac{dM}{I} \\right) \\int\_{A^\\prime} y dA^\\prime &= \\tau (t dx)\\\\
   \\tau &= \\frac{1}{It} \\left( \\frac{dM}{dx} \\right)\\int\_{A^\\prime} y dA^\\prime
 \\end{aligned}}$$
 
