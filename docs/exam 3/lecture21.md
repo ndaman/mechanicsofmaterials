@@ -7,7 +7,6 @@ Wichita State University, Department of Aerospace Engineering
 8 April, 2020
 
 ----
-
 ## schedule
 
 - 8 Apr - Combined Loading
@@ -18,7 +17,6 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## outline
 
----
 <!-- vim-markdown-toc GFM -->
 
 * combined loading
@@ -26,6 +24,8 @@ Wichita State University, Department of Aerospace Engineering
 * plane stress transformation
 
 <!-- vim-markdown-toc -->
+
+---
 # combined loading
 
 ----
