@@ -4,31 +4,27 @@ Lecture 20 - Combined loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-16 March, 2020
+3 April, 2020
 
 ----
 ## schedule
 
-- 16 Mar - Combined Loading
-- 18 Mar - Combined Loading
-- 20 Mar - Combined Loading, HW6 Due
-- 25-28 Mar - Spring Break
+- 3 Apr - Combined Loading, HW6 Due
+- 6 Apr - Combined Loading
+- 8 Apr - Stress Transformation
+- 10 Apr - Stress Transformation, HW7 Due
 
 ----
 ## outline
+# thin-walled pressure vessels
 
+----
 <!-- vim-markdown-toc GFM -->
 
-* thin-walled pressure vessels
 * combined loading
 * group problems
 
 <!-- vim-markdown-toc -->
-
----
-# thin-walled pressure vessels
-
-----
 ## thin-walled pressure vessels
 
 -   If the radius to wall thickness ratio is 10 or more, we can treat a pressure vessel as “thin-walled”

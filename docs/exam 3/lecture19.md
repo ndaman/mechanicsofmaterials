@@ -4,15 +4,15 @@ Lecture 19 - Transverse Shear<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-13 Mar, 2020
+1 April, 2020
 
 ----
 ## schedule
 
-- 13 Mar - Transverse Shear
-- 16 Mar - Combined Loading
-- 18 Mar - Combined Loading
-- 20 Mar - Combined Loading, HW6 Due
+- 1 Apr - Transverse Shear
+- 3 Apr - Combined Loading, HW6 Due
+- 8 Apr - Combined Loading
+- 10 Apr - Stress Transformation
 
 
 ----

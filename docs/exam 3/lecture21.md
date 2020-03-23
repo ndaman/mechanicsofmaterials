@@ -4,21 +4,21 @@ Lecture 21 - Combined loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-27 Mar, 2019
+8 April, 2020
 
 ----
 
 ## schedule
 
-- 25 Mar - Combined Loading, HW6 Due
-- 27 Mar - Stress Transformation 
-- 29 Mar - Stress Transformation 
-- 1 Apr - Stress Transformation, HW7 Due
-
+- 8 Apr - Combined Loading
+- 10 Apr - Stress Transformation
+- 13 Apr - Stress Transformation, HW7 Due
+- 15 Apr - Strain Transformation
 
 ----
 ## outline
 
+---
 <!-- vim-markdown-toc GFM -->
 
 * combined loading
@@ -26,8 +26,6 @@ Wichita State University, Department of Aerospace Engineering
 * plane stress transformation
 
 <!-- vim-markdown-toc -->
-
----
 # combined loading
 
 ----

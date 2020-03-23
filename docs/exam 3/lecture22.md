@@ -4,21 +4,22 @@ Lecture 22 - Mohr's Circle<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-29 Mar, 2019
+10 April, 2019
 
 ----
 
 ## schedule
 
-- 29 Mar - Mohr's Circle 
-- 1 Apr - Strain Transformation 
-- 3 Apr - Strain Transformation, HW7 Due
-- 5 Apr - Deflection of Beams
+- 10 Apr - Mohr's Circle
+- 13 Apr - Stress Transformation, HW7 Due
+- 15 Apr - Strain Transformation
+- 17 Apr - Beam Deflection
 
 
 ----
 ## outline
 
+---
 <!-- vim-markdown-toc GFM -->
 
 * plane stress transformation
@@ -26,8 +27,6 @@ Wichita State University, Department of Aerospace Engineering
 * principal stresses
 
 <!-- vim-markdown-toc -->
-
----
 # plane stress transformation
 
 ----

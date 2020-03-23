@@ -4,17 +4,16 @@ Lecture 23 - Mohr's Circle<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-1 Apr, 2019
+20 Mar, 2020
 
 ----
 
 ## schedule
 
+- 20 Mar - Combined Loading, HW6 Due
+- 23-27 Mar - Spring Break
+- 30 Mar - Stress Transformation 
 - 1 Apr - Mohr's Circle
-- 3 Apr - Strain Transformation, HW7 Due
-- 5 Apr - Deflection of Beams
-- 8 Apr - Deflection of Beams, HW8 Due
-
 
 ----
 ## outline
