@@ -15,11 +15,9 @@ Wichita State University, Department of Aerospace Engineering
 - 15 Apr - Strain Transformation
 - 17 Apr - Beam Deflection
 
-
 ----
 ## outline
 
----
 <!-- vim-markdown-toc GFM -->
 
 * plane stress transformation
@@ -27,6 +25,8 @@ Wichita State University, Department of Aerospace Engineering
 * principal stresses
 
 <!-- vim-markdown-toc -->
+
+---
 # plane stress transformation
 
 ----
