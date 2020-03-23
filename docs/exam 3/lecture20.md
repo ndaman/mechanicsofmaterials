@@ -16,15 +16,18 @@ Wichita State University, Department of Aerospace Engineering
 
 ----
 ## outline
-# thin-walled pressure vessels
-
-----
 <!-- vim-markdown-toc GFM -->
 
+* pressure vessels
 * combined loading
 * group problems
 
 <!-- vim-markdown-toc -->
+
+---
+# pressure vessels 
+
+----
 ## thin-walled pressure vessels
 
 -   If the radius to wall thickness ratio is 10 or more, we can treat a pressure vessel as “thin-walled”
