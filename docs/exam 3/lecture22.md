@@ -4,7 +4,7 @@ Lecture 22 - Stress Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-8 April, 2019
+8 April, 2020
 
 ----
 

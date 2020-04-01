@@ -4,7 +4,7 @@ Lecture 24 - Strain Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-13 Apr, 2019
+13 Apr, 2020
 
 ----
 
