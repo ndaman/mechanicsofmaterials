@@ -1,19 +1,19 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 22 - Mohr's Circle<br/>
+Lecture 22 - Stress Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-10 April, 2019
+8 April, 2019
 
 ----
 
 ## schedule
 
-- 10 Apr - Mohr's Circle
-- 13 Apr - Stress Transformation, HW7 Due
-- 15 Apr - Strain Transformation
-- 17 Apr - Beam Deflection
+- 8 Apr - Stress Transformation, Mohr's Circle
+- 10 Apr - Recitation, HW7 Due
+- 13 Apr - Strain Transformation
+- 15 Apr - Beam Deflection
 
 ----
 ## outline
@@ -23,6 +23,7 @@ Wichita State University, Department of Aerospace Engineering
 * plane stress transformation
 * general equations
 * principal stresses
+* mohr’s circle
 
 <!-- vim-markdown-toc -->
 
@@ -128,4 +129,84 @@ Find the principal stress for the stress state shown.
 -   Find the maximum in-plane shear stress and the associated average normal stress
 -   Find the principal stresses
 
+---
+# mohr’s circle
+
+----
+## mohr’s circle
+
+-   We can visualize plane stress transformation using a technique known as Mohr’s circle
+-   If we re-write the stress transformation equations we find
+
+$$\\begin{aligned}
+ \\sigma\_{x^\\prime} - \\left( \\frac{\\sigma\_x + \\sigma\_y}{2} \\right) &= \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right) \\cos 2 \\theta + \\tau\_{xy} \\sin 2\\theta \\\\
+ \\tau\_{x^\\prime y^\\prime} &= -\\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right) \\sin 2\\theta + \\tau\_{xy} \\cos 2\\theta
+\\end{aligned}$$
+
+
+----
+## mohr’s circle
+
+-   If we square each equation and add them together, we find
+
+$$\\left\[\\sigma\_{x^\\prime} - \\left( \\frac{\\sigma\_x + \\sigma\_y}{2} \\right) \\right\]^2 + \\tau\_{x^\\prime y^\\prime}^2 = \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right)^2+\\tau\_{xy}^2$$
+
+
+----
+## mohr’s circle
+
+-   Since *σ*<sub>*x*</sub>, *σ*<sub>*y*</sub> and *τ*<sub>*xy*</sub> are known constants, we can write a more compact form by letting
+
+$$\\begin{aligned}
+  (\\sigma\_{x^\\prime}-\\sigma\_{avg})^2 + \\tau\_{x^\\prime y^\\prime}^2 &= R^2\\\\
+   \\sigma\_{avg} &= \\frac{\\sigma\_x+\\sigma\_y}{2}\\\\
+   R &= \\sqrt{ \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right)^2 + \\tau\_{xy}^2}
+\\end{aligned}$$
+
+
+----
+## mohr’s circle
+
+-   Re-written in this way, we can see that the previous equation is the equation of a circle on the *σ*, *τ* axis
+-   The center of the circle is at *τ* = 0 and *σ* = *σ*<sub>*avg*</sub>
+-   The radius of the circle is $\\sqrt{ \\left( \\frac{\\sigma\_x - \\sigma\_y}{2} \\right)^2 + \\tau\_{xy}^2}$
+-   Each point on the circle represents *σ*<sub>*x*<sup>′</sup></sub>, *τ*<sub>*x*<sup>′</sup>*y*<sup>′</sup></sub>
+
+----
+## mohr’s circle
+
+![](../images/mohr.jpg) <!-- .element width="60%" -->
+
+----
+## visual construction of Mohr’s circle
+
+-   By convention, positive *τ* points down, use this convention to plot the center of the circle and a reference point at (*σ*<sub>*x*</sub>, *τ*<sub>*xy*</sub>) where the *x*<sup>′</sup> axis is coincident with the *x* axis
+-   Use these two points to sketch the circle
+
+----
+## principal stress
+
+-   The principal stresses, *σ*<sub>1</sub> and *σ*<sub>2</sub> are the coordinates where Mohr’s circle intersects the *σ* axis
+-   The angles *θ*<sub>*p*1</sub> and *θ*<sub>*p*2</sub> can be found by calculating the angle between the reference line and the *σ* axis (note that this angle is equal to 2*θ*<sub>*p*</sub>)
+-   Note that the direction from the the reference point to the *σ* axis will be the same as the direction from the *x* axis to the principal axis
+
+----
+## maximum shear stress
+
+-   The top and bottom of the circle represent the maximum shear stress
+-   The angles *θ*<sub>*s*1</sub> and *θ*<sub>*s*2</sub> can be found in a similar method to that described for the principal stress
+
+----
+## stress on arbitrary plane
+
+-   To find the stress at some arbitrary plane some known angle *θ* away from our reference plane, we find the angle 2*θ* away from the reference line on Mohr’s circle
+-   We can use trigonometry to find the value of the coordinates at that point
+-   We must draw our angle in the same direction as the desired rotation
+
+----
+## example 9.9
+
+![](../images/example-9-9.jpg) <!-- .element width="35%" -->
+
+Represent the state of stress shown on an element rotated 30&deg; counterclockwise from the position shown.
 

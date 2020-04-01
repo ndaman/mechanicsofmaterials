@@ -4,12 +4,12 @@ Lecture 20 - Combined loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-3 April, 2020
+6 April, 2020
 
 ----
 ## schedule
 
-- 3 Apr - Combined Loading, HW6 Due
+- 3 Apr - Recitation, HW6 Due
 - 6 Apr - Combined Loading
 - 8 Apr - Stress Transformation
 - 10 Apr - Stress Transformation, HW7 Due

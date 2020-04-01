@@ -1,3 +1,4 @@
+<!-- redundant lecture -->
 ## AE333
 ## Mechanics of Materials
 Lecture 25 - Strain Transformation<br/>
