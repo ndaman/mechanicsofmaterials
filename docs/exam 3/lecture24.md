@@ -13,7 +13,9 @@ Wichita State University, Department of Aerospace Engineering
 - 13 Apr - Strain Transformation
 - 15 Apr - Beam Deflection
 - 17 Apr - Recitation, HW8 Due
+- 17 Apr - Exam 3a assigned
 - 20 Apr - Beam Deflection
+- 20 Apr - Exam 3a Due by midnight
 
 
 ----
