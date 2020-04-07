@@ -1,6 +1,6 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 24 - Strain Transformation<br/>
+Lecture 22 - Strain Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
