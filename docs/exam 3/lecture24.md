@@ -133,7 +133,7 @@ $$\\begin{aligned}
 
 <div class="right">
 
-The state of plane strain at a point has components of `$\epsilon_x = 250 \mu \epsilon$`, `$\epsilon_y = -150 \mu \epsilon$`, and `$\gamma_{xy} = 120 \mu \epsilon$`. Determine the principal strains and the direction they act.
+The state of plane strain at a point has components of $\epsilon_x = 250 \mu \epsilon$, $\epsilon_y = -150 \mu \epsilon$, and $\gamma_{xy} = 120 \mu \epsilon$. Determine the principal strains and the direction they act.
 
 </div>
 
