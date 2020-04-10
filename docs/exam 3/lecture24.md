@@ -43,12 +43,12 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## mohr’s circle
 
-![](..\images\max-shear.png) <!-- .element width="40%" -->
+![](../images/max-shear.png) <!-- .element width="40%" -->
 
 ----
 ## mohr’s circle
 
-![](..\images\mohr-absolute.jpg) <!-- .element width="40%" -->
+![](../images/mohr-absolute.jpg) <!-- .element width="40%" -->
 
 ----
 ## absolute max shear
@@ -126,11 +126,15 @@ $$\\begin{aligned}
 ## example 10.4
 
 <div class="left">
-![](..\images\example-10-4.jpg) 
+
+![](../images/example-10-4.jpg) 
+
 </div>
 
 <div class="right">
+
 The state of plane strain at a point has components of `$\epsilon_x = 250 \mu \epsilon$`, `$\epsilon_y = -150 \mu \epsilon$`, and `$\gamma_{xy} = 120 \mu \epsilon$`. Determine the principal strains and the direction they act.
+
 </div>
 
 ---
@@ -158,7 +162,7 @@ $$\\begin{aligned}
 ## example 10.8
 
 <div class="left">
-![](..\images\example-10-8.jpg) 
+![](../images/example-10-8.jpg) 
 </div>
 
 <div class="right">
