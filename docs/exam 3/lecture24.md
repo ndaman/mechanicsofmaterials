@@ -144,7 +144,7 @@ The state of plane strain at a point has components of `$\epsilon_x = 250 \mu \e
 ## rosettes
 
 -   Normal strain is fairly easy to measure using a strain gage
--   Shear strain is more difficult to measure directly, so instead a “rossette” of normal strain gages is used
+-   Shear strain is more difficult to measure directly, so instead a “rosette” of normal strain gages is used
 -   We can use the strain transformation equations to determine *τ*<sub>*xy*</sub>
 
 ----
