@@ -40,12 +40,12 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## elastic curve
 
-![](..\images\elastic-curve.jpg) <!-- .element width="40%" -->
+![](../images/elastic-curve.jpg) <!-- .element width="40%" -->
 
 ----
 ## elastic curve
 
-![](..\images\elastic-curve2.jpg) <!-- .element width="40%" -->
+![](../images/elastic-curve2.jpg) <!-- .element width="40%" -->
 
 ----
 ## moment-curvature
@@ -61,7 +61,7 @@ $$\\frac{1}{\\rho} = \\frac{M}{EI}$$
 ----
 ## sign convention
 
-![](..\images\curvature.jpg) <!-- .element width="60%" -->
+![](../images/curvature.jpg) <!-- .element width="60%" -->
 
 `$\rho$` is positive when the center of the arc is above the beam, negative when it is below.
 
@@ -117,13 +117,13 @@ $$\\begin{aligned}
 ----
 ## example 12.1
 
-![](..\images\example-12-1.jpg) <!-- .element width="60%" -->
+![](../images/example-12-1.jpg) <!-- .element width="60%" -->
 
 Determine the maximum deflection if EI is constant.
 
 ----
 ## example 12.4
 
-![](..\images\example-12-4.jpg)
+![](../images/example-12-4.jpg)
 
 Determine the displacement at C, EI is constant.
