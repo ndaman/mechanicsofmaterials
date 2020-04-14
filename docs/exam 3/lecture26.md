@@ -4,7 +4,7 @@ Lecture 23 - Deflection of Beams<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-15 Apr, 2019
+15 Apr, 2020
 
 ----
 
