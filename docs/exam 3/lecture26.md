@@ -1,24 +1,21 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 26 - Deflection of Beams<br/>
+Lecture 23 - Deflection of Beams<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-8 Apr, 2019
+15 Apr, 2019
 
 ----
 
 ## schedule
 
-- 8 Apr - Deflection of Beams, HW8 Due
-- 10 Apr - Discontinuity Functions
-- 12 Apr - Superposition
-- 15 Apr - Deflection of Beams, HW 9 Due
-- 17 Apr - Deflection of Beams
-- 19 Apr - Deflection of Beams
-- 22 Apr - Exam 3 Review, HW 10 Due
-- 24 Apr - Exam 3
-
+- 15 Apr - Beam Deflection
+- 17 Apr - Recitation, HW8 Due
+- 20 Apr - Beam Deflection (discontinuity functions)
+- 20 Apr - Exam 3a Due by midnight
+- 22 Apr - Beam Deflection (superposition)
+- 24 Apr - Recitation, HW9 Due
 
 ----
 ## outline
