@@ -10,14 +10,11 @@ Wichita State University, Department of Aerospace Engineering
 
 ## schedule
 
-- 10 Apr - Discontinuity Functions
-- 12 Apr - Superposition
-- 15 Apr - Deflection of Beams, HW 9 Due
-- 17 Apr - Deflection of Beams
-- 19 Apr - Deflection of Beams
-- 22 Apr - Exam 3 Review, HW 10 Due
-- 24 Apr - Exam 3
-
+- 20 Apr - Beam Deflection (discontinuity functions)
+- 20 Apr - Exam 3a Due by midnight
+- 22 Apr - Beam Deflection (superposition)
+- 24 Apr - Recitation, HW9 Due
+- 27 Apr - Statically Indeterminate Beams
 
 ----
 ## outline
@@ -81,14 +78,14 @@ $$\\begin{aligned}
 ----
 ## example 12.1
 
-![](..\images\example-12-1.jpg) <!-- .element width="60%" -->
+![](../images/example-12-1.jpg) <!-- .element width="60%" -->
 
 Determine the maximum deflection if EI is constant.
 
 ----
 ## example 12.4
 
-![](..\images\example-12-4.jpg) <!-- .element width="60%" -->
+![](../images/example-12-4.jpg) <!-- .element width="60%" -->
 
 Determine the displacement at C, EI is constant.
 
@@ -125,7 +122,7 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ----
 ## discontinuity functions
 
-![](..\images\discontinuity.jpg) <!-- .element width="40%" -->
+![](../images/discontinuity.jpg) <!-- .element width="40%" -->
 
 ----
 ## discontinuity functions
@@ -152,4 +149,4 @@ $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 ----
 ## example 12.5
 
-![](..\images\example-12-5.jpg) 
+![](../images/example-12-5.jpg) 
