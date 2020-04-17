@@ -4,7 +4,7 @@ Lecture 27 - Discontinuity Functions<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-10 Apr, 2019
+20 Apr, 2020
 
 ----
 
