@@ -1,28 +1,27 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 28 - Superposition<br/>
+Lecture 25 - Superposition<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-12 Apr, 2019
+22 Apr, 2020
 
 ----
 
 ## schedule
 
-- 12 Apr - Superposition
-- 15 Apr - Deflection of Beams, HW 9 Due
-- 17 Apr - Deflection of Beams
-- 19 Apr - Deflection of Beams
-- 22 Apr - Exam 3 Review, HW 10 Due
-- 24 Apr - Exam 3
-
+- 22 Apr - Beam Deflection (superposition)
+- 24 Apr - Recitation, HW9 Due
+- 27 Apr - Statically Indeterminate Beams
+- 29 Apr - Beam Review
+- 1 May - Recitation, HW 10 Due
 
 ----
 ## outline
 
 <!-- vim-markdown-toc GFM -->
 
+* discontinuity functions
 * discontinuity functions
 * group problems
 * superposition
@@ -44,7 +43,7 @@ Wichita State University, Department of Aerospace Engineering
 -   Macaulay functions can be used to describe various loading conditions, the general definition is
 
 $$\\langle x-a\\rangle^n = \\begin{cases}
-  0 & \\text{for } x &lt; a\\\\
+  0 & \\text{for } x < a\\\\
   (x-a)^n & \\text{for } x \\ge a
 \\end{cases}
 n \ge 0$$
@@ -62,7 +61,7 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ----
 ## discontinuity functions
 
-![](..\images\discontinuity.jpg) <!-- .element width="40%" -->
+![](../images/discontinuity.jpg) <!-- .element width="40%" -->
 
 ----
 ## discontinuity functions
@@ -74,8 +73,8 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ## integration
 
 - discontinuity functions follow special rules for integration
-- when n &ge; 0, they integrate like a normal polynomial
-- when n &lt; 0, they instead follow 
+- when $n \ge 0$, they integrate like a normal polynomial
+- when $n < 0$, they instead follow 
 
 $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 
@@ -89,7 +88,8 @@ $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 ----
 ## example 12.5
 
-![](..\images\example-12-5.jpg) 
+![](../images/example-12-5.jpg) --
+# discontinuity functions
 
 ---
 # group problems
@@ -97,21 +97,21 @@ $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 ----
 ## group one
 
-![](..\images\group-12-1.jpg) <!-- .element width="50%" -->
+![](../images/group-12-1.jpg) <!-- .element width="50%" -->
 
 Find the maximum deflection using either direct integration or discontinuity functions.
 
 ----
 ## group two
 
-![](..\images\group-12-2.jpg) <!-- .element width="50%" -->
+![](../images/group-12-2.jpg) <!-- .element width="50%" -->
 
 Find the maximum deflection using either direct integration or discontinuity functions.
 
 ----
 ## group three
 
-![](..\images\group-12-3.jpg) <!-- .element width="50%" -->
+![](../images/group-12-3.jpg) <!-- .element width="50%" -->
 
 Find the maximum deflection using either direct integration or discontinuity functions.
 
@@ -134,20 +134,20 @@ Find the maximum deflection using either direct integration or discontinuity fun
 ----
 ## example 12.13
 
-![](..\images\example-12-13.jpg)
+![](../images/example-12-13.jpg)
 
 Use superposition to find the displacement at C and the slope at A
 
 ----
 ## example 12.15
 
-![](..\images\example-12-15.jpg)
+![](../images/example-12-15.jpg)
 
 Use superposition to find the displacement at C
 
 ----
 ## example 12.16
 
-![](..\images\example-12-16.jpg)
+![](../images/example-12-16.jpg)
 
-The steel bar is supported by springs with k=15 kip/ft originally unstretched. For the force shown, determine the displacement at C. Take `$E_{st}=29$` Msi and `$I=12\text{ in}^4$`.
+The steel bar is supported by springs with k=15 kip/ft originally unstretched. For the force shown, determine the displacement at C. Take $E_{st}=29$ Msi and $I=12\text{ in}^4$.
