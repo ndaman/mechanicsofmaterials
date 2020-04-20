@@ -1,6 +1,6 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 27 - Discontinuity Functions<br/>
+Lecture 24 - Discontinuity Functions<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
@@ -40,7 +40,7 @@ $$\\frac{1}{\\rho} = \\frac{d^2v/dx^2}{\[1+(dv/dx)^2\]^{3/2}} = \\frac{M}{EI}$$
 ----
 ## curvature
 
--   The previous equation is difficult to solve in general, but for cases of small displacement, (*dv*/*dx*)<sup>2</sup> will be negligible compared to 1, which then simplifies to
+-   The previous equation is difficult to solve in general, but for cases of small displacement, $(dv/dx)^2$ will be negligible compared to 1, which then simplifies to
 
 $$\\frac{d^2v}{dx^2} = \\frac{M}{EI}$$
 
@@ -59,21 +59,23 @@ $$\\begin{aligned}
 ----
 ## boundary conditions
 
--   If a support restricts displacement, but not rotation, we will have a boundary condition of *v* = 0 at that point
--   Supports that restrict rotation give a boundary condition that *θ* = 0
+-   If a support restricts displacement, but not rotation, we will have a boundary condition of *v* = 0 at that point
+-   Supports that restrict rotation give a boundary condition that $\theta$ = 0
 
 ----
 ## continuity conditions
 
 -   If we have a piecewise function for *M*(*x*), not all integration constants can be found from the boundary conditions
 -   Instead, we must also use continuity conditions to ensure that the slope and displacement are continuous at every point
--   In other words, for two sets of functions, *θ*<sub>1</sub>(*x*) and *v*<sub>1</sub>(*x*), *θ*<sub>2</sub>(*x*), and *v*<sub>2</sub>(*x*), *θ*<sub>1</sub>(*a*)=*θ*<sub>2</sub>(*a*) and *v*<sub>1</sub>(*a*)=*v*<sub>2</sub>(*a*)
+-   In other words, for two sets of functions, $\theta_1(x)$ and $v_1(x)$, $\theta_2(x)$, and $v_2(x)$, $\theta_1(a) = \theta_2(a)$ and $v_1(a) = v_2(a)$
 
 ----
 ## slope
 
 -   For small displacements, we have
-    *θ* ≈ tan*θ* = *dv*/*dx*
+$$
+\\theta \\approx \\tan(\\theta) = dv/dx
+$$
 
 ----
 ## example 12.1
@@ -104,7 +106,7 @@ Determine the displacement at C, EI is constant.
 -   Macaulay functions can be used to describe various loading conditions, the general definition is
 
 $$\\langle x-a\\rangle^n = \\begin{cases}
-  0 & \\text{for } x &lt; a\\\\
+  0 & \\text{for } x < a\\\\
   (x-a)^n & \\text{for } x \\ge a
 \\end{cases}
 n \ge 0$$
@@ -134,8 +136,8 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ## integration
 
 - discontinuity functions follow special rules for integration
-- when n &ge; 0, they integrate like a normal polynomial
-- when n &lt; 0, they instead follow 
+- when $n \ge 0$, they integrate like a normal polynomial
+- when $n < 0$, they instead follow 
 
 $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 
