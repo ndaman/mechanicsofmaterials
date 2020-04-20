@@ -121,7 +121,7 @@ Find the maximum deflection using either direct integration or discontinuity fun
 ----
 ## superposition
 
--   The differential equation *EId*<sup>4</sup>*v*/*dx*<sup>4</sup> = *w*(*x*) satisfies the requirements for superposition
+-   The differential equation *EId*<sup>4</sup>*v*/*dx*<sup>4</sup> = *w*(*x*) satisfies the requirements for superposition
 -   *w*(*x*) is linearly related to *v*(*x*)
 -   Load does not significantly change the shape of the beam
 
