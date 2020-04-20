@@ -87,7 +87,7 @@ $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 ----
 ## example 12.5
 
-![](../images/example-12-5.jpg) --
+![](../images/example-12-5.jpg) 
 
 ---
 # group problems
