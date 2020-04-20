@@ -22,7 +22,6 @@ Wichita State University, Department of Aerospace Engineering
 <!-- vim-markdown-toc GFM -->
 
 * discontinuity functions
-* discontinuity functions
 * group problems
 * superposition
 
@@ -89,7 +88,6 @@ $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 ## example 12.5
 
 ![](../images/example-12-5.jpg) --
-# discontinuity functions
 
 ---
 # group problems
