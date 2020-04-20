@@ -54,7 +54,7 @@ Wichita State University, Department of Aerospace Engineering
 
 $$\\frac{1}{\\rho} = -\\frac{\\epsilon}{y}$$
 
--   Since Hooke’s Law applies, *ϵ* = *σ*/*E* = −*My*/*EI*, substituting gives
+-   Since Hooke’s Law applies, $\epsilon = \sigma/E = - My/EI$, substituting gives
 
 $$\\frac{1}{\\rho} = \\frac{M}{EI}$$
 
@@ -63,7 +63,7 @@ $$\\frac{1}{\\rho} = \\frac{M}{EI}$$
 
 ![](../images/curvature.jpg) <!-- .element width="60%" -->
 
-`$\rho$` is positive when the center of the arc is above the beam, negative when it is below.
+$\rho$ is positive when the center of the arc is above the beam, negative when it is below.
 
 ---
 # slope and displacement
@@ -98,21 +98,23 @@ $$\\begin{aligned}
 ----
 ## boundary conditions
 
--   If a support restricts displacement, but not rotation, we will have a boundary condition of *v* = 0 at that point
--   Supports that restrict rotation give a boundary condition that *θ* = 0
+-   If a support restricts displacement, but not rotation, we will have a boundary condition of *v* = 0 at that point
+-   Supports that restrict rotation give a boundary condition that $\theta = 0$
 
 ----
 ## continuity conditions
 
 -   If we have a piecewise function for *M*(*x*), not all integration constants can be found from the boundary conditions
 -   Instead, we must also use continuity conditions to ensure that the slope and displacement are continuous at every point
--   In other words, for two sets of functions, *θ*<sub>1</sub>(*x*) and *v*<sub>1</sub>(*x*), *θ*<sub>2</sub>(*x*), and *v*<sub>2</sub>(*x*), *θ*<sub>1</sub>(*a*)=*θ*<sub>2</sub>(*a*) and *v*<sub>1</sub>(*a*)=*v*<sub>2</sub>(*a*)
+-   In other words, for two sets of functions, $\theta_1(x)$ and $v_1(x)$, $\theta_2(x)$, and $v_2(x)$, $\theta_1(a) = \theta_2(a)$ and $v_1(a) = v_2(a)$
 
 ----
 ## slope
 
 -   For small displacements, we have
-    *θ* ≈ tan*θ* = *dv*/*dx*
+$$
+\\theta \\approx \\tan(\\theta) = dv/dx
+$$
 
 ----
 ## example 12.1
