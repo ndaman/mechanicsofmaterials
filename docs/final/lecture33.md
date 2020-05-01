@@ -50,17 +50,17 @@ $$K = \\frac{\\sigma\_{max}}{\\sigma\_{avg}}$$
 ----
 ## fillets
 
-![](../images/stress-concentration-fillet.jpg)
+![](../images/stress-concentration-fillet.jpg) <!-- .element width="50%" -->
 
 ----
 ## holes
 
-![](../images/stress-concentration-hole.jpg)
+![](../images/stress-concentration-hole.jpg) <!-- .element width="50%" -->
 
 ----
 ## example
 
-![](../images/stress-concentration-example.jpg)
+![](../images/stress-concentration-example.jpg)   <!-- .element width="50%" -->
 If `$\sigma_{allow}=120 $` MPa, find the maximum axial force, P.
 
 ----
@@ -75,12 +75,12 @@ $$\\tau\_{max} = K \\frac{Tc}{J}$$
 ----
 ## fillet
 
-![](../images/stress-concentration-torsion.jpg)
+![](../images/stress-concentration-torsion.jpg) <!-- .element width="50%" -->
 
 ----
 ## example 5.14
 
-![](../images/example-5-14.jpg)
+![](../images/example-5-14.jpg) <!-- .element width="50%" -->
 
 
 Determine the maximum stress in the shaft due to the applied torques. The shoulder fillet has a radius of r=6 mm
@@ -96,16 +96,16 @@ $$\\sigma\_{max} = K \\frac{Mc}{I}$$
 ----
 ## fillet
 
-![](../images/beam-fillet.jpg)
+![](../images/beam-fillet.jpg) <!-- .element width="50%" -->
 
 ----
 ## notch
 
-![](../images/beam-notch.jpg)
+![](../images/beam-notch.jpg) <!-- .element width="50%" -->
 
 ----
 ## example 6.20
 
-![](../images/example-6-20.jpg)
+![](../images/example-6-20.jpg) <!-- .element width="50%" -->
 
 Determine the maximum normal stress for a steel bar with a shoulder fillet as shown.
