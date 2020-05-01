@@ -4,24 +4,24 @@ Lecture 33 - Stress Concentration<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-26 Apr, 2019
+4 May, 2020
 
 ----
 
 ## schedule
 
-- 26 Apr - Stress Concentration
-- 29 Apr - Stress Concentration
-- 1 May - SPTE, Buckling
-- 3 May - Buckling
-
+- 4 May - Stress Concentration
+- 6 May - Buckling, Exam 3b Due
+- 8 May - Review, HW 11 Due, Final Project Portion assigned
 
 ----
 ## outline
 
+<!-- vim-markdown-toc GFM -->
 
----
-# exam
+* stress concentration factors
+
+<!-- vim-markdown-toc -->
 
 ---
 # stress concentration factors
@@ -50,17 +50,17 @@ $$K = \\frac{\\sigma\_{max}}{\\sigma\_{avg}}$$
 ----
 ## fillets
 
-![](..\images\stress-concentration-fillet.jpg)
+![](../images/stress-concentration-fillet.jpg)
 
 ----
 ## holes
 
-![](..\images\stress-concentration-hole.jpg)
+![](../images/stress-concentration-hole.jpg)
 
 ----
 ## example
 
-![](..\images\stress-concentration-example.jpg)
+![](../images/stress-concentration-example.jpg)
 If `$\sigma_{allow}=120 $` MPa, find the maximum axial force, P.
 
 ----
@@ -75,12 +75,12 @@ $$\\tau\_{max} = K \\frac{Tc}{J}$$
 ----
 ## fillet
 
-![](..\images\stress-concentration-torsion.jpg)
+![](../images/stress-concentration-torsion.jpg)
 
 ----
 ## example 5.14
 
-![](..\images\example-5-14.jpg)
+![](../images/example-5-14.jpg)
 
 
 Determine the maximum stress in the shaft due to the applied torques. The shoulder fillet has a radius of r=6 mm
@@ -96,16 +96,16 @@ $$\\sigma\_{max} = K \\frac{Mc}{I}$$
 ----
 ## fillet
 
-![](..\images\beam-fillet.jpg)
+![](../images/beam-fillet.jpg)
 
 ----
 ## notch
 
-![](..\images\beam-notch.jpg)
+![](../images/beam-notch.jpg)
 
 ----
 ## example 6.20
 
-![](..\images\example-6-20.jpg)
+![](../images/example-6-20.jpg)
 
 Determine the maximum normal stress for a steel bar with a shoulder fillet as shown.
