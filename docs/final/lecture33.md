@@ -61,7 +61,8 @@ $$K = \\frac{\\sigma\_{max}}{\\sigma\_{avg}}$$
 ## example
 
 ![](../images/stress-concentration-example.jpg)   <!-- .element width="50%" -->
-If `$\sigma_{allow}=120 $` MPa, find the maximum axial force, P.
+
+If $\sigma_{allow}=120$ MPa, find the maximum axial force, P.
 
 ----
 ## stress concentration in torsion
