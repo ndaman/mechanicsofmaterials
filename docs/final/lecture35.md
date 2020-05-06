@@ -170,7 +170,7 @@ $L_e = K L$
 
 <div class="left">
 
-![](../images/col-free.jpg) 
+![](../images/col-free.jpg) <!-- .element width="70%" -->
 
 </div>
 
@@ -185,7 +185,7 @@ $L_e = K L$
 
 <div class="left">
 
-![](../images/col-fixed-fixed.jpg) 
+![](../images/col-fixed-fixed.jpg) <!-- .element width="70%" -->
 
 </div>
 
