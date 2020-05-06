@@ -4,17 +4,16 @@ Lecture 35 - Buckling<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-1 May, 2019
+6 May, 2020
 
 ----
 
 ## schedule
 
-- 1 May - SPTE, Buckling
-- 3 May - Buckling
-- 6 May - Final Review, HW11 Due
-- 8 May - Final Review
-- 15 May 1:00 - 2:50 - Final Exam
+- 6 May - Buckling, Exam 3b Due
+- 8 May - Review, HW 11 Due, Final Project Portion assigned
+- 13 May - Final Exam on Blackboard ( 11:00 - 12:50 )
+- 14 May - Final Project Portion Due
 
 
 ----
@@ -24,6 +23,7 @@ Wichita State University, Department of Aerospace Engineering
 
 * buckling
 * ideal pin-supported column
+* columns with other supports
 
 <!-- vim-markdown-toc -->
 
@@ -33,7 +33,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## stability
 
--   In enineering problems, stability and instability relate how an object behaves when it experiences some random perturbation
+-   In engineering problems, stability and instability relate how an object behaves when it experiences some random perturbation
 -   A stable aircraft has aerodynamic features that tend to keep it flying level, small bumps of wind that would cause it to rotate will eventually get pushed back to level
 -   Some aircraft are designed to be unstable (can have a tighter turn radius), but they need to be actively controlled, as a small perturbation will cause them to spiral out of control
 
@@ -54,13 +54,15 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## critical load
 
-![](..\images\buckling-truss.jpg) <!-- .element width="30%" -->
+![](../images/buckling-truss.jpg) <!-- .element width="30%" -->
 
 ----
 ## critical load
 
 -   The balance of forces will be
-    *F* = *kΔ* = *P*tan*θ*
+
+$$ F = k\Delta = P\tan \theta $$
+
 -   For small *θ*, we can further say that *Δ* = *θ*(*L*/2) and tan*θ* = *θ*
 
 ----
@@ -68,7 +70,7 @@ Wichita State University, Department of Aerospace Engineering
 
 -   We find that, for stability, we need
 
-`$$P < \frac{kL}{4}$$`
+$$P < \frac{kL}{4}$$
 
 ---
 # ideal pin-supported column
@@ -90,7 +92,7 @@ $$EI \\frac{d^2v}{dx^2} = M$$
 ----
 ## euler-bernoulli
 
-![](..\images\column-fbd.jpg) <!-- .element width="30%" -->
+![](../images/column-fbd.jpg) <!-- .element width="30%" -->
 
 ----
 ## solution
@@ -142,6 +144,80 @@ $$\\sigma\_{cr} = \\frac{\\pi^2 E}{(L/r)^2}$$
 ----
 ## example 13.1
 
-![](..\images\example-13-1.jpg) <!-- .element width="20%" -->
+![](../images/example-13-1.jpg) <!-- .element width="20%" -->
 
 Find the largest axial load the A992 steel member shown can support before it buckles or yields, use σ <sub>y</sub>=50 ksi.
+
+---
+# columns with other supports
+
+----
+## other supports
+
+- we can still use Euler-Bernoulli beam theory when handling columns with other supports
+- the general derivation is the same, but with different boundary conditions
+
+----
+## effective length
+
+- One simple way to use the same formula for different supports is to modify the effective length of the column
+- We can also use a length factor, *K*, to define the effective length
+
+$L_e = K L$
+
+----
+## length factors
+
+<div class="left">
+
+![](../images/col-free.jpg) 
+
+</div>
+
+<div class="right">
+
+![](../images/col-fixed-free.jpg) <!-- .element width="80%" -->
+
+</div>
+
+----
+## length factors
+
+<div class="left">
+
+![](../images/col-fixed-fixed.jpg) 
+
+</div>
+
+<div class="right">
+
+![](../images/col-fixed-pinned.jpg) <!-- .element width="70%" -->
+
+</div>
+
+----
+## effective length
+
+- The formulas now become
+
+$ P_{cr} = \frac{\pi^2 EI}{(KL)^2} $
+
+- or 
+
+$ \sigma_{cr} = \frac{\pi^2 E}{(KL/r)^2} $
+
+----
+## example 13.2
+
+![](../images/example-13-2.jpg) <!-- .element width="20%" -->
+
+The column shown is braced by cables preventing movement in *x*.
+Determine the largest *P* that can be applied if *E=70* GPa, σ<sub>y</sub>=215 MPa, *A* = 7.5 (10<sup>3</sup>) m<sup>2</sup>, I<sub>x</sub> = 61.3 (10<sup>-6</sup>) m<sup>4</sup> and I<sub>y</sub> = 23.2(10<sup>-6</sup>) m<sup>4</sup>.
+
+----
+## example 13.3
+
+![](../images/example-13-3.jpg) <!-- .element width="20%" -->
+
+A W6 x 15 steel column is fixed at its ends and braced in the *y-y* axis assumed to be pinned at the midpoint.
+Determine the maximum load before buckling or yield with E<sub>st</sub> = 29 Msi and σ<sub>y</sub> = 60 ksi.
