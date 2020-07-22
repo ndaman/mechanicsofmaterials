@@ -1,5 +1,5 @@
 custom themes can be added to this directory:
-C:\Users\a723k873\AppData\Roaming\npm\node_modules\reveal-md\node_modules\reveal.js\css\theme
+reveal.js\css\theme
 
 latex find and replace regex:
   (easier to first convert w/ pandoc, then edit that)
@@ -16,6 +16,10 @@ internal links:
   add id to slide using: <!-- -- id="test-slide" -->
   with this line in html: data-attributes="--\s(.*?)$"
   then link using: [test](#/test-slide)
+
+pdf's:
+	reveal.js pdf printing has not been very reliable, so instead I created a simple Makefile to build pdf's from my markdown file, just type "make" to build all unbuilt files, for make "filename.pdf" to only build a single file
+	I have tried to automatically correct some of the most common issues, but occasionally there are characters that do not translate and will need to be converted from their unicode to a latex command.
 
 want to write some customizations
   automatically build a shell/outline given some main topics
