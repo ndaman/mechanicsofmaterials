@@ -152,15 +152,22 @@ August 18, 2020
 
 ## grades
 
+<div class='left'>
+
 -   Grade breakdown
     -   Homework 5%
     -   Exam 1 10%
-    -   Project 1 15%
     -   Exam 2 10%
-    -   Project 2 15%
     -   Exam 3 10%
-    -   Project 3 15%
     -   Final Exam 20%
+</div>
+<div class='right'>
+
+-   Project 1 15%
+-   Project 2 15%
+-   Project 3 15%
+
+</div>
 
 ----
 
