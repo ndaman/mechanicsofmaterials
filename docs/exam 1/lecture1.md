@@ -4,16 +4,16 @@ Lecture 1 - Equilibrium<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 22, 2020
+August 18, 2020
 
 ----
 
 ## schedule
 
-- 22 Jan - Introduction, Equilibrium
-- 24 Jan - Stress
-- 27 Jan - Average stress, Intro HW Due
-- 29 Jan - Assessment Test
+- 18 Aug - Introduction, Equilibrium
+- 20 Aug - Stress
+- 25 Aug - Strain, Homework 1 Due
+- 27 Aug - Mechanical Properties
 
 ----
 
@@ -31,7 +31,7 @@ January 22, 2020
 ----
 
 ## about me
-![family picture](../images/IMG_0004.JPG) <!-- .element width="40%" -->
+![family picture](../images/family2020.JPG) <!-- .element width="40%" -->
 
 ----
 
@@ -56,14 +56,6 @@ January 22, 2020
 
 ## research
 ![picture of lamborghini symbol made from compression molded chopped carbon fiber](../images/lamborghini-chopped-fiber-badges-rough.jpg)
-
-----
-
-## research
-
-  - No simulation is currently able to predict fiber orientation from these processes
-  - Part of the challenge is that we only have information from initial state and final state
-  - I want to quantify intermediate stages using a transparent mold
 
 ----
 
@@ -99,7 +91,7 @@ January 22, 2020
 ## course textbook
 
 -  R.C. Hibbeler - Mechanics of Materials
--  We WILL be using Mastering Engineering for homework, so you will need a license/account for that to submit homework assignments
+- This semester I am changing how I do homework, and MasteringEngineering will NOT be used 
 
 ----
 
@@ -117,54 +109,58 @@ January 22, 2020
 ## tentative course outline
 
 -   Section 1 - stress, strain, mechanical properties
-    -   Ch 1 - Stress (22 Jan)
-    -   Ch 2 - Strain (29 Jan)
-    -   Ch 3 - Mechanical Properties (3 Feb)
-    -   Exam 1 (7 Feb)
+    -   Ch 1 - Stress (18 Aug)
+    -   Ch 2 - Strain (20 Aug)
+    -   Ch 3 - Mechanical Properties (25 Aug)
+    -   Project 1 (29 Aug)
+    -   Exam 1 (1 Sep)
 
 ----
 
 ## tentative course outline
 
 -   Section 2 - loading
-    -   Ch 4 - Axial Load (10 Feb)
-    -   Ch 5 - Torsion (17 Feb)
-    -   Ch 6 - Bending (24 Feb)
-    -   Ch 7 - Transverse Shear (2 Mar)
-    -   Exam 2 (5 Mar)
+    -   Ch 4 - Axial Load (8 Sep)
+    -   Ch 5 - Torsion (15 Sep)
+    -   Ch 6 - Bending (22 Sep)
+    -   Ch 7 - Transverse Shear (29 Sep)
+    -   Project 2 (2 Oct)
+    -   Exam 2 (5 Oct)
 
 ----
 
 ## tentative course outline
 
 -   Section 3 - beams, shafts, combined loading
-    -   Ch 8 - Combined Loading (16 Mar)
-    -   Ch 9 - Stress Transformation (23 Mar)
-    -   Ch 10 - Strain Transformation (30 Mar)
-    -   Ch 12 - Deflection of Beams and Shafts (6 Apr)
-    -   Exam 3 (24 Apr)
+    -   Ch 8 - Combined Loading (13 Oct)
+    -   Ch 9 - Stress Transformation (20 Oct)
+    -   Ch 10 - Strain Transformation (27 Oct)
+    -   Ch 12 - Deflection of Beams and Shafts (3 Nov)
+    -   Project 3 (13 Nov)
+    -   Exam 3 (16 Nov)
 
 ----
 
 ## tentative course outline
 
 -   Section 4 - buckling, stress concentration
-    -   Ch 4.7, 5.8, 6.9 - Stress concentration (27 Apr)
-    -   Ch 13 - Buckling (4 May)
-    -   Final Exam (comprehensive) (13 May)
+    -   Ch 4.7, 5.8, 6.9 - Stress concentration (1 Dec)
+    -   Ch 13 - Buckling (3 Dec)
+    -   Final Exam (comprehensive) (7 Dec)
 
 ----
 
 ## grades
 
 -   Grade breakdown
-    -   Assessment Test 2%
-    -   Class Participation 3%
-    -   Homework 10%
-    -   Exam 1 20%
-    -   Exam 2 20%
-    -   Exam 3 20%
-    -   Final Exam 25%
+    -   Homework 5%
+    -   Exam 1 10%
+    -   Project 1 15%
+    -   Exam 2 10%
+    -   Project 2 15%
+    -   Exam 3 10%
+    -   Project 3 15%
+    -   Final Exam 20%
 
 ----
 
@@ -199,47 +195,11 @@ January 22, 2020
 
 ## homework
 
--   In general, homework assignments will be due every Monday by
-    midnight
--   We use Mastering Engineering for homework in this class
--   You are allowed 5 incorrect answers (-3% for each incorrect answer)
--   The first assignment is graded as pass/fail and is to help you
-    become familiar with the online homework system
-
-----
-
-## assessment test
-
--   The assessment test will be graded, and accounts for 2% of your
-    final grade
--   You should do your best, but it is meant as a measure of what you
-    have learned before starting this class, so no study or preparation
-    materials will be provided
--   You will be provided with an equation sheet taken from the inside
-    cover of your textbook
--   Bring a scientific calculator (capable of sine and cosine)
-
-----
-
-## assessment test topics
-
--   Vector mechanics (cartesian vector notation, summation of vectors)
--   Friction (static coefficient of friction)
--   Dot product
--   Torque (i.e. moment due to offset forces)
--   Equilibrium (extension of vector mechanics)
-
-----
-
-## assessment test
-
--   Test will consist of both multiple choice and working problems
--   The test will be fixed at 50 minutes
--   The purpose is to determine how well-prepared you are for mechanics
-    of materials
--   We are trying to determine which students need extra help (both you
-    individually and in general for future students), this test is part
-    of ongoing research and is optionally accompanied by a survey
+-   In general, homework assignments will be due every Friday by midnight
+-   Homework will be submitted online via Blackboard, half the homework credit will be granted for completion.
+-   Homework solutions will be posted to Blackboard, and the remaining half of the homework credit will be assigned after you complete (and submit) your self-grade.
+-   You do not lose credit for incorrect answers, but your self-grade should explain the differences between your answer and the correct solution.
+-   Late homework will not be accepted
 
 ---
 
@@ -302,8 +262,7 @@ January 22, 2020
   \sum F_x &= 0\\
   \sum F_y &= 0\\
   \sum M_O &= 0
-\end{aligned}$$
-`
+\end{aligned}$$`
 
 </div>
 
