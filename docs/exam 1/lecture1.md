@@ -360,10 +360,10 @@ Compare three cases for a traditional leg vise for use on Dr. Smith's workbench
 
 ## traditional pin-board
 
-![workbench leg vise with a pin board to prevent racking](../images/pinboard.jpg)
+![workbench leg vise with a pin board to prevent racking](../images/pinboard.jpg) <!-- .element width="30%" -->
 
 ----
 
 ## St. Peter's Cross
 
-![an alternate way to prevent racking using a scissor-like device known as "St. Peter's Cross"](../images/stpeterscross.jpg)
+![an alternate way to prevent racking using a scissor-like device known as "St. Peter's Cross"](../images/stpeterscross.jpg) <!-- .element width="30%" -->
