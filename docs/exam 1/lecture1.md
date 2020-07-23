@@ -163,9 +163,9 @@ August 18, 2020
 </div>
 <div class='right'>
 
--   Project 1 15%
--   Project 2 15%
--   Project 3 15%
+    -   Project 1 15%
+    -   Project 2 15%
+    -   Project 3 15%
 
 </div>
 
@@ -204,9 +204,16 @@ August 18, 2020
 
 -   In general, homework assignments will be due every Friday by midnight
 -   Homework will be submitted online via Blackboard, half the homework credit will be granted for completion.
+-   Late homework will not be accepted
+
+----
+
+## self-grade 
+
+-   Your homework will be self-graded, your self-grading will generally be due the week after the original assignment
 -   Homework solutions will be posted to Blackboard, and the remaining half of the homework credit will be assigned after you complete (and submit) your self-grade.
 -   You do not lose credit for incorrect answers, but your self-grade should explain the differences between your answer and the correct solution.
--   Late homework will not be accepted
+-   Some problems will be somewhat open-ended and there may not be a "correct" answer, so consider that when looking at what is different between your solution and mine
 
 ---
 
