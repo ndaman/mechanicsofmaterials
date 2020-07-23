@@ -31,7 +31,7 @@ August 18, 2020
 ----
 
 ## about me
-![family picture](../images/family2020.JPG) <!-- .element width="40%" -->
+![family picture](../images/family2020.JPG) <!-- .element width="30%" -->
 
 ----
 
