@@ -197,6 +197,7 @@ August 18, 2020
 -   I ask that you refrain from distracting behaviors during class
 -   When you have something more important than class to take care of,
     please take care of it outside of class
+-   Chegg
 
 ----
 
@@ -344,3 +345,25 @@ Find the internal forces at point C.
 Find the internal forces at point D.
 
 </div>
+
+----
+
+## example
+
+Compare three cases for a traditional leg vise for use on Dr. Smith's workbench
+- No bottom support
+- Standard pin-board
+- St. Peter's Cross
+- NOTE: Assume the force applied at the vise is the same in all cases (around 2000 lb if you want a number), that the leg vise is 3 ft. tall and the screw is 1 ft. down from the top.
+
+----
+
+## traditional pin-board
+
+![workbench leg vise with a pin board to prevent racking](../images/pinboard.jpg)
+
+----
+
+## St. Peter's Cross
+
+![an alternate way to prevent racking using a scissor-like device known as "St. Peter's Cross"](../images/stpeterscross.jpg)
