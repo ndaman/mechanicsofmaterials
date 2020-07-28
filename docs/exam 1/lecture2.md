@@ -226,3 +226,13 @@ Determine the average shear stress in the 20-mm diameter pin at `$A$` and the 30
 Determine the average compressive stress along the smooth contact of `$AB$` and `$BC$` and the average shear stress along the horizontal plane `$DB$`.
 
 </div>
+
+----
+
+## example
+
+Calculate the stresses for elements in last week's lecture:
+- Stress in the workpiece
+- Stress in the vise screw
+- Stress in the pinboard
+- Stress in St. Peter's Cross
