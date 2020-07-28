@@ -167,6 +167,16 @@ Determine the position, x, of the load so that the average compressive stress at
 
 </div>
 
+----
+
+## example
+
+Calculate the stresses for elements in last week's lecture:
+- Stress in the workpiece
+- Stress in the vise screw
+- Stress in the pinboard
+- Stress in St. Peter's Cross
+ 
 ---
 
 # average shear stress
@@ -231,8 +241,4 @@ Determine the average compressive stress along the smooth contact of `$AB$` and 
 
 ## example
 
-Calculate the stresses for elements in last week's lecture:
-- Stress in the workpiece
-- Stress in the vise screw
-- Stress in the pinboard
-- Stress in St. Peter's Cross
+Calculate the average shear stress in the pin connecting the two legs in "St. Peter's Cross" from the leg vise example.
