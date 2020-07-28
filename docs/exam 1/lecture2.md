@@ -94,8 +94,7 @@ Find the internal forces at C.
   \sigma_x &= \lim_{\Delta A_x \to 0} \frac{\Delta F_x}{\Delta A_x}\\
   \sigma_y &= \lim_{\Delta A_y \to 0} \frac{\Delta F_y}{\Delta A_y}\\
   \sigma_z &= \lim_{\Delta A_z \to 0} \frac{\Delta F_z}{\Delta A_z}
-\end{aligned}$$
-`
+\end{aligned}$$`
 
 ----
 
@@ -109,8 +108,7 @@ Find the internal forces at C.
   \tau_{xy} &= \lim_{\Delta A_y \to 0} \frac{\Delta F_x}{\Delta A_y}\\
   \tau_{yz} &= \lim_{\Delta A_z \to 0} \frac{\Delta F_y}{\Delta A_z}\\
   \tau_{xz} &= \lim_{\Delta A_x \to 0} \frac{\Delta F_z}{\Delta A_x}
-\end{aligned}$$
-`
+\end{aligned}$$`
 
 ----
 
