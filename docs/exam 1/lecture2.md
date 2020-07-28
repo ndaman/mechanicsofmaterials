@@ -4,64 +4,37 @@ Lecture 2 - Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 24, 2020
+August 20, 2020
 
-----
-
-![jimmy](../images/jimmyg.jpg)
 
 ----
 
 ## schedule
 
-- 24 Jan - Stress
-- 27 Jan - Average stress, Intro HW Due
-- 29 Jan - Assessment Test
-- 31 Jan - Allowable stress, Strain, HW1 Due
+- 20 Aug - Stress
+- 25 Aug - Strain, Homework 1 Due
+- 27 Aug - Mechanical Properties, Project 1 Due
+- 1 Sep - Exam Review
 
 ----
 
 ## office hours
 
-- 17/45 students reporting
-- Tuesday 1:00 - 2:00 looks like the best option so far
-- You have until next Monday's class to vote for your preferred time, that is when I would like to finalize office hours
+- TBD
 - As always, if you can't make it to office hours, just send me an e-mail and we'll try to work something out
 
 ----
 
 ## outline
 
-  - review
-  - stress
-  - average normal stress
-  - average shear stress
+- review
+- stress
+- average normal stress
+- average shear stress
 
 ---
 
 # review
-
-----
-
-## example 1.1
-
-![Example 1.1 from the text, showing a cantilever beam with a distributed load, 270 newtons per meter at the end closest to the fixed support decreasing linearly to 0 newtons per meter at the end. The beam is 9 meters long and we need to find the internal forces at Point C, located 3 meters away from the fixed end.](../images/example-1-1.png)<!-- .element width="70%" -->
-
-Find the internal forces at point C.
-
-----
-
-## example 1.4
-<div class="left">
-
-![Example 1.4 from the text, depicting an l-shaped shaft with the two legs being 1.25 meters long. If we consider the fixed end of the shaft to be the origin, the shaft proceeds 1.25 meters along the y-axis, then angles 90 degrees to continue 1.25 meters along the x-axis. At the free end, there is a 70 newton-meter couple moment applied about the x-axis, as well as a 50 newton load in the negative z-direction and a 30 newton load in the positive y-direction. Find the internal forces at point d, located 0.75 meters from the fixed end (along the y-axis).](../images/example-1-4.jpg)<!-- .element width="90%" -->
-
-</div>
-<div class="right">
-
-Find the internal forces at point D.
-
-</div>
 
 ----
 
