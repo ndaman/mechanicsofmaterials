@@ -20,8 +20,8 @@ August 20, 2020
 
 ## office hours
 
-- TBD
-- As always, if you can't make it to office hours, just send me an e-mail and we'll try to work something out
+- No traditional office hours this year, questions should either be asked during recitation on Tuesday/Thursday
+- Office appointments can be scheduled via e-mail, although remote meetings are preferred
 
 ----
 

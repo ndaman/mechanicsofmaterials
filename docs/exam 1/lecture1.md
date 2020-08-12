@@ -97,12 +97,8 @@ August 18, 2020
 
 ## office hours
 
--   I will e-mail everyone in the course a Doodle link we can use to
-    find the optimal office hours
--   Let me know if you do not receive the e-mail, you may need to update
-    your information in Blackboard
--   If the regular office hours do not work for your schedule, send me
-    an e-mail and we can work out a time to meet
+- No traditional office hours this year, questions should either be asked during recitation on Tuesday/Thursday
+- Office appointments can be scheduled via e-mail, although remote meetings are preferred
 
 ----
 
