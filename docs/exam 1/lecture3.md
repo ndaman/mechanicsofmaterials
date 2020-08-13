@@ -14,7 +14,7 @@ Wichita State University, Department of Aerospace Engineering
 - 27 Aug - Mechanical Properties
 - 1 Sep - Exam Review, Homework 2 Due, Project 1 Due
 - 3 Sep - Axial Load (not on Exam 1)
-- 8 Sep - Exam 1 (online, no recitation this day)
+- 8 Sep - Exam 1 (online)
 
 ----
 
@@ -196,7 +196,7 @@ The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B
 -   Strain is a more precise measurement of the deformation of a body
 -   Normal strain is given as the change in length divided by the original length
 
-`$$\\epsilon = \\frac{L-L\_0}{L\_0}$$`
+`$$\epsilon = \frac{L-L_0}{L_0}$$`
 
 -   We can consider the average normal strain (over an entire body) or the local strain (take an infinitely small portion and calculate the strain there)
 
@@ -214,7 +214,7 @@ The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B
 -   Deformation can also cause two lines to change their relative angle
 -   The change in angle between two originally perpendicular line segments is called shear strain
 
-`$$\\gamma = \\frac{\\pi}{2} - \\theta$$`
+`$$\gamma = \frac{\pi}{2} - \theta$$`
 
 ----
 ## shear strain
@@ -230,7 +230,7 @@ The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B
 
 -   And the shear strains will change the shape
 
-`$$\\frac{\\pi}{2}-\\gamma\_{xy} \\qquad \\frac{\\pi}{2}-\\gamma\_{yz} \\qquad \\frac{\\pi}{2}-\\gamma\_{xz}$$`
+`$$\frac{\pi}{2}-\gamma_{xy} \qquad \frac{\pi}{2}-\gamma_{yz} \qquad \frac{\pi}{2}-\gamma_{xz}$$`
 
 ----
 ## small strain
