@@ -174,7 +174,8 @@ Calculate the stresses for elements in last week's lecture:
 - Stress in the vise screw
 - Stress in the pinboard
 - Stress in St. Peter's Cross
- 
+
+
 ---
 
 # average shear stress
