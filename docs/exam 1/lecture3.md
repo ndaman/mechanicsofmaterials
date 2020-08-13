@@ -1,5 +1,5 @@
-# AE333
 ## Mechanics of Materials
+# AE333
 Lecture 3 - Strain<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
@@ -11,9 +11,10 @@ Wichita State University, Department of Aerospace Engineering
 ## schedule
 
 - 25 Aug - Strain, Homework 1 Due
-- 27 Aug - Mechanical Properties, Project 1 Due
-- 1 Sep - Exam Review
-- 3 Sep - Exam 1 (online)
+- 27 Aug - Mechanical Properties
+- 1 Sep - Exam Review, Homework 2 Due, Project 1 Due
+- 3 Sep - Axial Load (not on Exam 1)
+- 8 Sep - Exam 1 (online, no recitation this day)
 
 ----
 

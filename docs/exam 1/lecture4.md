@@ -1,281 +1,172 @@
 # AE333
 ## Mechanics of Materials
-Lecture 4 - Strain<br/>
+Lecture 4 - Mechanical Properties<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-January 31, 2020
+27 August, 2020
 
 ----
 
 ## schedule
 
-- 31 Jan - Allowable stress, Strain
-- 3 Feb - Strain, Mechanical Properties
-- 5 Feb - Mechanical Properties, Exam 1 Review
-- 7 Feb - Axial Load, HW2 Due
-- 10 Feb - Exam 1
+- 27 Aug - Mechanical Properties
+- 1 Sep - Exam Review, Homework 2 Due, Project 1 Due
+- 3 Sep - Axial Load (not on Exam 1)
+- 8 Sep - Exam 1 (online, no recitation this day)
+- 10 Sep - Axial Load
 
 ----
 ## outline
 
-- allowable stress
-- limit state
-- strain
+<!-- vim-markdown-toc GFM -->
+
+* stress-strain
+* strain energy
+* poisson's ratio
+* shear stress-strain
+
+<!-- vim-markdown-toc -->
+
+---
+# stress-strain
 
 ----
-## office hours
+## stress-strain
 
-- Office hours will be Fridays 2:00 - 3:00
-- Send me an e-mail if you have a question and can't make it then
-- My office is in WH 200D (inside the main AE offices in Wallace Hall)
-- Back-up office hours (AE 737 Office Hours) are Tuesdays 3:00 - 4:00
-
+-   Most engineering materials can be characterized by their stress-strain diagram
+-   Comes from a tensile or compressive test, where a load is applied (gives stress) and the strain is measured (via an extensometer or strain gauge)
+-   *Engineering stress* is plotted on the y-axis vs. *engineering strain* on the x-axis
 
 ----
-## example 1-11
+## stress-strain
+
+![A stress-strain diagram for a typical metal. From left to right, the stress increases linearly until reaching the proportional limit, or yield stress, at which point the stress does not increase very much with increasing strain. When the strain reaches the strain hardening region, the stress begins to increase again with increasing strain until the material fails.](../images/stress-strain.jpg) <!-- .element width="70%"-->
+
+----
+## elastic behavior
+
+-   Most of the time, the linear region is the one we are most interested in
+-   In this region, the material is elastic, meaning when the load is removed the material will return to its original state
+
+----
+## elastic behavior
+
+-   Because the stress-strain curve is a straight line, we can relate stress and strain with a single constant
+-   This constant is known as the *modulus of elasticity* or *Young's modulus*
+
+`$$ \sigma=E \epsilon $$`
+
+----
+## plastic behavior
+
+-   Yielding occurs when stress increases beyond the *yield stress* or *elastic limit*, this is when plastic deformation occurs, meaning the material will not go back to its original shape
+-   Strain hardening is common in many metals, and means as more stress is applied the material becomes more stiff
+
+----
+## plastic behavior
+
+-   Necking occurs when the material begins to have a noticeable "neck" due to being stretched very thin and lower forces are required to deform the material
+
+----
+## true stress-strain
+
+-   True stress and strain use the actual material cross-section (instead of the original cross-section) to calculate stress and strain
+-   In the elastic region the difference is negligible, so in many cases we just stick with engineering strain, even if we know it is *wrong*
+
+----
+## ductile materials
+
+-   Ductile materials can undergo large strains before failure
+-   One way to report how ductile a material is is known as percent elongation
+-   Steel, brass, molybdenum, and zinc exhibit similar ductile stress-strain characteristics
+-   Aluminum is often considered ductile, but its stress-strain behavior is a bit different
+
+----
+## brittle materials
+
+-   Materials that exhibit little or no yielding before failure are called *brittle*
+-   Cast iron, concrete, and glass are common brittle materials
+-   Brittle materials fail easily in tension, but are very strong in compression
+
+----
+## strain hardening
+
+![A stress-strain diagram showing how strain hardening works. A material is loaded beyond its elastic limit, and then unloaded. If it is loaded again, it will not yield until it reaches the final stress to which it had been previously loaded (but it will not have as much toughness).](../images/strain-hardening.jpg) <!-- .element width="40%"-->
+
+---
+# strain energy
+
+----
+## strain energy
+
+-   Work in physics is defined as force times distance
+-   As a force is applied to a material, the energy from the work done by the load is stored in the material and called strain energy
+-   In engineering, we often use the strain energy density, or the amount of strain energy per unit volume of material
+
+$$u = \\frac{1}{2} \\sigma \\epsilon$$
+
+----
+## toughness
+
+-   Graphically, the area under the stress strain curve represents the strain energy density
+-   We call the entire region (usually for a ductile material) the *toughness*
+-   Some hardened steels have a high failure strength, but are not very ductile, this gives them a lower toughness
+
+----
+## example 3.3
 
 <div class="left">
 
-![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](../images/example-1-11.jpg)
+![A bar is under a 10 kilonewton tensile load. One section of the bar is 600 mm long with a 20 mm diameter, while the other section is 400 mm long with a 15 mm diameter. The stress-strain diagram below shows that for a stress of 56.59 MPa there will be a strain of .045](../images/example-3-3.png)
 
 </div>
+
 <div class="right">
 
-Determine the average compressive stress along the smooth contact of `$AB$` and `$BC$` and the average shear stress along the horizontal plane `$DB$`.
+The aluminum rod shown has a circular cross-section. Determine the elongation of the rod when load is applied using the given stress-strain diagram.
 
 </div>
 
 ---
-# allowable stress design
+# poisson's ratio
 
 ----
+## poisson's ratio
 
-## allowable stress
+-   When a material is stretched in one direction, it tends to contract in the transverse direction
+-   The ratio of transverse to axial strain is called *Poisson's ratio*
 
-  -   Most of the time, we design structures so the stress is less than
-      some limit
-  -   By setting a conservative allowable stress, we account for some
-      manufacturing tolerances, unintended loads, and variability in
-      mechanical properties
-
-----
-
-## factor of safety
-
-  -   The factor of safety is the failure load divided by the allowable
-      load
-
-`$$FS = \frac{F_{fail}}{F_{allow}}$$`
-
-  -   Since load and stress are linearly proportional, we could also
-      define the factor of safety in terms of stress and it would be
-      identical
-
-----
-
-## factor of safety
-
-  -   Typical values for the factor of safety will vary based on
-      application
-
-  -   Aircraft and space vehicles might have a factor close to 1 to
-      minimize weight
-
-  -   Nuclear power plants might have a factor close to 3 since weight is
-      not as important and failure would be catastrophic
-
-----
-
-## simple connections
-
-  -   We can rearrange the equations `$\sigma=N/A$` and `$\tau=V/A$` to size
-      components based on some allowable stress
-
-`$$\begin{aligned}
-  A &= \frac{N}{\sigma_{allow}}\\
-  A &= \frac{V}{\tau_{allow}}
-\end{aligned}$$`
-
-----
-
-## bearing stress
-
-  ![A column under compressive loading, bearing stress is the stress developed under the column under this load.](../images/bearing-stress.jpg) <!-- .element width="40%" -->
-
-----
-
-## embedded shear stress
-
-![A rod embedded in concrete is under tension pulling it out. The shear stress on the outer edge of the rod inside the concrete is known as embedded shear stress.](../images/embedded-shear.jpg) <!-- .element width="30%" -->
-
-----
-
-## lap joint shear
-
-![Two plates are attached together and pulled in opposite directions. The shear stress between the two where they are attached is called lap shear.](../images/lap-shear.jpg) <!-- .element width="50%" -->
+$$\\nu = - \\frac{\\epsilon\_{transverse}}{\\epsilon\_{axial}}$$
 
 ---
-# limit state design
+# shear stress-strain
 
 ----
+## shear stress-strain
 
-## limit state design
+-   It can be experimentally difficult to obtain a state of pure shear, but a common method for many materials is to place a thin tube in torsion
+-   For most engineering materials, the shear stress-strain behavior is linear in the elastic region, but has a different constant relating stress to strain, known as the *Shear Modulus*
 
-  -   Allowable stress design accounts for uncertainty in the applied
-      loading and the material properties in one factor of safety
-  -   Limit state design separates these two into load and resistance
-      factors
-
-----
-
-## load factors
-
-  -   The load factor combines uncertainty in various types of load
-  -   For example, a building can have loading from a few different
-      sources, such as its own weight, people in the building, and snow on
-      top of the building
-  -   Weight is considered a *dead load* and can usually be determined
-      more precisely than moving things like people
+$$\tau=G \gamma $$
 
 ----
+## elastic constants
 
-## load factors
+-   For most materials, *E*, *G* and `$\nu$` are related by the following expression
 
-  -   In this simple example, we consider a load factor, `$\gamma_D=1.2$`
-      for the dead load, `$\gamma_L=1.6$` and `$\gamma_S=0.5$`
-`$$R = 1.2D + 1.6L + 0.5S$$`
-
-  -   These load factors combine the concept of a safety factor with the
-      probability that loads will occur
+$$G = \\frac{E}{2(1+\\nu)}$$
 
 ----
-
-## resistance factors
-
-  -   Resistance factors, `$\phi$` are used to express the probability a
-      material will fail at its limit load
-
-  -   If we are very confident in the failure stress of a material (i.e.
-      steel has little variability), we might use `$\phi=0.9$`
-
-  -   If we are not as confident, (using a new material, or an organic
-      material like wood with higher variability), we might use `$\phi=0.7$`
-
-----
-
-## design criteria
-
-  -   If we call the nominal load `$P$`, then we can combine load and
-      resistance factors using `$$\phi P \ge R$$`
-
-----
-
-## example 1-12
+## example 3.5
 
 <div class="left">
 
-![An l-shaped bracket has an 8 inch vertical leg and a 5 inch horizontal leg. A single shear pinned connector holds the point of the leg, A, in place while a double shear pinned connector holds the base of the L at point C in position. There is 3 kilopound load 3 inches to the right of C acting downward and a 5 kilopound load 2 inches to the right of that acting down and to the right in the direction of a 3-4-5 triangle (3 down, 4 to the right).](../images/example-1-12.jpg)
+![A block 4 inches deep, 3 inches wide, and 2 inches tall is loaded in shear (in the 3 inch direction). The stress-strain diagram shows that at the elastic limit of 52 ksi there is a strain of 0.008.](../images/example-3-5.png)
 
 </div>
 <div class="right">
 
-Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the factor of safety in shear is 1.5 and the failure shear stress is 12 ksi.
-
-</div>
-
-----
-
-## example 1-15
-
-<div class="left">
-
-![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](../images/example-1-15.png)
-
-</div>
-<div class="right">
-
-The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \text{ MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
-
-</div>
-
----
-# strain
-
-----
-## deformation
-
--   When forces are applied to a body, it will change its shape and size
--   We call these changes *deformation*
--   Sometimes they are barely noticeable (steel), other times they are very significant (rubber)
-
-----
-## strain
-
--   Strain is a more precise measurement of the deformation of a body
--   Normal strain is given as the change in length divided by the original length
-
-$$\\epsilon = \\frac{L-L\_0}{L\_0}$$
-
--   We can consider the average normal strain (over an entire body) or the local strain (take an infinitely small portion and calculate the strain there)
-
-----
-## units
-
--   Since we divide length by length, strain is unitless
--   However it is customary to use *in/in* or for stiff specimens to use the phrase *microstrain* as a unit
--   Strain can also sometimes be represented as a percent
-
-----
-## shear strain
-
--   Normal strain causes a line segment to expand or contract
--   Deformation can also cause two lines to change their relative angle
--   The change in angle between two originally perpendicular line segments is called shear strain
-
-$$\\gamma = \\frac{\\pi}{2} - \\theta$$
-
-----
-## shear strain
-
-![Three stages are shown, the first is a rectangular block at rest, with a fixed support on the ground. The second shows the block after it deforms with a horizontal force acting along the top to the right. The third shows the block after it deforms with a force acting along the top to the left. The first case causes a decrease in angle between the legs of the rectangle, the difference between 90 degrees and the new angle is called gamma, the engineering shear strain. When the angle becomes larger than 90 degrees, as in the third block, the engineering shear strain is negative.](../images/shear-strain.jpg)
-
-----
-## cartesian components
-
--   If we consider a very small cube/prism with sides of $\Delta x$, $\Delta y$, and $\Delta z$, normal strains will change the side lengths to
-
-$$(1+\epsilon_x)\Delta x (1 + \epsilon_y)\Delta y (1 + \epsilon_z)\Delta z$$
-
--   And the shear strains will change the shape
-
-$$\\frac{\\pi}{2}-\\gamma\_{xy} \\qquad \\frac{\\pi}{2}-\\gamma\_{yz} \\qquad \\frac{\\pi}{2}-\\gamma\_{xz}$$
-
-----
-## small strain
-
--   Most engineering analysis is based on the assumption of small strains
--   This is valid for many materials (wood, metal), but not for rubbers and some other polymers
--   When strains are small, we assume that the change in angle, `$\Delta \theta$` is very small
--   `$\sin \Delta \theta \approx \Delta \theta$`, `$\cos\Delta \theta \approx 1$`, `$\tan\Delta \theta\approx \Delta \theta$`
-
-----
-## example 2.1
-
-![Two supports, B and C are spaced six meters apart horizontally. A cable is hanging from each support and joined by a ring at point A, which is horizontally between points B and C but 4 meters below them. The ring is pulled to A prime which is 20 mm below A and 10 mm to the left](../images/example-2-1.jpg) <!-- .element width="45%" -->
-
-Find the normal strains in the two wires if A moves to `$A^\prime$`
-
-----
-## example 2.3
-
-<div class="left">
-
-![A 150 mm square block is constrained along the top, left, and bottom faces, but pushed 2 mm to the left on its right face. AC is the diagonal line going from the top left to the bottom right. E is the center point of the block (where the two diagonals intersect after deformation).](../images/example-2-3.jpg)
-
-</div>
-<div class="right">
-
-The plate is fixed along AB and held in horizontal guides along AD and BC. If the right side is displaced 2 mm find the average normal strain along AC and the shear strain at E relative to the x and y axes.
+Determine G for the specimen shown. Also find the maximum distance d, that the top could be displaced horizontally while remaining elastic. What force V is required to cause this displacement?
 
 </div>
