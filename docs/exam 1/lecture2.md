@@ -14,7 +14,7 @@ August 20, 2020
 - 20 Aug - Stress
 - 25 Aug - Strain, Homework 1 Due
 - 27 Aug - Mechanical Properties
-- 1 Sep - Exam Review, Homework 2 Due, Project 1 Due
+- 1 Sep - Exam Review, Homework 2 Due
 
 ----
 
