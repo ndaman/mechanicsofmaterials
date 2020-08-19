@@ -11,8 +11,9 @@ Wichita State University, Department of Aerospace Engineering
 ## schedule
 
 - 27 Aug - Mechanical Properties
-- 1 Sep - Exam Review, Homework 2 Due, Project 1 Due
+- 1 Sep - Exam Review, Homework 2 Due
 - 3 Sep - Axial Load (not on Exam 1)
+- 4 Sep - Project 1 Due
 - 8 Sep - Exam 1 (online, no recitation this day)
 - 10 Sep - Axial Load
 
