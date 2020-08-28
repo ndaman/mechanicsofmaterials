@@ -16,18 +16,15 @@ Wichita State University, Department of Aerospace Engineering
 - 8 Sep - Exam 1 (online, no recitation this day)
 - 10 Sep - Axial Load
 
-----
-## outline
-
 ---
-# review
+# exam 
 
 ----
 ## exam
 
--   5 questions
--   open book/note (but timed, these may not help you)
--   Equation sheet posted to web-site/Blackboard
+-   4 questions
+-   50 minutes, must take exam on 8 Sep and complete in one sitting
+-   open book/note 
 -   Follow directions
 
 ----
