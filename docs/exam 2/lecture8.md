@@ -5,72 +5,21 @@ Lecture 8 - Axial Load<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 14, 2020
+10 September, 2020
 
 ----
-
 ## schedule
 
-- 14 Feb - Axial Load
-- 17 Feb - Torsion
-- 19 Feb - Torsion
-- 21 Feb - Bending, HW3 Due
+- 8 Sep - Exam 1 (online, no recitation this day)
+- 10 Sep - Axial Load
+- 15 Sep - Torsion, Homework 3 Due
+- 17 Sep - Torsion
 
 ----
 ## outline
 
-- superposition
-- statically indeterminate
 - force method
 - thermal stress
-
----
-# superposition
-
-----
-## superposition
-
--   Some problems are too complicated to solve all at once
--   Instead, we break them up into two simpler problems
--   Each "sub-problem" must still satisfy equilibrium
--   Problem must be linear and the deformation should be small enough that it does not cause moment-equilibrium issues
-
----
-# statically indeterminate
-
-----
-## statically indeterminate
-
--   There are many problems that are at least slightly over-constrained
--   While this is common engineering practice, it creates too many variables for statics analysis
--   These problems are called "statically indeterminate"
-
-----
-## statically indeterminate
-
--   One extra equation we can use is called "compatibility" or the "kinematic condition"
--   We know that at the displacement must be equal on both sides of any arbitrary section we make in a member
--   We can separate a member into two parts, then use compatibility to relate the two unknown forces
-
-----
-## statically indeterminate
-
-![A 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top.](../images/statically-indeterminate.jpg) <!-- .element width="25%" -->
-
-----
-## example 4.7
-
-<div class="left">
-
-![A 0.8 m long rigid horizontal bar is supported by hanging from 3 vertical rods. Rod AB supports the left end, rod CD supports the middle and rod EF supports the right end. A 15 kN load is applied 0.2 m from the left end.](../images/example-4-7.jpg)
-
-</div>
-<div class="right">
-
-Assuming the bottom bar is rigid, find the force developed in each bar.
-AB and EF have cross-sectional areas of 50 mm<sup>2</sup> while CD has a cross-sectional area of 30 mm<sup>2</sup>.
-
-</div>
 
 ---
 # force method
