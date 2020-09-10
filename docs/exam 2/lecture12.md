@@ -1,19 +1,19 @@
-
 ## AE333
 ## Mechanics of Materials
 Lecture 12 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 26, 2020
+17 September, 2020
 
 ----
 ## schedule
 
-- 26 Feb - Torsion
-- 28 Feb - Bending, HW4 Due
-- 2 Mar - Bending
-- 4 Mar - Bending
+- 17 Sep - Torsion
+- 22 Sep - Bending, Homework 4 Due
+- 24 Sep - Bending
+- 29 Sep - Transverse Shear, Homework 5 Due
+
 
 ----
 ## outline

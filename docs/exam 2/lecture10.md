@@ -4,93 +4,24 @@ Lecture 10 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 21, 2020
+15 September, 2020
 
 ----
 ## schedule
 
-- 21 Feb - Torsion, HW3 Due
-- 24 Feb - Torsion
-- 26 Feb - Bending
-- 28 Feb - Bending, HW4 Due
+- 15 Sep - Torsion, Homework 3 Due
+- 17 Sep - Torsion
+- 22 Sep - Bending, Homework 4 Due
+- 24 Sep - Bending
 
 ----
 ## outline
 <!-- TOC depthFrom:1 depthTo:1 withLinks:0 updateOnSave:1 orderedList:0 -->
 
-- force method
-- thermal stress
 - torsion
 - power transmission
 
 <!-- /TOC -->
-
----
-# force method
-
-----
-## force method
-
--   One way to solve statically indeterminate problems is using the principle of superposition
--   We choose one redundant support and remove it
--   We then add it back as a force separately (without the other forces in the problem)
-
-----
-## force method
-
-![An illustration of the force method, we have the same statically indeterminate problem as before, a 5 m long, vertically-oriented bar is fixed at both ends, with a 500 N downward load applied 2 m from the top. We set this equivalent to a bar with the same load, but no support on the bottom end. We then add a force which will provide enough displacement to cancel out the displacement introduced by removing the load.](../images/force-method.png)
-
-----
-## force method
-
--   We connect the two problems by requiring that the displacement in both frames adds to 0 to meet the support requirements
--   This is referred to as the equation of compatibility
-
-----
-## procedure
-
--   Choose one support as redundant, write the equation of compatibility
--   Express the external load and redundant displacements in terms of load-displacement relationship
--   Draw free body diagrams and use the equations of equilibrium to solve
-
-----
-## example 4.9
-
-![A 1200 mm long horizontal rod is fixed at its left end and has a fixed support 0.2 mm away from its right end. A 20 kN load is applied to the right 400 mm away from its left end.](../images/example-4-9.jpg)
-
-The steel rod shown has a diameter of 10 mm. Determine the reactions at A and B'.
-
----
-# thermal stress
-
-----
-## thermal stress
-
--   A change in temperature causes a material to either expand or contract
--   For most materials this is linear and can be described using the coefficient of linear expansion
-
-`$$\delta_T = \alpha \Delta T L$$`
-
-----
-## thermal stress
-
--   When a body is free to expand, the deformation can be readily calculated using
--   If it is not free to expand, however, thermal stresses develop
--   We can use the force method described previously to find the thermal stresses developed
-
-----
-## example 4.12
-
-<div class="left">
-
-![An aluminum tube used as a sleeve for a steel bolt. The tube is 150 mm long.](../images/example-4-12.jpg)
-
-</div>
-<div class="right">
-
-An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve for a steel bolt with cross-sectional area of 400 mm<sup>2</sup>. When T=15 degrees Celsius there is negligible force and a snug fit, find the force in the bolt and sleeve when T=80 degrees Celsius.
-
-</div>
 
 ---
 # torsion
@@ -201,5 +132,68 @@ to find the appropriate shaft diameter.
 <div class="right">
 
 The steel shaft shown is connected to a 5 hp motor that rotates at $\omega=175$ rpm. If `$\tau_{allow}=14.5$` ksi, determine the required shaft diameter.
+
+</div>
+
+---
+# group problems
+
+----
+## group one
+
+<div class="left">
+
+![A 40 mm radius solid shaft. Point A is on the outer surface, Point B is 30 mm away from the center.](../images/group5-1.jpg)
+
+</div>
+
+<div class="right">
+
+The solid circular shaft is subjected to an internal torque of 5 kN.m. Determine the shear stress at A and B and represent each state of stress on a volume element.  
+
+</div>
+
+----
+## group two
+
+<div class="left">
+
+![A hollow circular shaft with outer radius of 60 mm and inner radius of 40 mm. Point A is on the inner surface, Point B is on the outer surface.](../images/group5-2.jpg)
+
+</div>
+
+<div class="right">
+
+The hollow circular shaft is subjected to an internal torque of 10 kN.m. Determine the shear stress at A and B and represent each state of stress on a volume element.  
+
+</div>
+
+----
+## group three
+
+<div class="left">
+
+![There is a fixed support at C, an applied torque of 4 kN.m at B (in the middle) and an applied torque of 2 kN.m at A (at the free end).](../images/group5-3.jpg)
+
+</div>
+
+<div class="right">
+
+The circular shaft is hollow from A to B and solid from B to C. Determine the shear stress at A and B. The outer diameter is 80 mm and the wall thickness is 10 mm.
+
+</div>
+
+----
+## group four
+
+<div class="left">
+
+![A shaft supports to pulleys, one with a 150 mm radius and tension of 6 kN at one end and 2 kN at the other other. The other pulley has a 100 mm radius and tensions of 10 kN and 4 kN.](../images/group-5-4.png)
+
+</div>
+
+<div class="right">
+
+Determine the maximum shear stress in the 40 mm diameter shaft.
 
 </div>
