@@ -1,6 +1,6 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 10 - Torsion<br/>
+Lecture 9 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
@@ -16,12 +16,14 @@ Wichita State University, Department of Aerospace Engineering
 
 ----
 ## outline
-<!-- TOC depthFrom:1 depthTo:1 withLinks:0 updateOnSave:1 orderedList:0 -->
 
-- torsion
-- power transmission
+<!-- vim-markdown-toc GFM -->
 
-<!-- /TOC -->
+* torsion
+* power transmission
+* group problems
+
+<!-- vim-markdown-toc -->
 
 ---
 # torsion
