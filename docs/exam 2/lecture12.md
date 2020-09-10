@@ -1,6 +1,6 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 12 - Torsion<br/>
+Lecture 10 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
