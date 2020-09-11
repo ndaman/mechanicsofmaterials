@@ -109,7 +109,7 @@ The allowable shear stress is 75 MPa. Determine the maximum torque that can be a
 ## power units
 
 -   In SI Units, power is expressed in Watts 1 W = 1 N m / sec
--   In Freedom Units, power is expressed in Horsepower 1 hp = 555 ft lb / sec
+-   In Freedom Units, power is expressed in Horsepower 1 hp = 550 ft lb / sec
 
 ----
 ## shaft design
