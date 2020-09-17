@@ -9,6 +9,9 @@ all : $(PANDOC) $(HANDOUTS)
 
 %.pdf : %.pandoc
 	pandoc -f markdown $^ -t beamer -o $@ --pdf-engine=xelatex -V handout 
+
+%.tex : %.pandoc
+	pandoc -f markdown $^ -t beamer -o $@ --pdf-engine=xelatex -V handout 
 		
 
 clobber : 
