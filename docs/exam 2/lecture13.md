@@ -23,7 +23,6 @@ Wichita State University, Department of Aerospace Engineering
 * shear and moment diagrams
 * graphical method
 * bending deformation
-* flexure formula
 
 <!-- vim-markdown-toc -->
 
@@ -191,72 +190,3 @@ $$\\epsilon = \\lim\_{\\Delta \\theta \\to 0} \\frac{(\\rho-y)\\Delta \\theta - 
 
 $$\\epsilon = -\\frac{y}{\\rho}$$
 
----
-# flexure formula
-
-----
-## hooke's law
-
--   If the beam is a linear material that follows Hooke's Law, the stress must be linearly proportional to the strain
--   Thus the stress will vary linearly through the beam, just like the strain does
-
-----
-## neutral axis
-
--   We have already hypothesized that a neutral axis must exist, we will now find its location
--   To be in equilibrium, the resultant force(s) produced by the stress must sum to zero, which means
-
-$$\\begin{aligned}
-  \\sum F\_x &= 0 = \\int\_A dF = \\int\_A \\sigma dA\\\\
-  &= \\int\_A -\\left( \\frac{y}{c} \\right) \\sigma\_{max} dA\\\\
-  &= -\\frac{\\sigma\_{max}}{c} \\int\_A y dA
-\\end{aligned}$$
-
-----
-## neutral axis
-
--   Since $\sigma_{max}$ and *c* are both non-zero constants, we know that
-
-$$ \int_A y dA = 0$$
-
--   Which can only be satisfied at the horizontal centroidal axis, so the neutral axis is the centroidal axis
-
-----
-## bending moment
-
--   The internal bending moment must be equal to the total moment produced by the stress distribution
-
-$$\\begin{aligned}
-  M &= \\int\_A y dF = \\int\_A y (\\sigma dA) \\\\
-  &= \\int\_A y \\left( \\frac{y}{c} \\sigma\_{max} \\right) dA \\\\
-  &= \\frac{\\sigma\_{max}}{c} \\int\_A y^2 dA
-\\end{aligned}$$
-
-----
-## bending moment
-
--   We recognize that `$\int_A y^2 dA = I$`, and we re-arrange to write
-
-$$\\sigma\_{max} = \\frac{Mc}{I}$$
-
-----
-## procedure
-
--   Find the internal moment at the point of interest, or draw a moment diagram to find the maximum point (if needed)
--   Determine the moment of inertia for the beam section
--   Find the neutral axis and/or the distance from the neutral axis to the point of interest
--   Use the flexure formula to find the stress
-
-----
-## example 6.12
-
-<div class="left">
-
-![A 6 meter long beam is pinned at both ends and subjected to a uniformly distributed load of 5 kN/m. ](../images/example-6-12.png)
-</div>
-
-<div class="right">
-
-Find the maximum bending stress and draw the stress distribution through the thickness at that point.
-
-</div>

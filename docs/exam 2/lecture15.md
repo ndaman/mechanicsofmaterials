@@ -1,91 +1,31 @@
 
 ## AE333
 ## Mechanics of Materials
-Lecture 15 - Bending<br/>
+Lecture 12 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-4 March, 2020
+24 September, 2020
 
 ----
 ## schedule
 
-- 4 Mar - Bending
-- 6 Mar - Exam 2 Review, HW 5 Due
-- 9 Mar - Exam 2
-- 11 Mar - Transverse Shear
+- 24 Sep - Bending
+- 29 Sep - Transverse Shear, Homework 5 Due, Homework 4 Self-Grade Due
+- 1 Oct - Transverse Shear
+- 6 Oct - Exam review, Homework 6 Due, Homework 5 Self-Grade Due
 
 ----
 ## outline
 
-<!-- TOC START min:1 max:1 link:false update:true -->
-- bending deformation
-- flexure formula
-- moment of inertia
-- group problems
+<!-- vim-markdown-toc GFM -->
 
-<!-- TOC END -->
+* flexure formula
+* moment of inertia
+* group problems
+* compound centroids
 
-----
-## shear-moment diagrams
-
-- Drawing shear-moment diagrams is a very important skill
-- Learning MasteringEngineering's drawing system is not as important (in my opinion)
-- If you are more comfortable doing your shear-moment diagrams by hand, you may turn them into me in class on Friday and I will grade them by hand
-
----
-# bending deformation
-
-----
-## bending deformation
-
--   If we drew a grid on a specimen in bending, we would find that vertical lines tend to stay straight (but rotate)
--   Horizontal lines will become curved
--   If bending lifts the ends up (like a smile), then the top face will be in compression (and expand), while the bottom face will be in tension (and contract)
-
-----
-## bending deformation
-
-![An example beam drawn in 3D with a grid drawn on it while it bends.](../images/beam-deformation.jpg) <!-- .element width="60%" -->
-
-----
-## neutral axis
-
--   Since the bottom is in tension and the top is in compression, there must be somewhere in between that is under no stress
--   We call that the neutral axis, and assume it does not change in length
--   We also assume that planar sections remain planar (no warping)
--   Finally, Poisson's effects are neglected (cross-sections keep the same size and shape)
-
-----
-## strain
-
--   We will now consider an infinitesimal beam element before and after deformation
--   $\Delta x$ is located on the neutral axis and thus does not change in length after deformation
--   Some other line segment, $\Delta s$ is located *y* away from the neutral axis and changes its length to $\Delta s ^\prime$ after deformation
-
-----
-## strain
-
-![A small beam section before and after deformation](../images/beam-element.jpg) <!-- .element width="40%" -->
-
-----
-## strain
-
--   We can now define strain at the line segment $\Delta s$ as
-
-$$\\epsilon = \\lim\_{\\Delta s \\to 0} \\frac{\\Delta s^\\prime - \\Delta s}{\\Delta s}$$
-
-----
-## strain
-
--   If we define $\rho$ as the radius of curvature after deformation, thus $\Delta x = \Delta s = \rho \Delta \theta $
--   The radius of curvature at $\Delta s$ is $\rho - y$, thus we can write
-
-$$\\epsilon = \\lim\_{\\Delta \\theta \\to 0} \\frac{(\\rho-y)\\Delta \\theta - \\rho \\Delta \\theta}{\\rho \\Delta \\theta}$$
-
--   Which gives
-
-$$\\epsilon = -\\frac{y}{\\rho}$$
+<!-- vim-markdown-toc -->
 
 ---
 # flexure formula
@@ -149,7 +89,6 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 <div class="left">
 
 ![A 6 meter long beam is pinned at both ends and subjected to a uniformly distributed load of 5 kN/m. ](../images/example-6-12.png)
-
 </div>
 
 <div class="right">
@@ -157,7 +96,6 @@ $$\\sigma\_{max} = \\frac{Mc}{I}$$
 Find the maximum bending stress and draw the stress distribution through the thickness at that point.
 
 </div>
-
 ---
 # moment of inertia
 
@@ -236,3 +174,26 @@ Find the neutral axis and determine the moment of inertia about the neutral axis
 ![A beam is supported by pins at the right end and a point some distance away from the left end. A vertical load is applied at the left end, point B as it at the bottom side of the beam between the load and the first pin support, point A is between the two pin supports.](../images/group-6-3.jpg)
 
 Show how the bending stress acts on a differential volume at point A and B.
+
+---
+# compound centroids
+
+----
+## composite bodies
+
+-   Often we have to deal with bodies that are not described by a continuous function, but are made of different materials or different shapes
+
+-   We can use the same logic previously, but with a finite sum instead of an integral
+
+$$\\begin{aligned}
+  \\bar{x} \\sum W &= \\sum \\tilde{x} W\\\\
+  \\bar{y} \\sum W &= \\sum \\tilde{y} W\\\\
+  \\bar{z} \\sum W &= \\sum \\tilde{z} W
+\\end{aligned}$$
+
+----
+## analysis procedure
+
+-   Use a sketch to divide the body into sub-bodies
+-   If a body has a hole, it may be easier to treat that volume as whole and then subtract the hole
+-   Take note of any symmetry (an object symmetric about any axis will have a centroid along that axis)
