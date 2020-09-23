@@ -1,19 +1,18 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 19 - Transverse Shear<br/>
+Lecture 14 - Transverse Shear<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-1 April, 2020
+1 October, 2020
 
 ----
 ## schedule
 
-- 1 Apr - Transverse Shear
-- 3 Apr - Combined Loading, HW6 Due
-- 8 Apr - Combined Loading
-- 10 Apr - Stress Transformation
-
+- 1 Oct - Transverse Shear
+- 6 Oct - Exam review, Homework 6 Due, Homework 5 Self-Grade Due
+- 8 Oct - Exam 2
+- 13 Oct - Combined Loading
 
 ----
 ## outline
