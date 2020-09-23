@@ -17,13 +17,13 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## outline
 
-<!-- TOC START min:1 max:1 link:false update:true -->
-- shear in straight members
-- the shear formula
-- group problems
-- shear flow in built-up members
+<!-- vim-markdown-toc GFM -->
 
-<!-- TOC END -->
+* shear in straight members
+* the shear formula
+* group problems
+
+<!-- vim-markdown-toc -->
 
 
 ---
