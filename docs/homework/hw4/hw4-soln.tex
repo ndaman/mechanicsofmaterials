@@ -97,6 +97,7 @@
 				\end{align*}
 			\item and we find $c_i = \US{1.76}{in}$ which gives a wall thickness of $\frac{1}{8}\text{ in}$
 		\end{itemize}
+		\textbf{Solution Update:} In my solution, I considered a radius of 2 inches, when this should have been a diameter. With the correct radius (1 inch), there is no solution (meaning that the numbers in this problem are not physically possible). Please treat the problem as if the radius is 2 inches, I apologize for the mix-up
 
 	\item %5-64
 		The soil mixer shown is connected to an A-36 steel tubular shaft with an inside diameter of $\US{1.5}{in}$ and an outside diameter of $\US{3.0}{in}$.
@@ -125,6 +126,24 @@
 		\begin{itemize}
 			\item We can see that the reactive torque in the shank must be equal to the applied torque, as there are no other reactions or applied torques
 			\item The total torque exerted by this resistance will be the integral of $t$ over the length of the shaft $T_t = \int_0^{50} kx^2 dx = \frac{1}{3}k (50)^3$, which gives $k = 0.00108$
+		\end{itemize}
+		\textbf{Solution Update:} I forgot to calculate the angle of twist in the shank. See below.
+		\begin{itemize}
+			\item We start by sectioning the bolt as shown
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.6\linewidth]{4-4}
+				\end{figure}
+			\item To find the internal torque, we need to consider the sum of moments about the $x$ axis (i.e. the sum of torques). To find the total torque exerted by the torsional resistance, $t$, we integrate from $0$ to $x$.
+				\begin{equation*}
+					\sum T = -T - \int_0^x kx^2 dx + 45 = 0
+				\end{equation*}
+			\item And we find that $T = 45 - \frac{1}{3}kx^3$, we can now find the total change in angle by integrating the formula for $d\phi$ over the length of the bolt
+				\begin{equation*}
+					\phi = \int_0^L \frac{T}{JG}dx = \frac{1}{JG}\left( 45L - \frac{1}{12}kL^4 \right)
+				\end{equation*}
+			\item and we find $\phi = 0.0229 \text{ rad } = 1.31^\circ$
+			\item NOTE: make sure units are consistent when performing the calculation, in my case I needed to input $G$ as MPa (for N per square mm) and convert $T$ from N m to N mm.
 		\end{itemize}
 
 	\item %5-86
