@@ -1,18 +1,18 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 20 - Combined loading<br/>
+Lecture 15 - Combined Loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-6 April, 2020
+13 October, 2020
 
 ----
 ## schedule
 
-- 3 Apr - Recitation, HW6 Due
-- 6 Apr - Combined Loading
-- 8 Apr - Stress Transformation
-- 10 Apr - Stress Transformation, HW7 Due
+- 13 Oct - Combined Loading, HW 6 Self-Grade Due
+- 15 Oct - Stress Transformation
+- 20 Oct - Stress Transformation, HW 7 Due
+- 22 Oct - Strain Transformation
 
 ----
 ## outline
