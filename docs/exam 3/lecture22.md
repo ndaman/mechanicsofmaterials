@@ -1,6 +1,6 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 15 - Stress Transformation<br/>
+Lecture 16 - Stress Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
