@@ -1,22 +1,18 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 22 - Strain Transformation<br/>
+Lecture 17 - Strain Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-13 Apr, 2020
+20 Oct, 2020
 
 ----
-
 ## schedule
 
-- 13 Apr - Strain Transformation
-- 13 Apr - Exam 3a assigned
-- 15 Apr - Beam Deflection
-- 17 Apr - Recitation, HW8 Due
-- 20 Apr - Beam Deflection
-- 20 Apr - Exam 3a Due by midnight
-
+- 20 Oct - Strain Transformation, HW 7 Due
+- 22 Oct - Beam Deflection
+- 27 Oct - Beam Deflection, HW 8 Due, HW 7 Self-Grade Due
+- 29 Oct - Beam Deflection
 
 ----
 ## outline
