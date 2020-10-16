@@ -1,21 +1,18 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 23 - Deflection of Beams<br/>
+Lecture 18 - Deflection of Beams<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-15 Apr, 2020
+22 October, 2020
 
 ----
-
 ## schedule
 
-- 15 Apr - Beam Deflection
-- 17 Apr - Recitation, HW8 Due
-- 20 Apr - Beam Deflection (discontinuity functions)
-- 20 Apr - Exam 3a Due by midnight
-- 22 Apr - Beam Deflection (superposition)
-- 24 Apr - Recitation, HW9 Due
+- 22 Oct - Beam Deflection
+- 27 Oct - Beam Deflection (discontinuity functions), HW 8 Due, HW 7 Self-Grade Due
+- 29 Oct - Beam Deflection (superposition)
+- 3 Nov - Statically Indeterminate Beams, HW 9 Due, HW 8 Self-Grade Due
 
 ----
 ## outline
