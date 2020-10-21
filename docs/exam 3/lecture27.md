@@ -1,95 +1,28 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 24 - Discontinuity Functions<br/>
+Lecture 19 - Discontinuity Functions<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-20 Apr, 2020
+27 October, 2020
 
 ----
-
 ## schedule
 
-- 20 Apr - Beam Deflection (discontinuity functions)
-- 20 Apr - Exam 3a Due by midnight
-- 22 Apr - Beam Deflection (superposition)
-- 24 Apr - Recitation, HW9 Due
-- 27 Apr - Statically Indeterminate Beams
+- 27 Oct - Beam Deflection (discontinuity functions), HW 8 Due, HW 7 Self-Grade Due
+- 29 Oct - Beam Deflection (superposition)
+- 3 Nov - Statically Indeterminate Beams, HW 9 Due, HW 8 Self-Grade Due
+- 5 Nov - Statically Indeterminate Beams
 
 ----
 ## outline
 
 <!-- vim-markdown-toc GFM -->
 
-* slope and displacement
 * discontinuity functions
+* group problems
 
 <!-- vim-markdown-toc -->
-
----
-# slope and displacement
-
-----
-## curvature
-
--   When talking about displacement in beams, we use the coordinates *v* and *x*, where *v* is the vertical displacement and *x* is the horizontal position
--   In this notation, curvature is formally related to displacement according to
-
-$$\\frac{1}{\\rho} = \\frac{d^2v/dx^2}{\[1+(dv/dx)^2\]^{3/2}} = \\frac{M}{EI}$$
-
-----
-## curvature
-
--   The previous equation is difficult to solve in general, but for cases of small displacement, $(dv/dx)^2$ will be negligible compared to 1, which then simplifies to
-
-$$\\frac{d^2v}{dx^2} = \\frac{M}{EI}$$
-
-----
-## flexural rigidity
-
--   In general, *M*, is a function of *x*, but *EI* (known as the flexural rigidity) is a constant along the length of the beam
--   In this case, we can say
-
-$$\\begin{aligned}
-  EI\\frac{d^2v}{dx^2} &= M(x) \\\\
-  EI\\frac{d^3v}{dx^3} &= V(x) \\\\
-  EI\\frac{d^4v}{dx^4} &= w(x)
-\\end{aligned}$$
-
-----
-## boundary conditions
-
--   If a support restricts displacement, but not rotation, we will have a boundary condition of *v* = 0 at that point
--   Supports that restrict rotation give a boundary condition that $\theta$ = 0
-
-----
-## continuity conditions
-
--   If we have a piecewise function for *M*(*x*), not all integration constants can be found from the boundary conditions
--   Instead, we must also use continuity conditions to ensure that the slope and displacement are continuous at every point
--   In other words, for two sets of functions, $\theta_1(x)$ and $v_1(x)$, $\theta_2(x)$, and $v_2(x)$, $\theta_1(a) = \theta_2(a)$ and $v_1(a) = v_2(a)$
-
-----
-## slope
-
--   For small displacements, we have
-$$
-\\theta \\approx \\tan(\\theta) = dv/dx
-$$
-
-----
-## example 12.1
-
-![](../images/example-12-1.jpg) <!-- .element width="60%" -->
-
-Determine the maximum deflection if EI is constant.
-
-----
-## example 12.4
-
-![](../images/example-12-4.jpg) <!-- .element width="60%" -->
-
-Determine the displacement at C, EI is constant.
 
 ---
 # discontinuity functions
@@ -105,21 +38,21 @@ Determine the displacement at C, EI is constant.
 
 -   Macaulay functions can be used to describe various loading conditions, the general definition is
 
-$$\\langle x-a\\rangle^n = \\begin{cases}
-  0 & \\text{for } x < a\\\\
-  (x-a)^n & \\text{for } x \\ge a
-\\end{cases}
-n \ge 0$$
+`$$\langle x-a\rangle^n = \begin{cases}
+  0 & \text{for } x < a\\
+  (x-a)^n & \text{for } x \ge a
+\end{cases}
+n \ge 0$$`
 
 ----
 ## singularity functions
 
 -   Singularity functions are used for concentrated forces and can be written
     
-$$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
-  0 & \\text{for } x\\ne a\\\\
-  P & \\text{for } x=a
-\\end{cases}$$
+`$$w = P\langle x-a\rangle^{-1} = \begin{cases}
+  0 & \text{for } x\ne a\\
+  P & \text{for } x=a
+\end{cases}$$`
 
 ----
 ## discontinuity functions
@@ -136,10 +69,9 @@ $$w = P\\langle x-a\\rangle^{-1} = \\begin{cases}
 ## integration
 
 - discontinuity functions follow special rules for integration
-- when $n \ge 0$, they integrate like a normal polynomial
-- when $n < 0$, they instead follow 
-
-$$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
+- when `$n \ge 0$`, they integrate like a normal polynomial
+- when `$n < 0$`, they instead follow 
+`$$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$`
 
 ----
 ## signs
@@ -152,3 +84,28 @@ $$ \int \langle x-a \rangle ^n dx = \langle x - a \rangle ^{n+1} $$
 ## example 12.5
 
 ![](../images/example-12-5.jpg) 
+
+---
+# group problems
+
+----
+## group one
+
+![](../images/group-12-1.jpg) <!-- .element width="50%" -->
+
+Find the maximum deflection using either direct integration or discontinuity functions.
+
+----
+## group two
+
+![](../images/group-12-2.jpg) <!-- .element width="50%" -->
+
+Find the maximum deflection using either direct integration or discontinuity functions.
+
+----
+## group three
+
+![](../images/group-12-3.jpg) <!-- .element width="50%" -->
+
+Find the maximum deflection using either direct integration or discontinuity functions.
+
