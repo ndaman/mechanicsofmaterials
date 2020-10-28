@@ -1,22 +1,23 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 29 - Statically Indeterminate Beams<br/>
+Lecture 21 - Statically indeterminate beams<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-27 Apr, 2020 
+3 November, 2020
 
 ----
-
 ## schedule
 
-- 27 Apr - Statically Indeterminate Beams
-- 29 Apr - Beam Review, Exam 3b assigned
-- 1 May - Recitation, HW 10 Due
-- 4 May - Stress Concentration
-- 6 May - Buckling, Exam 3b Due
-- 8 May - Review, HW 11 Due, Final Project Portion assigned
-
+- 3 Nov - Statically Indeterminate Beams, HW 9 Due, HW 8 Self-Grade Due
+- 5 Nov - Statically Indeterminate Beams
+- 10 Nov - Exam 3 Review, HW 10 Due, HW 9 Self-Grade Due
+- 12 Nov - Exam 3 
+- 17 Nov - Stress Concentration
+- 19 Nov - Buckling
+- 20 Nov - Project 3 Due
+- 1 Dec - Bucking, Final Review
+- 3 Dec - Final Review, Problem Solving, HW 11 Due
 
 ----
 ## outline
