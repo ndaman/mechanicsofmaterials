@@ -1,18 +1,20 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 33 - Stress Concentration<br/>
+Lecture 22 - Stress Concentration<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-4 May, 2020
+17 November, 2020
 
 ----
-
 ## schedule
 
-- 4 May - Stress Concentration
-- 6 May - Buckling, Exam 3b Due
-- 8 May - Review, HW 11 Due, Final Project Portion assigned
+- 17 Nov - Stress Concentration
+- 19 Nov - Buckling
+- 20 Nov - Project 3 Due
+- 1 Dec - Bucking, Final Review
+- 3 Dec - Final Review, Problem Solving, HW 11 Due
+- 8 Dec - Final Exam (comprehensive, same format as other exams)
 
 ----
 ## outline
@@ -39,7 +41,7 @@ Wichita State University, Department of Aerospace Engineering
 -   Stress concentrations occur when there is a sudden change in cross-sectional area
 -   Features such as holes and fillets will have a stress concentration factor
 
-$$K = \\frac{\\sigma\_{max}}{\\sigma\_{avg}}$$
+`$$K = \frac{\sigma_{max}}{\sigma_{avg}}$$`
 
 ----
 ## stress concentration
@@ -62,7 +64,7 @@ $$K = \\frac{\\sigma\_{max}}{\\sigma\_{avg}}$$
 
 ![](../images/stress-concentration-example.jpg)   <!-- .element width="50%" -->
 
-If $\sigma_{allow}=120$ MPa, find the maximum axial force, P.
+If `$\sigma_{allow}=120$` MPa, find the maximum axial force, P.
 
 ----
 ## stress concentration in torsion
@@ -71,7 +73,7 @@ If $\sigma_{allow}=120$ MPa, find the maximum axial force, P.
 -   For circular shafts, this is usually around a filleted shaft as shown in the next slide
 -   The maximum shear can be found with
 
-$$\\tau\_{max} = K \\frac{Tc}{J}$$
+`$$\tau_{max} = K \frac{Tc}{J}$$`
 
 ----
 ## fillet
@@ -92,7 +94,7 @@ Determine the maximum stress in the shaft due to the applied torques. The should
 -   We can also have a stress concentration in a beam
 -   The maximum stress can be found with
 
-$$\\sigma\_{max} = K \\frac{Mc}{I}$$
+`$$\sigma_{max} = K \frac{Mc}{I}$$`
 
 ----
 ## fillet
