@@ -4,25 +4,25 @@ Lecture 1 - Equilibrium<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-August 18, 2020
+February 1, 2021
 
 ----
 
 ## schedule
 
-- 18 Aug - Introduction, Equilibrium
-- 20 Aug - Stress
-- 25 Aug - Strain, Homework 1 Due
-- 27 Aug - Mechanical Properties
+- 1 Feb - Introduction, Equilibrium
+- 3 Feb - Stress
+- 8 Feb - Strain, Homework 1 Due
+- 10 Feb - Mechanical Properties
 
 ----
 
 ## outline
 
-  - introduction
-  - syllabus
-  - mechanics
-  - equilibrium
+- introduction
+- syllabus
+- mechanics
+- equilibrium
 
 ---
 
@@ -31,43 +31,48 @@ August 18, 2020
 ----
 
 ## about me
+
 ![family picture](../images/family2020.JPG) <!-- .element width="30%" -->
 
 ----
 
 ## education
-  - B.S. in Mechanical Engineering from Brigham Young University
-    - Worked with ATK to develop tab-less gripping system for tensile testing composite tow specimens
-    - Needed to align the specimen, as well as grip it without causing a stress concentration
+
+- B.S. in Mechanical Engineering from Brigham Young University
+  - Worked with ATK to develop tab-less gripping system for tensile testing composite tow specimens
+  - Needed to align the specimen, as well as grip it without causing a stress concentration
 
 ----
 
 ## education
-  - M.S. and Ph.D. from School of Aeronautics and Astronautics at Purdue University
-    - Worked with Boeing to simulate mold flows
-    - First ever mold simulation with anisotropic viscosity
+
+- M.S. and Ph.D. from School of Aeronautics and Astronautics at Purdue University
+  - Worked with Boeing to simulate mold flows
+  - First ever mold simulation with anisotropic viscosity
 
 ----
 
 ## research
+
 ![picture of chopped carbon fiber prepreg](../images/Formosa_Chopped_Carbon_Fiber_CSc_bw.jpg)
 
 ----
 
 ## research
+
 ![picture of lamborghini symbol made from compression molded chopped carbon fiber](../images/lamborghini-chopped-fiber-badges-rough.jpg)
 
 ----
 
 ## research
 
-<div class='left'>
+<div class="left">
 
 ![picture illustrating the fused deposition modeling 3D printing process, where plastic filament is melted and deposited next to other filament, and fuses together](../images/3D-printing.png)
 
 </div>
 
-<div class='right'>
+<div class="right">
 
 -  Composites are being used in 3D printing now 
 -  Printing patterns are optimized for isotropic materials 
@@ -79,8 +84,8 @@ August 18, 2020
 
 ## introductions
 
-  - Name
-  - One interesting thing to remember you by
+- Name
+- One interesting thing to remember you by
 
 ---
 
@@ -90,14 +95,14 @@ August 18, 2020
 
 ## course textbook
 
--  R.C. Hibbeler - Mechanics of Materials
+- R.C. Hibbeler - Mechanics of Materials
 - This semester I am changing how I do homework, and MasteringEngineering will NOT be used 
 
 ----
 
 ## office hours
 
-- No traditional office hours this year, questions should either be asked during recitation on Tuesday/Thursday
+- No traditional office hours this year
 - Office appointments can be scheduled via e-mail, although remote meetings are preferred
 
 ----
@@ -105,63 +110,65 @@ August 18, 2020
 ## tentative course outline
 
 -   Section 1 - stress, strain, mechanical properties
-    -   Ch 1 - Stress (18 Aug)
-    -   Ch 2 - Strain (20 Aug)
-    -   Ch 3 - Mechanical Properties (25 Aug)
-    -   Project 1 (29 Aug)
-    -   Exam 1 (1 Sep)
+  -   Ch 1 - Stress (1 Feb)
+  -   Ch 2 - Strain (3 Feb)
+  -   Ch 3 - Mechanical Properties (8 Feb)
+  -   Exam 1 (15 Feb)
+  -   Project 1 (19 Feb)
 
 ----
 
 ## tentative course outline
 
 -   Section 2 - loading
-    -   Ch 4 - Axial Load (8 Sep)
-    -   Ch 5 - Torsion (15 Sep)
-    -   Ch 6 - Bending (22 Sep)
-    -   Ch 7 - Transverse Shear (29 Sep)
-    -   Project 2 (2 Oct)
-    -   Exam 2 (5 Oct)
+  -   Ch 4 - Axial Load (17 Feb)
+  -   Ch 5 - Torsion (24 Feb)
+  -   Ch 6 - Bending (3 Mar)
+  -   Ch 7 - Transverse Shear (10 Mar)
+  -   Exam 2 (22 Mar)
+  -   Project 2 (26 Mar)
 
 ----
 
 ## tentative course outline
 
 -   Section 3 - beams, shafts, combined loading
-    -   Ch 8 - Combined Loading (13 Oct)
-    -   Ch 9 - Stress Transformation (20 Oct)
-    -   Ch 10 - Strain Transformation (27 Oct)
-    -   Ch 12 - Deflection of Beams and Shafts (3 Nov)
-    -   Project 3 (13 Nov)
-    -   Exam 3 (16 Nov)
+  -   Ch 8 - Combined Loading (22 Mar)
+  -   Ch 9 - Stress Transformation (29 Mar)
+  -   Ch 10 - Strain Transformation (5 Apr)
+  -   Ch 12 - Deflection of Beams and Shafts (12 Apr)
+  -   Exam 3 (21 Apr)
+  -   Project 3 (23 Apr)
 
 ----
 
 ## tentative course outline
 
 -   Section 4 - buckling, stress concentration
-    -   Ch 4.7, 5.8, 6.9 - Stress concentration (1 Dec)
-    -   Ch 13 - Buckling (3 Dec)
-    -   Final Exam (comprehensive) (7 Dec)
+  -   Ch 4.7, 5.8, 6.9 - Stress concentration (26 Apr)
+  -   Ch 13 - Buckling (28 Apr)
+  -   Final Exam (comprehensive) (10 May)
 
 ----
 
 ## grades
 
-<div class='left'>
+<div class="left">
 
 -   Grade breakdown
-    -   Homework 5%
-    -   Exam 1 10%
-    -   Exam 2 10%
-    -   Exam 3 10%
-    -   Final Exam 20%
-</div>
-<div class='right'>
+  -   Homework 5%
+  -   Exam 1 15%
+  -   Exam 2 15%
+  -   Exam 3 15%
+  -   Final Exam 20%
 
-    -   Project 1 15%
-    -   Project 2 15%
-    -   Project 3 15%
+</div>
+
+<div class="right">
+
+-   Project 1 10%
+-   Project 2 10%
+-   Project 3 10%
 
 </div>
 
@@ -267,7 +274,7 @@ August 18, 2020
 </div>
 
 <div class="right">
-	
+
 -   For 2D problems, this reduces to
 `$$\begin{aligned}
   \sum F_x &= 0\\
@@ -302,9 +309,9 @@ August 18, 2020
 
 -   In planar problems, where all forces lie in the same plane, we only
     have
-    -   Normal Force
-    -   Shear Force
-    -   Bending Moment
+  -   Normal Force
+  -   Shear Force
+  -   Bending Moment
 
 ----
 
@@ -336,6 +343,7 @@ Find the internal forces at point C.
 ![Example 1.4 from the text, depicting an l-shaped shaft with the two legs being 1.25 meters long. If we consider the fixed end of the shaft to be the origin, the shaft proceeds 1.25 meters along the y-axis, then angles 90 degrees to continue 1.25 meters along the x-axis. At the free end, there is a 70 newton-meter couple moment applied about the x-axis, as well as a 50 newton load in the negative z-direction and a 30 newton load in the positive y-direction. Find the internal forces at point d, located 0.75 meters from the fixed end (along the y-axis).](../images/example-1-4.jpg)<!-- .element width="90%" -->
 
 </div>
+
 <div class="right">
 
 Find the internal forces at point D.

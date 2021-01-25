@@ -4,17 +4,17 @@ Lecture 2 - Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-August 20, 2020
+February 3, 2021
 
 
 ----
 
 ## schedule
 
-- 20 Aug - Stress
-- 25 Aug - Strain, Homework 1 Due
-- 27 Aug - Mechanical Properties
-- 1 Sep - Exam Review, Homework 2 Due
+- 3 Feb - Stress
+- 8 Feb - Strain, Homework 1 Due
+- 10 Feb - Mechanical Properties
+- 15 Feb - Exam Review, Homework 2 Due
 
 ----
 
@@ -230,6 +230,7 @@ Determine the average shear stress in the 20-mm diameter pin at `$A$` and the 30
 ![A wooden block is shown with one leg at a 3-4-5 angle and a 600 pound compressive load acting in the direction of that leg.](../images/example-1-11.jpg)
 
 </div>
+
 <div class="right">
 
 Determine the average compressive stress along the smooth contact of `$AB$` and `$BC$` and the average shear stress along the horizontal plane `$DB$`.
