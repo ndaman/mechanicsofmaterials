@@ -4,18 +4,17 @@ Lecture 4 - Mechanical Properties<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-27 August, 2020
+10 February, 2021
 
 ----
 
 ## schedule
 
-- 27 Aug - Mechanical Properties
-- 1 Sep - Exam Review, Homework 2 Due
-- 3 Sep - Axial Load (not on Exam 1)
-- 4 Sep - Project 1 Due
-- 8 Sep - Exam 1 (online, no recitation this day)
-- 10 Sep - Axial Load
+- 10 Feb - Mechanical Properties
+- 15 Feb - Exam Review, Homework 2 Due, Homework 1 Self-grade Due
+- 17 Feb - Exam 1
+- 19 Feb - Project 1 Due
+- 22 Feb - Axial Load
 
 ----
 ## outline
@@ -105,7 +104,7 @@ Wichita State University, Department of Aerospace Engineering
 -   As a force is applied to a material, the energy from the work done by the load is stored in the material and called strain energy
 -   In engineering, we often use the strain energy density, or the amount of strain energy per unit volume of material
 
-$$u = \\frac{1}{2} \\sigma \\epsilon$$
+`$$u = \frac{1}{2} \sigma \epsilon$$`
 
 ----
 ## toughness
@@ -138,7 +137,7 @@ The aluminum rod shown has a circular cross-section. Determine the elongation of
 -   When a material is stretched in one direction, it tends to contract in the transverse direction
 -   The ratio of transverse to axial strain is called *Poisson's ratio*
 
-$$\\nu = - \\frac{\\epsilon\_{transverse}}{\\epsilon\_{axial}}$$
+`$$\nu = - \frac{\epsilon_{transverse}}{\epsilon_{axial}}$$`
 
 ---
 # shear stress-strain
@@ -149,14 +148,14 @@ $$\\nu = - \\frac{\\epsilon\_{transverse}}{\\epsilon\_{axial}}$$
 -   It can be experimentally difficult to obtain a state of pure shear, but a common method for many materials is to place a thin tube in torsion
 -   For most engineering materials, the shear stress-strain behavior is linear in the elastic region, but has a different constant relating stress to strain, known as the *Shear Modulus*
 
-$$\tau=G \gamma $$
+`$$\tau=G \gamma $$`
 
 ----
 ## elastic constants
 
 -   For most materials, *E*, *G* and `$\nu$` are related by the following expression
 
-$$G = \\frac{E}{2(1+\\nu)}$$
+`$$G = \frac{E}{2(1+\nu)}$$`
 
 ----
 ## example 3.5
@@ -166,6 +165,7 @@ $$G = \\frac{E}{2(1+\\nu)}$$
 ![A block 4 inches deep, 3 inches wide, and 2 inches tall is loaded in shear (in the 3 inch direction). The stress-strain diagram shows that at the elastic limit of 52 ksi there is a strain of 0.008.](../images/example-3-5.png)
 
 </div>
+
 <div class="right">
 
 Determine G for the specimen shown. Also find the maximum distance d, that the top could be displaced horizontally while remaining elastic. What force V is required to cause this displacement?

@@ -4,18 +4,17 @@ Lecture 3 - Strain<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-25 August, 2020
+8 February, 2021
 
 ----
 
 ## schedule
 
-- 25 Aug - Strain, Homework 1 Due
-- 27 Aug - Mechanical Properties
-- 1 Sep - Exam Review, Homework 2 Due 
-- 3 Sep - Axial Load (not on Exam 1)
-- 4 Sep Project 1 Due
-- 8 Sep - Exam 1 (online)
+- 8 Feb - Strain, Homework 1 Due
+- 10 Feb - Mechanical Properties
+- 15 Feb - Exam Review, Homework 2 Due, Homework 1 Self-grade Due
+- 17 Feb - Exam 1
+- 19 Feb - Project 1 Due
 
 ----
 
@@ -160,6 +159,7 @@ Wichita State University, Department of Aerospace Engineering
 ![An l-shaped bracket has an 8 inch vertical leg and a 5 inch horizontal leg. A single shear pinned connector holds the point of the leg, A, in place while a double shear pinned connector holds the base of the L at point C in position. There is 3 kilopound load 3 inches to the right of C acting downward and a 5 kilopound load 2 inches to the right of that acting down and to the right in the direction of a 3-4-5 triangle (3 down, 4 to the right).](../images/example-1-12.jpg)
 
 </div>
+
 <div class="right">
 
 Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the factor of safety in shear is 1.5 and the failure shear stress is 12 ksi.
@@ -175,9 +175,12 @@ Determine to the nearest 1/4" the diameters of steel pins at $A$ and $C$ if the 
 ![A 2 meter long beam is supported at the left end with a steel rod connecting vertically. It is subjected to a uniform load of 3 kilonewtons per meter, and a roller support at the right end.](../images/example-1-15.png)
 
 </div>
+
 <div class="right">
 
-The 400 kg uniform bar, $AB$ is supported by a steel rod $AC$ and a roller at $B$. If it supports a live distributed loading, determine the required diameter of the rod. Use $\sigma_{fail}=345 \text{ MPa}$ with $\phi=0.9$, $\gamma_D=1.2$, and $\gamma_L=1.6$
+The 400 kg uniform bar, `$AB$` is supported by a steel rod `$AC$` and a roller at `$B$`. 
+If it supports a live distributed loading, determine the required diameter of the rod. 
+Use `$\sigma_{fail}=345 \text{ MPa}$` with `$\phi=0.9$`, `$\gamma_D=1.2$`, and `$\gamma_L=1.6$` 
 
 </div>
 
@@ -256,6 +259,7 @@ Find the normal strains in the two wires if A moves to `$A^\prime$`
 ![A 150 mm square block is constrained along the top, left, and bottom faces, but pushed 2 mm to the left on its right face. AC is the diagonal line going from the top left to the bottom right. E is the center point of the block (where the two diagonals intersect after deformation).](../images/example-2-3.jpg)
 
 </div>
+
 <div class="right">
 
 The plate is fixed along AB and held in horizontal guides along AD and BC. If the right side is displaced 2 mm find the average normal strain along AC and the shear strain at E relative to the x and y axes.
