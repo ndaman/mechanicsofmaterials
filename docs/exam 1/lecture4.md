@@ -11,10 +11,12 @@ Wichita State University, Department of Aerospace Engineering
 ## schedule
 
 - 10 Feb - Mechanical Properties
-- 15 Feb - Exam Review, Homework 2 Due, Homework 1 Self-grade Due
-- 17 Feb - Exam 1
-- 19 Feb - Project 1 Due
-- 22 Feb - Axial Load
+- 12 Feb - Homework 1 Due
+- 15 Feb - Axial Load
+- 17 Feb - Exam Review
+- 19 Feb - Homework 2 Due, Homework 1 Self-grade Due
+- 22 Feb - Exam 1
+- 26 Feb - Project 1 Due
 
 ----
 ## outline

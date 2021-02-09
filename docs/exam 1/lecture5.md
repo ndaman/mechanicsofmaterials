@@ -1,20 +1,18 @@
-
 # AE333
 ## Mechanics of Materials
-Lecture 5 - Exam 1 Review<br/>
+Lecture 6 - Exam 1 Review<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-1 September, 2020
+17 February, 2021
 
 ----
 ## schedule
 
-- 1 Sep - Exam Review, Homework 2 Due
-- 3 Sep - Axial Load (not on Exam 1)
-- 4 Sep - Project 1 Due
-- 8 Sep - Exam 1 (online, no recitation this day)
-- 10 Sep - Axial Load
+- 17 Feb - Exam Review
+- 19 Feb - Homework 2 Due, Homework 1 Self-grade Due
+- 22 Feb - Exam 1
+- 26 Feb - Project 1 Due
 
 ---
 # exam 
@@ -22,9 +20,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## exam
 
--   4 questions
--   50 minutes, must take exam on 8 Sep and complete in one sitting
--   open book/note 
+-   5 questions
 -   Follow directions
 
 ----
