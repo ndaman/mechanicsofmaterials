@@ -95,14 +95,14 @@
 		\begin{itemize}
 			\item We start by sectioning the right side of the hacksaw. In order to more conveniently find the internal forces along the angled section we set up a rotated coordinate system.
 			\item Separating $F$ into its $x$ and $y$ components we find $F_x = 120 \cos 30$ and $F_y = 120 \sin 30$
-			\item Before we solve for internal forces, we notice that the end of the hacksaw aligns with the $x$ axis, so we only need to consider the $y$ component.
+			\item Before we solve for internal forces, we notice that the end of the hacksaw aligns with the $x$ axis, so we only need to consider the $y$ component of force in the moment calculations.
 			\begin{align*}
 				\sum F_x &= 0 = -N - 120 \cos 30 \\
 				\sum F_y &= 0 = V - 120 \sin 30 \\
-				\sum M_b &= 0 = 120 \sin 30 - M\\
+        \sum M_b &= 0 = -120 \sin 30 \sqrt{225^2+150^2}- M\\
 				N &= \SI{-104}{N}\\
 				V &= \SI{60}{N}\\
-				M &= \SI{-16.2}{N.m}
+        M &= \SI{-16200}{N.mm} = \SI{-16.2}{N.m}
 			\end{align*}
 			\begin{figure}[H]
 				\centering

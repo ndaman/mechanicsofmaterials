@@ -1,20 +1,19 @@
-
 # AE333
 ## Mechanics of Materials
 Lecture 7 - Axial Load<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 7, 2020
+February 24, 2021
 
 ----
-
 ## schedule
 
-- 7 Feb - Axial Load
-- 10 Feb - Exam 1
-- 12 Feb - Axial Load
-- 14 Feb - Axial Load
+- 24 Feb - Axial Load
+- 26 Feb - Project 1 Due, Homework 2 Self-grade Due
+- 1 Mar - Torsion
+- 3 Mar - Torsion
+- 5 Mar - Homework 3 Due
 
 ----
 ## outline
@@ -62,11 +61,11 @@ February 7, 2020
 
 -   For some differential element, we can consider the internal forces and stresses
 
-$$\\sigma = \\frac{N(x)}{A(x)} = E(x) \\epsilon(x) = E(x) \\left(\\frac{d\\delta}{dx}\\right)$$
+`$$\sigma = \frac{N(x)}{A(x)} = E(x) \epsilon(x) = E(x) \left(\frac{d\delta}{dx}\right)$$`
 
 -   We can solve this for `$d\delta$` to find
 
-$$d \\delta = \\frac{N(x) dx}{A(x)E(x)}$$
+`$$d \delta = \frac{N(x) dx}{A(x)E(x)}$$`
 
 -   We integrate this over the length of the bar to find the total displacement
 
@@ -91,9 +90,10 @@ A steel rod with a 10mm diameter is attached to a rigid collar passing through a
 ![A cone has a radius of 0.3 m and a length of 3 m. The large end is fixed while the pointed end hangs down.](../images/example-4-4.jpg) <!-- .element width="60%" -->
 
 </div>
+
 <div class="right">
 
-The cone shown has a specific weight of $\gamma = 6$ kN/m<sup>3</sup> and $E=9$ GPa.
+The cone shown has a specific weight of `$\gamma = 6$` kN/m<sup>3</sup> and $E=9$ GPa.
 Determine how far the end is displaced due to gravity.
 
 </div>
@@ -139,6 +139,7 @@ Determine how far the end is displaced due to gravity.
 ![A 0.8 m long rigid horizontal bar is supported by hanging from 3 vertical rods. Rod AB supports the left end, rod CD supports the middle and rod EF supports the right end. A 15 kN load is applied 0.2 m from the left end.](../images/example-4-7.jpg)
 
 </div>
+
 <div class="right">
 
 Assuming the bottom bar is rigid, find the force developed in each bar.

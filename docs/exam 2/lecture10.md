@@ -4,15 +4,16 @@ Lecture 9 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-15 September, 2020
+3 March, 2021
 
 ----
 ## schedule
 
-- 15 Sep - Torsion, Homework 3 Due
-- 17 Sep - Torsion
-- 22 Sep - Bending, Homework 4 Due
-- 24 Sep - Bending
+- 3 Mar - Torsion
+- 5 Mar - Homework 3 Due
+- 8 Mar - Torsion
+- 10 Mar - Bending
+- 12 Mar - Homework 4 Due, Homework 3 Self-grade due
 
 ----
 ## outline
@@ -63,11 +64,11 @@ Wichita State University, Department of Aerospace Engineering
 
 -   Integrating over the whole cross-section gives
 
-$$T = \\int\_A \\rho (\\tau dA) = \\frac{\\tau\_{max}}{c} \\int\_A \\rho^2 dA$$
+`$$T = \int_A \rho (\tau dA) = \frac{\tau_{max}}{c} \int_A \rho^2 dA$$`
 
 -   The integral `$\int_A \rho^2 dA$` is also called the Polar Moment of Inertia, *J*, so we can write
 
-$$\\tau\_{max} = \\frac{Tc}{J}$$
+`$$\tau_{max} = \frac{Tc}{J}$$`
 
 ----
 ## polar moment of inertia
@@ -75,11 +76,11 @@ $$\\tau\_{max} = \\frac{Tc}{J}$$
 -   We know that `$J=\int_A \rho^2 dA$`, so we can compute this for some common shapes
 -   For a solid circular cross-section, we have
 
-$$J = \\int\_0^c \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}c^4$$
+`$$J = \int_0^c \rho^2 (2\pi \rho d\rho) = \frac{\pi}{2}c^4$$`
 
 -   For a circular tube we have
 
-$$J = \\int\_{c\_1}^{c\_2} \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}(c\_2^4-c\_1^4)$$
+`$$J = \int_{c_1}^{c_2} \rho^2 (2\pi \rho d\rho) = \frac{\pi}{2}(c_2^4-c_1^4)$$`
 
 ----
 ## example 5.1
@@ -89,6 +90,7 @@ $$J = \\int\_{c\_1}^{c\_2} \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}(c\_2^4
 ![On left is a solid 100 mm radius tube, while on the right is a hollow tube with outer radius of 100 mm and inner radius of 75 mm. Element A is on the surface of the solid tube on the left, element B is on the outer surface of the hollow tube on the right and Element C is on the inner surface of the hollow tube on the right.](../images/example-5-1.png)
 
 </div>
+
 <div class="right">
 
 The allowable shear stress is 75 MPa. Determine the maximum torque that can be applied to each of the cross-sections shown and find the stress acting on a small element at A, B and C.
@@ -117,7 +119,7 @@ The allowable shear stress is 75 MPa. Determine the maximum torque that can be a
 -   We often know the power and frequency of a drive, and need to design a shaft such that the shear stress is acceptable
 -   We can easily find the torque as $T=P/2\pi f$, we can use this combined with the torsion equation
 
-$$\\tau\_{max} = \\frac{Tc}{J}$$
+`$$\tau_{max} = \frac{Tc}{J}$$`
 
 to find the appropriate shaft diameter.
 -   For solid shafts we can solve for *c* uniquely, but not for hollow shafts
