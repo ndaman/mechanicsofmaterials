@@ -1,201 +1,194 @@
 
 ## AE333
 ## Mechanics of Materials
-Lecture 11 - Torsion<br/>
+Lecture 11 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-17 September, 2020
+10 March, 2021
 
 ----
 ## schedule
 
-- 17 Sep - Torsion
-- 22 Sep - Bending, Homework 4 Due
-- 24 Sep - Bending
-- 29 Sep - Transverse Shear, Homework 5 Due
-
+- 10 Mar - Bending
+- 15 Mar - Bending
+- 15 Mar - Homework 4 Due, Homework 3 Self-grade due
+- 17 Mar - Transverse Shear
+- 22 Mar - Transverse Shear
+- 22 Mar - Homework 5 Due, Homework 4 Self-grade due
 
 ----
 ## outline
 
-<!-- TOC START min:1 max:1 link:false update:true -->
-- torsion
-- power transmission
-- group problems
+<!-- vim-markdown-toc GFM -->
 
-<!-- TOC END -->
+* shear and moment diagrams
+* graphical method
+* bending deformation
 
----
-# torsion
-
-----
-## torsion
-
--   Torque is a moment that tends to twist a member about its axis
--   For small deformation problems, we assume that the length and radius do not change significantly under torsion
--   The primary deformation we are concerned with in torsion is the angle of twist, denoted with $\phi$
-
-----
-## shear
-
-![A thin disk under applied torsion. The shear strain varies linearly with radial distance from the center.](../images/torsion-disk.jpg) <!-- .element width="40%" -->
-
-----
-## torsion formula
-
--   For a linearly elastic material, Hooke’s Law in shear will hold (`$\tau = G \gamma$`)
--   This means that, like shear strain, shear stress will vary linearly along the radius
-
-----
-## torsion formula
-
--   We can find the total force on an element, *dA* by multiplying the shear stress by the area
-
-`$$ dF = \tau dA$$`
-
--   The torque (`$dT = \rho dF$`) produced by this force is then
-
-`$$dT = \rho(\tau dA)$$`
-
-----
-## torsion formula
-
--   Integrating over the whole cross-section gives
-
-$$T = \\int\_A \\rho (\\tau dA) = \\frac{\\tau\_{max}}{c} \\int\_A \\rho^2 dA$$
-
--   The integral `$\int_A \rho^2 dA$` is also called the Polar Moment of Inertia, *J*, so we can write
-
-$$\\tau\_{max} = \\frac{Tc}{J}$$
-
-----
-## polar moment of inertia
-
--   We know that `$J=\int_A \rho^2 dA$`, so we can compute this for some common shapes
--   For a solid circular cross-section, we have
-
-$$J = \\int\_0^c \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}c^4$$
-
--   For a circular tube we have
-
-$$J = \\int\_{c\_1}^{c\_2} \\rho^2 (2\\pi \\rho d\\rho) = \\frac{\\pi}{2}(c\_2^4-c\_1^4)$$
-
-----
-## example 5.1
-
-<div class="left">
-
-![On left is a solid 100 mm radius tube, while on the right is a hollow tube with outer radius of 100 mm and inner radius of 75 mm. Element A is on the surface of the solid tube on the left, element B is on the outer surface of the hollow tube on the right and Element C is on the inner surface of the hollow tube on the right.](../images/example-5-1.png)
-
-</div>
-<div class="right">
-
-The allowable shear stress is 75 MPa. Determine the maximum torque that can be applied to each of the cross-sections shown and find the stress acting on a small element at A, B and C.
-
-</div>
+<!-- vim-markdown-toc -->
 
 ---
-# power transmission
+# shear and moment diagrams
 
 ----
-## power transmission
+## shear and moment diagrams
 
--   Shafts and tubes are often connected to belts and drives, and the torque, speed, and power are all related
--   Power is the rate of work done, for rotation problems, $P = T \omega$
--   We are often given the frequency *f* instead of the angular velocity, $\omega$, in this case $P = 2\pi f T$
-
-----
-## power units
-
--   In SI Units, power is expressed in Watts 1 W = 1 N m / sec
--   In Freedom Units, power is expressed in Horsepower 1 hp = 550 ft lb / sec
+-   The general approach to shear and moment diagrams is to first find the support reactions
+-   Next we section the beam and instead of finding the internal force and moment at a single point, we find it as a function of *x*
+-   Many beams will require piecewise sectioning
+-   We then draw this as a shear and moment diagram
 
 ----
-## shaft design
+## sign convention
 
--   We often know the power and frequency of a drive, and need to design a shaft such that the shear stress is acceptable
--   We can easily find the torque as $T=P/2\pi f$, we can use this combined with the torsion equation
+![A cantilever beam with some arbitrary loads and a section marked](../images/beam-internal.jpg) <!-- .element width="60%" -->
 
-$$\\tau\_{max} = \\frac{Tc}{J}$$
-
-to find the appropriate shaft diameter.
--   For solid shafts we can solve for *c* uniquely, but not for hollow shafts
+![A free body diagram of the above beam with internal loads shown where the section cut was made.](../images/beam-internal-cut.jpg) <!-- .element width="60%" -->
 
 ----
-## example 5.4
+## example beam
 
-<div class="left">
+![A simply supported beam with a distributed load acting over one portion and a concentrated load later. This beam is to illustrate the method of setting up multiple coordinate systems for different sections.](../images/piece-wise-beam.jpg) <!-- .element width="60%" -->
 
-![A rotating shaft connected to a motor](../images/example-5-4.jpg)
+----
+## example beam
 
-</div>
+![A shear diagram for the above beam](../images/shear-diagram.jpg) <!-- .element width="60%" -->
 
-<div class="right">
+----
+## example beam
 
-The steel shaft shown is connected to a 5 hp motor that rotates at $\omega=175$ rpm. If `$\tau_{allow}=14.5$` ksi, determine the required shaft diameter.
-
-</div>
+![A moment diagram for the above beam](../images/moment-diagram.jpg) <!-- .element width="60%" -->
 
 ---
-# group problems
+# graphical method
 
 ----
-## group one
+## relation between load, shear, moment
 
-<div class="left">
-
-![A 40 mm radius solid shaft. Point A is on the outer surface, Point B is 30 mm away from the center.](../images/group5-1.jpg)
-
-</div>
-
-<div class="right">
-
-The solid circular shaft is subjected to an internal torque of 5 kN.m. Determine the shear stress at A and B and represent each state of stress on a volume element.  
-
-</div>
+-   When there are several forces, supports, or loading conditions applied to a beam, the piecewise method can be cumbersome
+-   In this section we will examine the differential relationships between distributed load, shear, and bending moments
 
 ----
-## group two
+## distributed load
 
-<div class="left">
-
-![A hollow circular shaft with outer radius of 60 mm and inner radius of 40 mm. Point A is on the inner surface, Point B is on the outer surface.](../images/group5-2.jpg)
-
-</div>
-
-<div class="right">
-
-The hollow circular shaft is subjected to an internal torque of 10 kN.m. Determine the shear stress at A and B and represent each state of stress on a volume element.  
-
-</div>
+![Internal loading shown on a differential element sectioned from a beam.](../images/distributed-load.jpg) <!-- .element width="40%" -->
 
 ----
-## group three
+## distributed load
 
-<div class="left">
+-   Consider a beam subjected to only distributed loading
+-   If we section this beam in the middle (to remove both supports) we can relate *V* to the loading function *w*(*x*)
+-   Considering the sum of forces in *y*:
 
-![There is a fixed support at C, an applied torque of 4 kN.m at B (in the middle) and an applied torque of 2 kN.m at A (at the free end).](../images/group5-3.jpg)
-
-</div>
-
-<div class="right">
-
-The circular shaft is hollow from A to B and solid from B to C. Determine the shear stress at A and B. The outer diameter is 80 mm and the wall thickness is 10 mm.
-
-</div>
+`$$\begin{aligned}
+  V + w(x)\Delta x - (V + \Delta V) &= 0\\\\
+  \Delta V &= w(x) \Delta x
+\end{aligned}$$`
 
 ----
-## group four
+## distributed load
 
-<div class="left">
+-   If we divide by `$\Delta x$` and let `$\Delta x \to 0$` we find
 
-![A shaft supports to pulleys, one with a 150 mm radius and tension of 6 kN at one end and 2 kN at the other other. The other pulley has a 100 mm radius and tensions of 10 kN and 4 kN.](../images/group-5-4.png)
+`$$\frac{dV}{dx} = w(x)$$`
 
-</div>
+-   Thus the slope of the shear diagram is equal to the distributed load function
 
-<div class="right">
+----
+## moment diagram
 
-Determine the maximum shear stress in the 40 mm diameter shaft.
+-   If we consider the sum of moments about *O* on the same section we find
 
-</div>
+`$$\begin{aligned}
+  (M + \Delta M) - (w(x)\Delta x)k \Delta x - V\Delta x - M &= 0\\\\
+  \Delta M &= V \Delta x + k w(x) \Delta x ^2
+\end{aligned}$$`
+
+-   Dividing by `$\Delta x$` and letting `$\Delta x \to 0$` gives
+
+`$$\frac{dM}{dx} = V$$`
+
+----
+## concentrated forces
+
+-   If we consider a concentrated force (instead of a distributed load) we find
+
+`$$\Delta V = F $$`
+
+-   This means that concentrated loads will cause the shear diagram to "jump" by the amount of the concentrated force (causing a discontinuity on our graph)
+
+----
+## couple moments
+
+-   If our section includes a couple moment, we find (from the moment equation) that
+
+`$$\Delta M = M_0 $$`
+
+-   Thus the moment diagram will have a jump discontinuity
+
+----
+## example 7.9
+
+![A beam is 6 meters long with pin supports at the left end, A, and at B, 4 meters to the right of A. From B to the right end of the beam is a uniform distributed load of 4 kN/m.](../images/example-7-9.jpg)
+
+----
+## example 7.10
+
+![A beam is 12 feet long with pin supports at both ends and a linearly increasing distributed load, beginning with 0 at the left end and rising to 120 lb/ft at the right end.](../images/example-7-10.jpg) <!-- .element width="60%" -->
+
+---
+# bending deformation
+
+----
+## bending deformation
+
+-   If we drew a grid on a specimen in bending, we would find that vertical lines tend to stay straight (but rotate)
+-   Horizontal lines will become curved
+-   If bending lifts the ends up (like a smile), then the top face will be in compression (and expand), while the bottom face will be in tension (and contract)
+
+----
+## bending deformation
+
+![An example beam drawn in 3D with a grid drawn on it while it bends.](../images/beam-deformation.jpg) <!-- .element width="60%" -->
+
+----
+## neutral axis
+
+-   Since the bottom is in tension and the top is in compression, there must be somewhere in between that is under no stress
+-   We call that the neutral axis, and assume it does not change in length
+-   We also assume that planar sections remain planar (no warping)
+-   Finally, Poisson's effects are neglected (cross-sections keep the same size and shape)
+
+----
+## strain
+
+-   We will now consider an infinitesimal beam element before and after deformation
+-   `$\Delta x$` is located on the neutral axis and thus does not change in length after deformation
+-   Some other line segment, `$\Delta s$` is located *y* away from the neutral axis and changes its length to `$\Delta s ^\prime$` after deformation
+
+----
+## strain
+
+![A small beam section before and after deformation](../images/beam-element.jpg) <!-- .element width="40%" -->
+
+----
+## strain
+
+-   We can now define strain at the line segment `$\Delta s$` as
+
+`$$\epsilon = \lim_{\Delta s \to 0} \frac{\Delta s^\prime - \Delta s}{\Delta s}$$`
+
+----
+## strain
+
+-   If we define `$\rho$` as the radius of curvature after deformation, thus `$\Delta x = \Delta s = \rho \Delta \theta$`
+-   The radius of curvature at `$\Delta s$` is `$\rho - y$`, thus we can write
+
+`$$\epsilon = \lim_{\Delta \theta \to 0} \frac{(\rho-y)\Delta \theta - \rho \Delta \theta}{\rho \Delta \theta}$$`
+
+-   Which gives
+
+`$$\epsilon = -\frac{y}{\rho}$$`
+

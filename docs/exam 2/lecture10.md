@@ -1,203 +1,179 @@
 ## AE333
 ## Mechanics of Materials
-Lecture 9 - Torsion<br/>
+Lecture 10 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-3 March, 2021
+8 March, 2021
 
 ----
 ## schedule
 
-- 3 Mar - Torsion
-- 5 Mar - Homework 3 Due
 - 8 Mar - Torsion
+- 8 Mar - Homework 3 Due
 - 10 Mar - Bending
-- 12 Mar - Homework 4 Due, Homework 3 Self-grade due
+- 15 Mar - Bending
+- 15 Mar - Homework 4 Due, Homework 3 Self-grade due
+- 17 Mar - Transverse Shear
+
 
 ----
 ## outline
 
-<!-- vim-markdown-toc GFM -->
+<!-- TOC START min:1 max:1 link:false update:true -->
+- angle of twist
+- statically indeterminate torsion
+- solid non-circular shafts
+- thin-walled tubes
 
-* torsion
-* power transmission
-* group problems
-
-<!-- vim-markdown-toc -->
+<!-- TOC END -->
 
 ---
-# torsion
+# angle of twist
 
 ----
-## torsion
+## angle of twist
 
--   Torque is a moment that tends to twist a member about its axis
--   For small deformation problems, we assume that the length and radius do not change significantly under torsion
--   The primary deformation we are concerned with in torsion is the angle of twist, denoted with $\phi$
-
-----
-## shear
-
-![A thin disk under applied torsion. The shear strain varies linearly with radial distance from the center.](../images/torsion-disk.jpg) <!-- .element width="40%" -->
+-   While in axial problems we examined the total deformation for the general case, in torsion we will examine the total angle of twist in general
+-   Using the method of sections, we can consider a differential disk which has some internal torque as a function of *x*, *T*(*x*).
+-   On this section, the shear strain will be related to the angle of twist by the thickness of the section (*dx*) and the radial distance ($\rho$).
 
 ----
-## torsion formula
+## angle of twist
 
--   For a linearly elastic material, Hooke's Law in shear will hold (`$\tau = G \gamma$`)
--   This means that, like shear strain, shear stress will vary linearly along the radius
-
-----
-## torsion formula
-
--   We can find the total force on an element, *dA* by multiplying the shear stress by the area
-
-`$$ dF = \tau dA$$`
-
--   The torque (`$dT = \rho dF$`) produced by this force is then
-
-`$$dT = \rho(\tau dA)$$`
+![A section of an arbitrary cone is shown to depict how we can find the incremental change in angle from one end of the section to the next.](../images/generaltorsion.png)
 
 
 ----
-## torsion formula
+## angle of twist
 
--   Integrating over the whole cross-section gives
+-   `$\gamma$` and `$d\phi$` are related by
 
-`$$T = \int_A \rho (\tau dA) = \frac{\tau_{max}}{c} \int_A \rho^2 dA$$`
+`$$d\phi = \gamma \frac{dx}{\rho}$$`
 
--   The integral `$\int_A \rho^2 dA$` is also called the Polar Moment of Inertia, *J*, so we can write
+-   We also know that `$\gamma = \tau/G$` and `$\tau = T(x) \rho / J(x)$` substituting both this gives
 
-`$$\tau_{max} = \frac{Tc}{J}$$`
-
-----
-## polar moment of inertia
-
--   We know that `$J=\int_A \rho^2 dA$`, so we can compute this for some common shapes
--   For a solid circular cross-section, we have
-
-`$$J = \int_0^c \rho^2 (2\pi \rho d\rho) = \frac{\pi}{2}c^4$$`
-
--   For a circular tube we have
-
-`$$J = \int_{c_1}^{c_2} \rho^2 (2\pi \rho d\rho) = \frac{\pi}{2}(c_2^4-c_1^4)$$`
+`$$d\phi = \frac{T(x)}{J(x)G(x)}dx$$`
 
 ----
-## example 5.1
+## multiple torques
+
+-   If a shaft is subjected to multiple torques, or if there is a discontinuous change in shape or material we can sum the change in angle over various segments
+
+`$$\phi = \sum \frac{TL}{JG}$$`
+
+----
+## sign convention
+
+-   When we section a shaft and consider the internal torque, it is important to be consistent with our signs
+-   Both torque and angle of twist should follow the same convention
+-   The convention is to use the right hand rule with the thumb pointing normal to the cut, and the fingers curling in the positive direction
+
+----
+## example 5.8
 
 <div class="left">
 
-![On left is a solid 100 mm radius tube, while on the right is a hollow tube with outer radius of 100 mm and inner radius of 75 mm. Element A is on the surface of the solid tube on the left, element B is on the outer surface of the hollow tube on the right and Element C is on the inner surface of the hollow tube on the right.](../images/example-5-1.png)
+![A wrench is attached to a post. 24 inches of the post are embedded in soil, while the other 36 inches continue above the soil. The post has a diameter of 2 inches and a couple moment of 25 lbs. 6 inches away from the center is applied on the wrench.](../images/example-5-8.jpg)
 
 </div>
 
 <div class="right">
 
-The allowable shear stress is 75 MPa. Determine the maximum torque that can be applied to each of the cross-sections shown and find the stress acting on a small element at A, B and C.
+Find the maximum shear stress in the post and the angle of twist of the wrench.The torque is about to turn the bottom of the post, the soil exerts uniform torsional resistance of *t* lb.in/in and G=5.5 Msi.
 
 </div>
 
 ---
-# power transmission
+# statically indeterminate torsion
 
 ----
-## power transmission
+## statically indeterminate torsion
 
--   Shafts and tubes are often connected to belts and drives, and the torque, speed, and power are all related
--   Power is the rate of work done, for rotation problems, $P = T \omega$
--   We are often given the frequency *f* instead of the angular velocity, $\omega$, in this case $P = 2\pi f T$
-
-----
-## power units
-
--   In SI Units, power is expressed in Watts 1 W = 1 N m / sec
--   In Freedom Units, power is expressed in Horsepower 1 hp = 550 ft lb / sec
+-   Just as in axial problems, we can now solve statically indeterminate torsion problems
+-   We will generally need one compatibility condition in addition to the equations of static equilibrium
+-   At any given section cut the angle of twist needs to be equal, or often the supports restrict the angle of twist and we can use that knowledge
 
 ----
-## shaft design
-
--   We often know the power and frequency of a drive, and need to design a shaft such that the shear stress is acceptable
--   We can easily find the torque as $T=P/2\pi f$, we can use this combined with the torsion equation
-
-`$$\tau_{max} = \frac{Tc}{J}$$`
-
-to find the appropriate shaft diameter.
--   For solid shafts we can solve for *c* uniquely, but not for hollow shafts
-
-----
-## example 5.4
+## example 5.10
 
 <div class="left">
 
-![A rotating shaft connected to a motor](../images/example-5-4.jpg)
+![The brass core has a radius of 0.5 inches, while the steel tube has an outer radius of 1 inch. The shaft is 4 ft long and fixed at one end with a torque of 250 ft.lb applied at the other end.](../images/example-5-10.jpg)
 
 </div>
 
 <div class="right">
 
-The steel shaft shown is connected to a 5 hp motor that rotates at $\omega=175$ rpm. If `$\tau_{allow}=14.5$` ksi, determine the required shaft diameter.
+The shaft shown is made from a steel tube bonded to a brass core. Plot the shear stress distribution along a radial line on its cross-section where `$G_{ST}=11.4$` Msi and `$G_{BR}=5.20$` Msi.  
 
 </div>
 
 ---
-# group problems
+# solid non-circular shafts
 
 ----
-## group one
+## non-circular shafts
 
-<div class="left">
-
-![A 40 mm radius solid shaft. Point A is on the outer surface, Point B is 30 mm away from the center.](../images/group5-1.jpg)
-
-</div>
-
-<div class="right">
-
-The solid circular shaft is subjected to an internal torque of 5 kN.m. Determine the shear stress at A and B and represent each state of stress on a volume element.  
-
-</div>
+-   When a shaft is non-circular it is no longer axisymmetric, which causes cross-sections to bulge or warp
+-   Because of this deformation, in-depth analysis of non-circular shafts in torsion is beyond the scope of this class
+-   Using the theory of elasticity some standard shapes can be analyzed
 
 ----
-## group two
+## theory of elasticity
 
-<div class="left">
+![A table of theoretical conversion factors between various shaft shapes.](../images/torsion-cross-section.jpg) <!-- .element width="40%" -->
 
-![A hollow circular shaft with outer radius of 60 mm and inner radius of 40 mm. Point A is on the inner surface, Point B is on the outer surface.](../images/group5-2.jpg)
-
-</div>
-
-<div class="right">
-
-The hollow circular shaft is subjected to an internal torque of 10 kN.m. Determine the shear stress at A and B and represent each state of stress on a volume element.  
-
-</div>
+---
+# thin-walled tubes
 
 ----
-## group three
+## shear flow
 
-<div class="left">
-
-![There is a fixed support at C, an applied torque of 4 kN.m at B (in the middle) and an applied torque of 2 kN.m at A (at the free end).](../images/group5-3.jpg)
-
-</div>
-
-<div class="right">
-
-The circular shaft is hollow from A to B and solid from B to C. Determine the shear stress at A and B. The outer diameter is 80 mm and the wall thickness is 10 mm.
-
-</div>
+-   Thin-walled tubes of non-circular cross-sections are commonly found in aerospace and other applications
+-   We can analyze these using a technique called shear flow
+-   Because the walls of the tube are thin, we assume that the shear stress is uniformly distributed through the wall thickness
 
 ----
-## group four
+## shear flow
 
-<div class="left">
+-   If we consider an arbitrary segment of a tube with varying thickness, we find from equilibrium that the product of the average shear stress and the thickness must be the same at every location on the cross-section
 
-![A shaft supports to pulleys, one with a 150 mm radius and tension of 6 kN at one end and 2 kN at the other other. The other pulley has a 100 mm radius and tensions of 10 kN and 4 kN.](../images/group-5-4.png)
+`$$q = \tau_{avg} t$$`
 
-</div>
+-   *q* is called the shear flow
 
-<div class="right">
+----
+## average shear stress
 
-Determine the maximum shear stress in the 40 mm diameter shaft.
+-   We can relate the average shear stress to the torque by considering the torque produced about some point within the tubes boundary
 
-</div>
+`$$T = \oint h \tau_{avg} t ds$$`
+
+-   Where *h* is the distance from the reference point, *ds* is the differential arc length and *t* is the tube thickness.
+
+----
+## average shear stress
+
+-   We notice that `$\tau_{avg}t$` is equal to the shear flow, *q*, which must be constant
+-   We can also simplify the integral by relating a similar area integral to the arc length integral
+
+`$$dA_m = 1/2 h ds$$`
+
+-   Thus
+
+`$$T = \oint h\tau_{avg} t ds = 2 q \int dA_m = 2 q A_m$$`
+
+----
+## angle of twist
+
+- The angle of twist for a thin-walled tube is given by
+
+`$$ \phi = \frac{TL}{4A_m^2 G} \oint \frac{ds}{t} $$`
+
+----
+## example 5.13
+
+![A hollow rectangular tube is 40 mm wide and 60 mm tall with thickness of 5 mm horizontally and 3 mm vertically. It is fixed at one end with a torque of -25 N.m applied 1.5 m away from the fixed end and a torque of 60 N.m applied at the free end, 2.0 m away from the fixed end. A and B are both at the middle of the tube, A on a horizontal wall and B on a vertical wall.](../images/example-5-13.jpg) <!-- .element width="60%" -->
+
+Determine the average shear stress at A and B.
