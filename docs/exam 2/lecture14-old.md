@@ -1,32 +1,38 @@
 
 ## AE333
 ## Mechanics of Materials
-Lecture 11 - Bending<br/>
+Lecture 14 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-15 March, 2021
+2 March, 2020
 
 ----
 ## schedule
 
-- 15 Mar - Bending
-- 17 Mar - Bending
-- 15 Mar - Homework 4 Due, Homework 3 Self-grade due
-- 22 Mar - Transverse Shear
-- 24 Mar - Transverse Shear
-- 22 Mar - Homework 5 Due, Homework 4 Self-grade due
+- 2 Mar - Bending
+- 4 Mar - Bending
+- 6 Mar - Exam 2 Review, HW 5 Due
+- 9 Mar - Exam 2
 
 ----
 ## outline
 
-<!-- vim-markdown-toc GFM -->
+<!-- TOC START min:1 max:1 link:false update:true -->
+- shear and moment diagrams
+- graphical method
+- bending deformation
+- flexure formula
+<!-- TOC END -->
 
-* shear and moment diagrams
-* graphical method
-* bending deformation
 
-<!-- vim-markdown-toc -->
+----
+## shear-moment diagrams
+
+- Drawing shear-moment diagrams is a very important skill
+- Learning MasteringEngineering's drawing system is not as important (in my opinion)
+- If you are more comfortable doing your shear-moment diagrams by hand, you may turn them into me in class on Friday and I will grade them by hand
+
 
 ---
 # shear and moment diagrams
@@ -82,17 +88,17 @@ Wichita State University, Department of Aerospace Engineering
 -   If we section this beam in the middle (to remove both supports) we can relate *V* to the loading function *w*(*x*)
 -   Considering the sum of forces in *y*:
 
-`$$\begin{aligned}
-  V + w(x)\Delta x - (V + \Delta V) &= 0\\\\
-  \Delta V &= w(x) \Delta x
-\end{aligned}$$`
+$$\\begin{aligned}
+  V + w(x)\\Delta x - (V + \\Delta V) &= 0\\\\
+  \\Delta V &= w(x) \\Delta x
+\\end{aligned}$$
 
 ----
 ## distributed load
 
--   If we divide by `$\Delta x$` and let `$\Delta x \to 0$` we find
+-   If we divide by $\Delta x$ and let $\Delta x \to 0$ we find
 
-`$$\frac{dV}{dx} = w(x)$$`
+$$\\frac{dV}{dx} = w(x)$$
 
 -   Thus the slope of the shear diagram is equal to the distributed load function
 
@@ -101,21 +107,21 @@ Wichita State University, Department of Aerospace Engineering
 
 -   If we consider the sum of moments about *O* on the same section we find
 
-`$$\begin{aligned}
-  (M + \Delta M) - (w(x)\Delta x)k \Delta x - V\Delta x - M &= 0\\\\
-  \Delta M &= V \Delta x + k w(x) \Delta x ^2
-\end{aligned}$$`
+$$\\begin{aligned}
+  (M + \\Delta M) - (w(x)\\Delta x)k \\Delta x - V\\Delta x - M &= 0\\\\
+  \\Delta M &= V \\Delta x + k w(x) \\Delta x ^2
+\\end{aligned}$$
 
--   Dividing by `$\Delta x$` and letting `$\Delta x \to 0$` gives
+-   Dividing by $\Delta x$ and letting $\Delta x \to 0$ gives
 
-`$$\frac{dM}{dx} = V$$`
+$$\\frac{dM}{dx} = V$$
 
 ----
 ## concentrated forces
 
 -   If we consider a concentrated force (instead of a distributed load) we find
 
-`$$\Delta V = F $$`
+$$\Delta V = F $$
 
 -   This means that concentrated loads will cause the shear diagram to "jump" by the amount of the concentrated force (causing a discontinuity on our graph)
 
@@ -124,7 +130,7 @@ Wichita State University, Department of Aerospace Engineering
 
 -   If our section includes a couple moment, we find (from the moment equation) that
 
-`$$\Delta M = M_0 $$`
+$$\Delta M = M_0 $$
 
 -   Thus the moment diagram will have a jump discontinuity
 
@@ -165,8 +171,8 @@ Wichita State University, Department of Aerospace Engineering
 ## strain
 
 -   We will now consider an infinitesimal beam element before and after deformation
--   `$\Delta x$` is located on the neutral axis and thus does not change in length after deformation
--   Some other line segment, `$\Delta s$` is located *y* away from the neutral axis and changes its length to `$\Delta s ^\prime$` after deformation
+-   $\Delta x$ is located on the neutral axis and thus does not change in length after deformation
+-   Some other line segment, $\Delta s$ is located *y* away from the neutral axis and changes its length to $\Delta s ^\prime$ after deformation
 
 ----
 ## strain
@@ -176,19 +182,88 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## strain
 
--   We can now define strain at the line segment `$\Delta s$` as
+-   We can now define strain at the line segment $\Delta s$ as
 
-`$$\epsilon = \lim_{\Delta s \to 0} \frac{\Delta s^\prime - \Delta s}{\Delta s}$$`
+$$\\epsilon = \\lim\_{\\Delta s \\to 0} \\frac{\\Delta s^\\prime - \\Delta s}{\\Delta s}$$
 
 ----
 ## strain
 
--   If we define `$\rho$` as the radius of curvature after deformation, thus `$\Delta x = \Delta s = \rho \Delta \theta$`
--   The radius of curvature at `$\Delta s$` is `$\rho - y$`, thus we can write
+-   If we define $\rho$ as the radius of curvature after deformation, thus $\Delta x = \Delta s = \rho \Delta \theta $
+-   The radius of curvature at $\Delta s$ is $\rho - y$, thus we can write
 
-`$$\epsilon = \lim_{\Delta \theta \to 0} \frac{(\rho-y)\Delta \theta - \rho \Delta \theta}{\rho \Delta \theta}$$`
+$$\\epsilon = \\lim\_{\\Delta \\theta \\to 0} \\frac{(\\rho-y)\\Delta \\theta - \\rho \\Delta \\theta}{\\rho \\Delta \\theta}$$
 
 -   Which gives
 
-`$$\epsilon = -\frac{y}{\rho}$$`
+$$\\epsilon = -\\frac{y}{\\rho}$$
 
+---
+# flexure formula
+
+----
+## hooke's law
+
+-   If the beam is a linear material that follows Hooke's Law, the stress must be linearly proportional to the strain
+-   Thus the stress will vary linearly through the beam, just like the strain does
+
+----
+## neutral axis
+
+-   We have already hypothesized that a neutral axis must exist, we will now find its location
+-   To be in equilibrium, the resultant force(s) produced by the stress must sum to zero, which means
+
+$$\\begin{aligned}
+  \\sum F\_x &= 0 = \\int\_A dF = \\int\_A \\sigma dA\\\\
+  &= \\int\_A -\\left( \\frac{y}{c} \\right) \\sigma\_{max} dA\\\\
+  &= -\\frac{\\sigma\_{max}}{c} \\int\_A y dA
+\\end{aligned}$$
+
+----
+## neutral axis
+
+-   Since $\sigma_{max}$ and *c* are both non-zero constants, we know that
+
+$$ \int_A y dA = 0$$
+
+-   Which can only be satisfied at the horizontal centroidal axis, so the neutral axis is the centroidal axis
+
+----
+## bending moment
+
+-   The internal bending moment must be equal to the total moment produced by the stress distribution
+
+$$\\begin{aligned}
+  M &= \\int\_A y dF = \\int\_A y (\\sigma dA) \\\\
+  &= \\int\_A y \\left( \\frac{y}{c} \\sigma\_{max} \\right) dA \\\\
+  &= \\frac{\\sigma\_{max}}{c} \\int\_A y^2 dA
+\\end{aligned}$$
+
+----
+## bending moment
+
+-   We recognize that `$\int_A y^2 dA = I$`, and we re-arrange to write
+
+$$\\sigma\_{max} = \\frac{Mc}{I}$$
+
+----
+## procedure
+
+-   Find the internal moment at the point of interest, or draw a moment diagram to find the maximum point (if needed)
+-   Determine the moment of inertia for the beam section
+-   Find the neutral axis and/or the distance from the neutral axis to the point of interest
+-   Use the flexure formula to find the stress
+
+----
+## example 6.12
+
+<div class="left">
+
+![A 6 meter long beam is pinned at both ends and subjected to a uniformly distributed load of 5 kN/m. ](../images/example-6-12.png)
+</div>
+
+<div class="right">
+
+Find the maximum bending stress and draw the stress distribution through the thickness at that point.
+
+</div>

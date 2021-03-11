@@ -78,17 +78,17 @@
 		\textbf{Solution:}
 		\begin{itemize}
 		\item First we need to do some statics to find the force in each wire.
-			We find (see image for FBD) that $A=\US{125}{lb}$, $G=\US{375}{lb}$, $E=\US{83.3}{lb}$, and $F=\US{83.3}{lb}$
+			We find (see image for FBD) that $A=\US{125}{lb}$, $G=\US{375}{lb}$, $E=\US{83.3}{lb}$, and $F=\US{41.7}{lb}$
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.7\linewidth]{2a}
 			\end{figure}
 		\item Next we need to find the amount each wire stretches using the deflection formula ($\delta = NL/AE$).
-			We find $\delta_d = \US{0.00306}{in}$, $\delta_C = \US{0.00153}{in}$, $\delta_a = \US{0.00276}{in}$, and $\delta_d = \US{0.0230}{in}$
+			We find $\delta_d = \US{0.00306}{in}$, $\delta_C = \US{0.00153}{in}$, $\delta_a = \US{0.00276}{in}$, and $\delta_b = \US{0.0230}{in}$
 		\item We need to use similar triangles to find the displacement at $H$ and add that to the deflection at $A$, then use similar triangles again to find the displacement of the force at $I$ (see figure), note that I use $\delta$ to mean deflection due to wire stretch and a capital $\Delta$ to signify the actual displacement of a point (at $A$ we need both wire deflection and movement of the point $H$ to get the total displacement).
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.8\linewidth]{2b}
+        \includegraphics[width=0.8\linewidth]{2b-fixed}
 			\end{figure}
 	\end{itemize}
 
@@ -103,8 +103,8 @@
 		\begin{itemize}
 			\item We know that the concrete and the steel rebar need to displace by the same amount, but we don't know how much that is
 			\item We do know, however, how much load should be carried by each member, this means that $\frac{N_{st}L}{A_{st}{E_{st}}} = \frac{N_{c}L}{A_{c}{E_{c}}} $
-			\item The length is the same, so that can be canceled, we just need to solve for the area, note that $A_c = \pi 4^2 - A_{st}$, so this leaves us with $ \frac{N_{st}E_c}{N_c E_{st}} = \frac{A_st}{16 \pi - A_st} $
-			\item Substituting $N_{st} = \US{80}{kip}$, $N_c = \US{120}{kip}$, $E_c = \US{3.2}{Msi}$ and $E_{st} = \US{29}{Msi}$ we find $A_{st} = \US{3.44}{in^2}$ which gives a steel rod diameter of $d = 2 \left( \frac{3.44}{8 \pi} \right) = \US{0.204}{in}$.
+      \item The length is the same, so that can be canceled, we just need to solve for the area, note that $A_c = \pi 4^2 - A_{st}$, so this leaves us with $ \frac{N_{st}E_c}{N_c E_{st}} = \frac{A_{st}}{16 \pi - A_{st}} $
+      \item Substituting $N_{st} = \US{80}{kip}$, $N_c = \US{120}{kip}$, $E_c = \US{3.2}{Msi}$ and $E_{st} = \US{29}{Msi}$ we find $A_{st} = \US{3.44}{in^2}$ which gives a steel rod diameter of $d = 2 \sqrt{\left( \frac{3.44}{8 \pi} \right)} = \US{0.740}{in}$.
 		\end{itemize}
 	
 	\item %4-59
@@ -120,7 +120,7 @@
 			\item In this solution we will use the method of sections, we will have three unknown internal forces in this problem, the internal force between $A$ and $C$ ($F_{AC}$), the internal force between $C$ and $B$ ($F_{BC}$) and the force in the spring, $F_s$.
 			\item All of these forces need to add to the applied load $P$, and all will influence deflection at $C$, which needs to be equal, thus we have $\delta_c (F_{AC}) = \delta_c (F_{BC}) = \delta_c (F_s)$
 			\item Substituting deflection relationships for axial loading and springs gives $ \frac{F_{AC} L_{AC}}{AE} = \frac{F_{BC}L_{BC}}{AE} = \frac{F_s}{k} $
-			\item Since $L_{AC} = L_{BC}$ and $AE$ is constant, we can say that $F_A = F_C$, we can also relate $F_s$ to $F_A$ with $F_s = \frac{kF_{AC} L_{AC}}{AE}$ and finally we substitute into $F_{AC} + F_{BC} + F_s = P$ to find $ F_{AC}\left( \frac{k L_{AC}}{AE} \right) = P$
+      \item Since $L_{AC} = L_{BC}$ and $AE$ is constant, we can say that $F_A = F_C$, we can also relate $F_s$ to $F_A$ with $F_s = \frac{kF_{AC} L_{AC}}{AE}$ and finally we substitute into $F_{AC} + F_{BC} + F_s = P$ to find $ F_{AC}\left( \frac{k L_{AC}}{AE} \right) + F_{BC} + F_{AC} = P = F_{AC}\left(\frac{k L_{AC}}{AE} + 2 \right)$
 			\item And we find that $F_{AC} = \SI{31.7}{kN}$ and $F_s = \SI{11.5}{kN}$ which gives a spring compression of $ \delta_c = F_s / k = \SI{0.058}{mm} $
 			\item As a quick sanity check, we can compare the effective spring constant of the aluminum rod ($L/AE$) to the spring constant for the spring, we find that $k_{al} = \SI{550}{MN/m}$, and it makes sense then that the force in the aluminum is so much higher than the spring for the same deflection
 		\end{itemize}
