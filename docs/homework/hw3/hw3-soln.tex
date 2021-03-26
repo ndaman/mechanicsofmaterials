@@ -151,10 +151,11 @@
 		\textbf{Solution:}
 		\begin{itemize}
 			\item We can simplify this problem slightly by considering the symmetry, we will consider the center to be the axis of symmetry, where there will be no displacement.
-			\item For this problem, we will use the method of sections. We are given that before any thermal expansion, there is some compression in the springs, which will put some force into the aluminum, but since it is in equilibrium we can neglect it for now.
+      \item For this problem, we will use the method of sections. We are given that before any thermal expansion, there is some compression in the springs, which will put some force into the aluminum, but since it is in equilibrium we can neglect it for now and only consider the additional deformation (and additional induced forces).
 			\item Additional displacement will have a thermal and mechanical component for the aluminum, $\delta = \delta_T + \delta_M = x$ which will also equal the additional displacement $x$ in the spring, since $F=kx$ we can say that $\delta_T + \delta_M = F_s/k$
 			\item The normal force in the aluminum must be equal and opposite to the force in the spring, so we can further say that $\delta_T - \frac{F_s L}{AE} = \frac{F_s}{k} $
-			\item Substituting values we find that $F_s = \US{19.7}{lb}$, the total force in the rod however will also include $\US{500}{lb}$ from the initial spring compression, giving $F_s = N = \US{520}{lb}$
+      \item We can further simplify to solve for $F_s$, $\alpha \Delta T L = \frac{F_s}{k} + \frac{F_s L}{A E}$ which gives $F_s = \alpha \Delta T L \left( \frac{1}{k} + \frac{L}{AE} \right)^{-1} = (\num{12.8e-6}/^\circ F) (\num{110}^\circ F) (\US{24}{in}) \left( \frac{1}{\US{1000}{lb/in}} + \frac{\US{24}{in}}{\US{0.0491}{in^2} \US{10.6e6}{psi}} \right)^{-1}$
+			\item Substituting values we find that $F_s = \US{32.3}{lb}$, the total force in the rod however will also include $\US{500}{lb}$ from the initial spring compression, giving $F_s = N = \US{532}{lb}$
 		\end{itemize}
 
 	\item %4-76

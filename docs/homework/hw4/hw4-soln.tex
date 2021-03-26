@@ -87,17 +87,17 @@
 		\begin{itemize}
 			\item We can relate power to torque using $P = 2\pi f T$, solving for $T$ we find
 				\begin{equation*}
-					T = \frac{P}{2\pi f} = \frac{ 150 \text{ hp } }{ 2 \pi 1000 \text{ rpm } } \frac{ 550 \text{ ft lb / s } }{ \text { hp } } \frac{ \text{ rot } }{ \text{ min } } \frac{ \text{ min } }{ 60 \text{ sec } } = \US{788}{ft.lb} = \US{9554}{in.lb}
+					T = \frac{P}{2\pi f} = \frac{ 150 \text{ hp } }{ 2 \pi 1000 \text{ rpm } } \frac{ 550 \text{ ft lb / s } }{ \text { hp } } \frac{ 60 \text{ sec} }{ \text{ min } } = \US{788}{ft.lb} = \US{9554}{in.lb}
 				\end{equation*}
 			\item Now we can relate the stress and torque to find the tube thickness, $\tau = \frac{Tc}{J}$, substituting for $J$ we can solve
 				\begin{align*}
 					\tau &= \frac{Tc}{\pi/2 (c^4 - c_i^4)}\\
-					c^4 - c_i^4 &= \frac{2 T c}{\tau}\\
-					c_i &= \left( c^4 - \frac{2 T c}{\tau} \right)^{1/4}
+					c^4 - c_i^4 &= \frac{2 T c}{\tau \pi}\\
+					c_i &= \left( c^4 - \frac{2 T c}{\tau \pi} \right)^{1/4}
 				\end{align*}
-			\item and we find $c_i = \US{1.76}{in}$ which gives a wall thickness of $\frac{1}{8}\text{ in}$
+      \item and we find $c_i = \US{0.84}{in}$ which gives a wall thickness of $\US{0.16}{in} \approx \frac{3}{16}\text{ in}$
 		\end{itemize}
-		\textbf{Solution Update:} In my solution, I considered a radius of 2 inches, when this should have been a diameter. With the correct radius (1 inch), there is no solution (meaning that the numbers in this problem are not physically possible). Please treat the problem as if the radius is 2 inches, I apologize for the mix-up
+		\textbf{Solution Update:} In my original solution, I accidentally lost a $\pi$. The solution should be correct as it is now written.
 
 	\item %5-64
 		The soil mixer shown is connected to an A-36 steel tubular shaft with an inside diameter of $\US{1.5}{in}$ and an outside diameter of $\US{3.0}{in}$.
@@ -115,7 +115,7 @@
 
 	\item %5-69
 		The A-36 Steel bolt shown is tightened such that there is a reactive torque on the shank.
-		The reactive torque is expressed as $t = \SI[number-math-rm = \mathnormal, parse-numbers = false]{kx^2 }{N.m/m}$ for $x$ in meters.
+		The reactive torque is expressed as $t = \SI[number-math-rm = \mathnormal, parse-numbers = false]{kx^2 }{N.m/m}$ $k$ has units, but what they are depends on the length unit for $x$.
 		If a torque of $T=\SI{45 }{N.m}$ is applied to the bold head find the value of the constant $k$ and the amount of twist in the shank.
 		Assume the shank has a radius of $\SI{5 }{mm}$
 		\begin{figure}[H]
@@ -125,9 +125,9 @@
 		\textbf{Solution:}
 		\begin{itemize}
 			\item We can see that the reactive torque in the shank must be equal to the applied torque, as there are no other reactions or applied torques
-			\item The total torque exerted by this resistance will be the integral of $t$ over the length of the shaft $T_t = \int_0^{50} kx^2 dx = \frac{1}{3}k (50)^3$, which gives $k = 0.00108$
+      \item The total torque exerted by this resistance will be the integral of $t$ over the length of the shaft $T_t = \int_0^{50} kx^2 dx = \frac{1}{3}k (50)^3$, which gives $k = \SI{1.08}{N/mm^2}$
 		\end{itemize}
-		\textbf{Solution Update:} I forgot to calculate the angle of twist in the shank. See below.
+    \textbf{Solution Update:} I forgot to calculate the angle of twist in the shank. See below. (I also forgot to include units for $k$, but that has been corrected above)
 		\begin{itemize}
 			\item We start by sectioning the bolt as shown
 				\begin{figure}[H]
