@@ -4,24 +4,25 @@ Lecture 2 - Stress<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 3, 2021
+18 August, 2021
 
 
 ----
 
 ## schedule
 
-- 3 Feb - Stress
-- 8 Feb - Strain, Homework 1 Due
-- 10 Feb - Mechanical Properties
-- 15 Feb - Exam Review, Homework 2 Due
+- 18 Aug - Stress
+- 23 Aug - Strain, Homework 1 Due
+- 25 Aug - Mechanical Properties
+- 30 Aug - Exam Review, Homework 2 Due
 
 ----
 
 ## office hours
 
-- No traditional office hours this year, questions should either be asked during recitation on Tuesday/Thursday
-- Office appointments can be scheduled via e-mail, although remote meetings are preferred
+- We need to be careful about social distancing (avoid congregating in the main AE office)
+- I will send out a Doodle to schedule
+- Office appointments can also be scheduled via e-mail
 
 ----
 

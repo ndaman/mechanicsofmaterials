@@ -4,16 +4,16 @@ Lecture 1 - Equilibrium<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 1, 2021
+August 16, 2021
 
 ----
 
 ## schedule
 
-- 1 Feb - Introduction, Equilibrium
-- 3 Feb - Stress
-- 8 Feb - Strain, Homework 1 Due
-- 10 Feb - Mechanical Properties
+- 16 Aug - Introduction, Equilibrium
+- 18 Aug - Stress
+- 23 Aug - Strain, Homework 1 Due
+- 25 Aug - Mechanical Properties
 
 ----
 
@@ -96,58 +96,59 @@ February 1, 2021
 ## course textbook
 
 - R.C. Hibbeler - Mechanics of Materials
-- This semester I am changing how I do homework, and MasteringEngineering will NOT be used 
+- I have changed how I do homework, and MasteringEngineering will NOT be used 
 
 ----
 
 ## office hours
 
-- No traditional office hours this year
-- Office appointments can be scheduled via e-mail, although remote meetings are preferred
+- We need to be careful about social distancing (avoid congregating in the main AE office)
+- I will send out a Doodle to schedule
+- Office appointments can also be scheduled via e-mail
 
 ----
 
 ## tentative course outline
 
 -   Section 1 - stress, strain, mechanical properties
-  -   Ch 1 - Stress (1 Feb)
-  -   Ch 2 - Strain (3 Feb)
-  -   Ch 3 - Mechanical Properties (8 Feb)
-  -   Exam 1 (15 Feb)
-  -   Project 1 (19 Feb)
+  -   Ch 1 - Stress (16 Aug)
+  -   Ch 2 - Strain (18 Aug)
+  -   Ch 3 - Mechanical Properties (23 Aug)
+  -   Exam 1 (1 Sep)
+  -   Project 1 (3 Sep)
 
 ----
 
 ## tentative course outline
 
 -   Section 2 - loading
-  -   Ch 4 - Axial Load (17 Feb)
-  -   Ch 5 - Torsion (24 Feb)
-  -   Ch 6 - Bending (3 Mar)
-  -   Ch 7 - Transverse Shear (10 Mar)
-  -   Exam 2 (22 Mar)
-  -   Project 2 (26 Mar)
+  -   Ch 4 - Axial Load (8 Sep)
+  -   Ch 5 - Torsion (13 Sep)
+  -   Ch 6 - Bending (20 Sep)
+  -   Ch 7 - Transverse Shear (27 Sep)
+  -   Exam 2 (6 Oct)
+  -   Project 2 (8 Oct)
 
 ----
 
 ## tentative course outline
 
 -   Section 3 - beams, shafts, combined loading
-  -   Ch 8 - Combined Loading (22 Mar)
-  -   Ch 9 - Stress Transformation (29 Mar)
-  -   Ch 10 - Strain Transformation (5 Apr)
-  -   Ch 12 - Deflection of Beams and Shafts (12 Apr)
-  -   Exam 3 (21 Apr)
-  -   Project 3 (23 Apr)
+  -   Ch 8 - Combined Loading (13 Oct)
+  -   Ch 9 - Stress Transformation (18 Oct)
+  -   Ch 10 - Strain Transformation (20 Oct)
+  -   Ch 12 - Deflection of Beams and Shafts (1 Nov)
+  -   Exam 3 (10 Nov)
+  -   Project 3 (12 Nov)
 
 ----
 
 ## tentative course outline
 
 -   Section 4 - buckling, stress concentration
-  -   Ch 4.7, 5.8, 6.9 - Stress concentration (26 Apr)
-  -   Ch 13 - Buckling (28 Apr)
-  -   Final Exam (comprehensive) (10 May)
+  -   Ch 4.7, 5.8, 6.9 - Stress concentration (8 Nov)
+  -   Ch 13 - Buckling (15 Nov)
+  -   Final Exam (comprehensive) (6 Dec, 11:00 - 12:50)
 
 ----
 

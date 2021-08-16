@@ -4,16 +4,18 @@ Lecture 18 - Deflection of Beams<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-14 April, 2021
+21 April, 2021
 
 ----
 ## schedule
 
-- 14 April - Beam Deflection
-- 19 April - Beam Deflection (discontinuity functions), HW 7 Self-grade Due, HW 8 Due
-- 21 April - Beam Deflection (superposition)
-- 26 April - Statically indterminate beams
-
+- 21 April - Beam Deflection
+- 26 April - Beam Deflection (superposition), HW 7 Self-grade Due, HW 8 Due
+- 28 April - Exam 3 (will only cover through strain transformation)
+- 3 May - Stress concentration, buckling
+- 5 May - Final exam review
+- 6 May - Project 3 Due
+- Homeworks 9-11 (posted to blackboard) are optional and provide some practice for exam
 
 ----
 ## outline

@@ -4,17 +4,17 @@ Lecture 3 - Strain<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-8 February, 2021
+23 Aug, 2021
 
 ----
 
 ## schedule
 
-- 8 Feb - Strain, Homework 1 Due
-- 10 Feb - Mechanical Properties
-- 15 Feb - Exam Review, Homework 2 Due, Homework 1 Self-grade Due
-- 17 Feb - Exam 1
-- 19 Feb - Project 1 Due
+- 23 Aug - Strain, Homework 1 Due
+- 25 Aug - Mechanical Properties
+- 30 Aug - Exam Review, Homework 2 Due, Homework 1 Self-grade Due
+- 1 Sep - Exam 1
+- 4 Sep - Project 1 Due
 
 ----
 

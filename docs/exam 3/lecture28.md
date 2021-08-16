@@ -4,15 +4,17 @@ Lecture 20 - Superposition<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-29 October, 2020
+26 April, 2021
 
 ----
 ## schedule
 
-- 29 Oct - Beam Deflection (superposition)
-- 3 Nov - Statically Indeterminate Beams, HW 9 Due, HW 8 Self-Grade Due
-- 5 Nov - Statically Indeterminate Beams
-- 10 Nov - Statically Indeterminate Beams, HW 10 Due, HW 9 Self-Grade Due
+- 26 April - Beam Deflection (superposition), HW 7 Self-grade Due, HW 8 Due
+- 28 April - Exam 3 (will only cover through strain transformation)
+- 3 May - Stress concentration, buckling
+- 5 May - Final exam review
+- 6 May - Project 3 Due
+- Homeworks 9-11 (posted to blackboard) are optional and provide some practice for exam
 
 ----
 ## outline
@@ -29,8 +31,8 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## superposition
 
--   The differential equation *EId*<sup>4</sup>*v*/*dx*<sup>4</sup> = *w*(*x*) satisfies the requirements for superposition
--   *w*(*x*) is linearly related to *v*(*x*)
+-   The differential equation `$EI \frac{d^4v}{dx^4} = w(x) $` satisfies the requirements for superposition
+-   `$w(x)$` is linearly related to `$v(x)$`
 -   Load does not significantly change the shape of the beam
 
 ----

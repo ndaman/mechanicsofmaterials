@@ -33,7 +33,7 @@
 
 %TODO change numbers in problems
 \begin{textblock*}{4cm}(-1.7cm,-2.3cm)
-\noindent {\scriptsize AE333 Fall 2020}
+\noindent {\scriptsize AE333 Spring 2021}
 \end{textblock*}
 
 %Do not modify other than putting your name where stated
@@ -51,7 +51,7 @@
 \begin{center}
 \textbf{\Large Homework 8 Solutions}
 
-\textbf{Due 3 November 2020}
+\textbf{Due 30 April 2021}
 \end{center}
 
 \begin{enumerate}
@@ -95,9 +95,12 @@ $$\tau_{max} = \sqrt{\left( \frac{\sigma_x-\sigma_y}{2} \right)^2 + \tau_{xy}^2}
 			\textbf{Solution:}
 			\begin{itemize}
 				\item We start by interpreting the problem a little bit, although they are not perpendicular, we can notice that the shear stresses shown for the $\tau_{xy}$ and $\tau_{ab}$ are acting in different directions, so whatever our convention, one of them should be negative while the other is positive.
-				\item Next we use the formula for $\tau_{x^\prime y^\prime}$ which we can use to find $-\sigma_x+\sigma_y = 	\SI{5.77}{MPa} $
-				\item From the drawing we see that $\sigma_y = 0$, therefore we know $\sigma_x = 	\SI{-5.77}{MPa} $, which we can now use to find $\sigma_b = 	\SI{-37.5 }{MPa} $ and $\sigma_a = 	\SI{10.8 }{MPa} $
-				\item We can also find the principal stresses as $\sigma_1 = 	\SI{21.4 }{MPa} $ and $\sigma_2 = 	\SI{-48.1 }{MPa} $
+        \item Next we use the formula for $\tau_{x^\prime y^\prime}$ with $x^\prime$ pointing in the same direction as $\sigma_b (\theta = 210^\circ)$
+          \begin{equation} 
+            -25 = -\left( \frac{\sigma_x - \sigma_y}{2} \right)\sin(420) + 45 \cos(420) 
+          \end{equation}
+				\item From the drawing we see that $\sigma_y = 0$, therefore we know $\sigma_x = \SI{109.7}{MPa} $, which we can now use to find $\sigma_b = \SI{121 }{MPa} $ 
+				\item We can also find the principal stresses as $\sigma_1 = 	\SI{126 }{MPa} $ and $\sigma_2 = 	\SI{-16.1 }{MPa} $
 			\end{itemize}
 
 	\item %9-24

@@ -4,19 +4,17 @@ Lecture 4 - Mechanical Properties<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-10 February, 2021
+25 August, 2021
 
 ----
 
 ## schedule
 
-- 10 Feb - Mechanical Properties
-- 12 Feb - Homework 1 Due
-- 15 Feb - Axial Load
-- 17 Feb - Exam Review
-- 19 Feb - Homework 2 Due, Homework 1 Self-grade Due
-- 22 Feb - Exam 1
-- 26 Feb - Project 1 Due
+- 25 Aug - Mechanical Properties
+- 30 Aug - Exam Review, Homework 2 Due, Homework 1 Self-grade Due
+- 1 Sep - Exam 1
+- 4 Sep - Project 1 Due
+- 6 Sep - Axial Load
 
 ----
 ## outline
