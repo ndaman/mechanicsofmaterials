@@ -1,5 +1,5 @@
-## Mechanics of Materials
 # AE333
+## Mechanics of Materials
 Lecture 3 - Strain<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
