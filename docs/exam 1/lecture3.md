@@ -10,11 +10,13 @@ Wichita State University, Department of Aerospace Engineering
 
 ## schedule
 
-- 23 Aug - Strain, Homework 1 Due
+- 23 Aug - Strain
 - 25 Aug - Mechanical Properties
-- 30 Aug - Exam Review, Homework 2 Due, Homework 1 Self-grade Due
-- 1 Sep - Exam 1
-- 4 Sep - Project 1 Due
+- 27 Aug - Homework 1 Due
+- 30 Aug - Axial Load
+- 1 Sep - Exam Review
+- 3 Sep - Homework 2 Due, Homework 1 Self-Grade Due
+- 8 Sep - Exam 1
 
 ----
 
