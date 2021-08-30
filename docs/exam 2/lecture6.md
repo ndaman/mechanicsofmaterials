@@ -5,17 +5,17 @@ Lecture 5 - Axial Load<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-February 15, 2021
+30 August, 2021
 
 ----
 ## schedule
 
-- 15 Feb - Axial Load (not on exam 1)
-- 17 Feb - Exam Review
-- 19 Feb - Homework 2 Due, Homework 1 Self-grade Due
-- 22 Feb - Exam 1
-- 26 Feb - Project 1 Due
-
+- 30 Aug - Axial Load (not on exam 1)
+- 1 Sep - Exam Review
+- 3 Sep - Homework 2 Due, Homework 1 Self-Grade Due
+- 8 Sep - Exam 1
+- 10 Sep - Project 1 Due
+- 13 Sep - Axial Load
 
 ----
 ## outline

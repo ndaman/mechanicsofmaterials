@@ -4,15 +4,18 @@ Lecture 6 - Exam 1 Review<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-17 February, 2021
+1 September, 2021
 
 ----
 ## schedule
 
-- 17 Feb - Exam Review
-- 19 Feb - Homework 2 Due, Homework 1 Self-grade Due
-- 22 Feb - Exam 1
-- 26 Feb - Project 1 Due
+- 1 Sep - Exam Review
+- 3 Sep - Homework 2 Due, Homework 1 Self-Grade Due
+- 8 Sep - Exam 1
+- 10 Sep - Project 1 Due
+- 13 Sep - Axial Load
+- 15 Sep - Torsion
+- 17 Sep - Homework 3 Due, Homework 2 Self-Grade Due
 
 ---
 # exam 
