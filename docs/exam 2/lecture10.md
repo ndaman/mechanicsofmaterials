@@ -4,18 +4,17 @@ Lecture 10 - Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-8 March, 2021
+20 September, 2021
 
 ----
 ## schedule
 
-- 8 Mar - Torsion
-- 8 Mar - Homework 3 Due
-- 10 Mar - Bending
-- 15 Mar - Bending
-- 15 Mar - Homework 4 Due, Homework 3 Self-grade due
-- 17 Mar - Transverse Shear
-
+- 20 Sep - Torsion
+- 22 Sep - Bending
+- 24 Sep - Homework 3 Due
+- 27 Sep - Bending
+- 29 Sep - Transverse Shear
+- 1 Oct - Homework 4 Due, Homework 3 Self-grade due
 
 ----
 ## outline

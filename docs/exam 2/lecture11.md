@@ -5,17 +5,17 @@ Lecture 11 - Bending<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-15 March, 2021
+22 September, 2021
 
 ----
 ## schedule
 
-- 15 Mar - Bending
-- 17 Mar - Bending
-- 15 Mar - Homework 4 Due, Homework 3 Self-grade due
-- 22 Mar - Transverse Shear
-- 24 Mar - Transverse Shear
-- 22 Mar - Homework 5 Due, Homework 4 Self-grade due
+- 22 Sep - Bending
+- 24 Sep - Homework 3 Due
+- 27 Sep - Bending
+- 29 Sep - Transverse Shear
+- 1 Oct - Homework 4 Due, Homework 3 Self-grade due
+- 4 Oct - Transverse Shear
 
 ----
 ## outline
