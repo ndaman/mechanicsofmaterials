@@ -4,18 +4,18 @@ Lecture 8 - Axial Load, Torsion<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-1 March, 2021
+13 September, 2021
 
 ----
 ## schedule
 
-- 1 Mar - Axial Load
-- 3 Mar - Torsion
-- 5 Mar - Homework 3 Due
-- 8 Mar - Torsion
-- 10 Mar - Bending
-- 12 Mar - Homework 4 Due, Homework 3 Self-grade due
-
+- 13 Sep - Project 1 Due
+- 13 Sep - Axial Load
+- 15 Sep - Torsion
+- 17 Sep - Homework 2 Self-Grade Due
+- 20 Sep - Torsion
+- 22 Sep - Bending
+- 24 Sep - Homework 3 Due
 
 ----
 ## outline
