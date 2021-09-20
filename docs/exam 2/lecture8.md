@@ -15,7 +15,7 @@ Wichita State University, Department of Aerospace Engineering
 - 17 Sep - Homework 2 Self-Grade Due
 - 20 Sep - Torsion
 - 22 Sep - Bending
-- 24 Sep - Homework 3 Due
+- 24 Sep - Homework 3 Due, Project 1 Recovery Due
 
 ----
 ## outline
@@ -140,6 +140,61 @@ The steel rod shown has a diameter of 10 mm. Determine the reactions at A and B'
 <div class="right">
 
 An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve for a steel bolt with cross-sectional area of 400 mm<sup>2</sup>. When T=15 degrees Celsius there is negligible force and a snug fit, find the force in the bolt and sleeve when T=80 degrees Celsius.
+
+</div>
+
+---
+# group problems
+
+----
+## problem 1
+
+<div class="left">
+
+The A36 Steel bar is constrained to just fit between two fixed supports when `$T_1 = 60^\circ\text{F}$`.
+If the temperature is raised to `$T_2 = 120^\circ\text{F}$` determine the average normal stress developed in the bar.
+Note: you may use `$\alpha = 6.5\times 10^{-6} \circ \text{F}^{-1}$`
+
+</div>
+
+<div class="right">
+
+![steel bar for thermal expansion example](../images/group-4-1.jpg)
+
+</div>
+
+----
+## problem 2
+
+<div class="left">
+
+![figure four group problem 2](../images/group-4-2.jpg)
+
+</div>
+
+<div class="right">
+
+The rigid beam is fixed to the top of three posts made from A992 steel and 2014 T-6 aluminum.
+The posts each have a length of 250 mm when no load is applied to the beam and the temperature is `$T_1 = 20^\circ \text{C}$`.
+Determine the force supported by each post if the bar is subjected to a uniformly distributed load of `$150 \text{ kN/m}$` and the temperature is raised to `$T_2 = 80^\circ \text{C}$`
+Use `$E_{st} = 200 \text{ GPa}$`, `$E_{al} = 70 \text{ GPa}$`, `$\alpha_{st} = 12 \times 10^{-6 \circ} \text{C}^{-1}$` and `$\alpha_{al} = 23 \times 10^{-6 \circ} \text{C}^{-1}$`
+
+</div>
+
+----
+## problem 3
+
+<div class="left">
+
+The aluminum post shown is reinforced with a brass core.
+If this assembly supports an axial compressive load of `$P = 9 \text{ kip}$` determine the average normal stress in the aluminum and the brass.
+Use `$E_{al} = 10 \text{ Msi}$` and `$E_{br} = 15 \text{ Msi}$`
+
+</div>
+
+<div class="right">
+
+![figure for group problem 3](../images/group-4-3.jpg)
 
 </div>
 
