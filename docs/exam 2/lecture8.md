@@ -153,7 +153,7 @@ An aluminum tube with cross-section of 600 mm<sup>2</sup> is used as a sleeve fo
 
 The A36 Steel bar is constrained to just fit between two fixed supports when `$T_1 = 60^\circ\text{F}$`.
 If the temperature is raised to `$T_2 = 120^\circ\text{F}$` determine the average normal stress developed in the bar.
-Note: you may use `$\alpha = 6.5\times 10^{-6} \circ \text{F}^{-1}$`
+Note: you may use `$\alpha = 6.5\times 10^{-6 \circ} \text{F}^{-1}$`
 
 </div>
 
@@ -166,13 +166,13 @@ Note: you may use `$\alpha = 6.5\times 10^{-6} \circ \text{F}^{-1}$`
 ----
 ## problem 2
 
-<div class="left">
+<div class="left"> <!-- .element width="30%" -->
 
 ![figure four group problem 2](../images/group-4-2.jpg)
 
 </div>
 
-<div class="right">
+<div class="right"> <!-- .element width="70%" -->
 
 The rigid beam is fixed to the top of three posts made from A992 steel and 2014 T-6 aluminum.
 The posts each have a length of 250 mm when no load is applied to the beam and the temperature is `$T_1 = 20^\circ \text{C}$`.
