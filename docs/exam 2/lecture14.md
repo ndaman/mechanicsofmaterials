@@ -4,15 +4,16 @@ Lecture 14 - Transverse Shear<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-24 March, 2021
+13 October, 2021
 
 ----
 ## schedule
 
-- 24 Mar - Transverse Shear
-- 29 Mar - Exam 2 Review
-- 29 Mar - Homework 6 Due, Homework 5 Self-grade due
-- 31 Mar - Exam 2
+- (11 Oct) - Fall Break
+- 13 Oct - Transverse Shear
+- 15 Oct - Homework 6 Due, Homework 5 Self-grade due
+- 18 Oct - Exam 2 Review
+- 20 Oct - Exam 2
 
 ----
 ## outline
