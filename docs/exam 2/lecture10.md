@@ -26,6 +26,19 @@ Wichita State University, Department of Aerospace Engineering
 
 <!-- TOC END -->
 
+----
+## AE honors program
+
+- More information [here](../handout/Honors.pptx)
+- Or scan this QR Code
+![QR Code for AE Honors Information](../handout/HonorsQR.png)
+
+----
+## Innovationworks
+
+- Innovation competition sponsored by Lockheed
+- More information [here](../handout/InnovationWorks.pdf)
+
 ---
 # angle of twist
 
