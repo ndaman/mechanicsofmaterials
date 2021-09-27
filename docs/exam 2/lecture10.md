@@ -29,7 +29,7 @@ Wichita State University, Department of Aerospace Engineering
 ----
 ## AE honors program
 
-- More information [here](../handout/Honors.pptx)
+- More information [here](https://www.wichita.edu/academics/engineering/aerospace/ae_honors_program.php)
 - Or scan this QR Code
 ![QR Code for AE Honors Information](../handout/HonorsQR.png)
 
