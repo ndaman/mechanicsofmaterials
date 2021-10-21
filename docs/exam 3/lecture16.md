@@ -4,15 +4,17 @@ Lecture 16 - Stress Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-7 April, 2021
+27 October, 2021
 
 ----
 ## schedule
 
-- 7 April - Stress Transformation
-- 12 April - Stress Transformation, HW 7 Due
-- 14 April - Strain Transformation
-- 19 April - Beam Deflection, HW 7 Self-grade Due, HW 8 Due
+- 27 Oct - Exam 2 Return, Stress Transormation
+- 29 Oct - Project 2 Due, HW 6 Self-Grade Due
+- 1 Nov - Mohr's Circle
+- 3 Nov - Strain Transformation
+- 5 Nov - HW 7 Due
+- 8 Nov - Beam Deflection
 
 ----
 ## outline
@@ -74,6 +76,7 @@ Represent the state of stress shown on the fuselage section on an element rotate
   \sigma_{x^\prime} &= \frac{\sigma_x+\sigma_y}{2} + \frac{\sigma_x-\sigma_y}{2} \cos 2\theta + \tau_{xy} \sin 2\theta \\
   \tau_{x^\prime y^\prime} &= - \frac{\sigma_x-\sigma_y}{2}\sin 2\theta + \tau_{xy} \cos 2\theta
 \end{aligned}$$`
+
 -   To find `$\sigma_y^\prime$` we can simply add `$90^\circ$` to `$\theta$`
 
 ----
@@ -103,18 +106,22 @@ Determine the stress at this point on an element rotated 30`$^\circ$` clockwise 
 ## principal stress
 
 -   We find the angle as
+
 `$$\tan 2\theta_p = \frac{2 \tau_{xy}}{\sigma_x-\sigma_y}$$`
 
 -   The principal stresses are then
+
 `$$\sigma_{1,2} = \frac{\sigma_x+\sigma_y}{2} \pm \sqrt {\left( \frac{\sigma_x-\sigma_y}{2}\right)^2 + \tau_{xy}^2}$$`
 
 ----
 ## maximum shear stress
 
 -   Similarly, we might want to find the direction of maximum shear stress
+
 `$$\tan 2\theta_s = \frac{\sigma_y-\sigma_x}{2 \tau_{xy}}$$`
 
 -   And the maximum shear stress is
+
 `$$\tau_{max} = \sqrt{\left( \frac{\sigma_x-\sigma_y}{2} \right)^2 + \tau_{xy}^2}$$`
 
 ----

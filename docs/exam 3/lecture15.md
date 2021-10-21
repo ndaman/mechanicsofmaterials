@@ -4,15 +4,16 @@ Lecture 15 - Combined Loading<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-5 April, 2021
+25 October, 2021
 
 ----
 ## schedule
 
-- 5 April - Combined Loading, HW 6 Self-Grade Due
-- 7 April - Stress Transformation
-- 12 April - Stress Transformation, HW 7 Due
-- 14 April - Strain Transformation
+- 25 Oct - SPTE, Combined Loading
+- 27 Oct - Exam Return, Stress Transormation
+- 1 Nov - Mohr's Circle
+- 29 Oct - Project 2 Due, HW 6 Self-Grade Due
+- 3 Nov - Strain Transformation
 
 ----
 ## outline

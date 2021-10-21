@@ -4,15 +4,18 @@ Lecture 17 - Strain Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-12 April, 2021
+1 November, 2021
 
 ----
 ## schedule
 
-- 12 April - Stress Transformation, HW 7 Due
-- 14 April - Strain Transformation
-- 19 April - Beam Deflection, HW 7 Self-grade Due, HW 8 Due
-- 21 April - Beam Deflection
+- 1 Nov - Mohr's Circle
+- 3 Nov - Strain Transformation
+- 5 Nov - HW 7 Due
+- 8 Nov - Beam Deflection
+- 10 Nov - Beam Deflection (discontinuity functions)
+- 12 Nov - HW 8 Due, HW 7 Self-Grade Due
+- 15 Nov - Beam Deflection (superposition)
 
 ----
 ## outline
