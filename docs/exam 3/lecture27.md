@@ -4,15 +4,16 @@ Lecture 19 - Discontinuity Functions<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-27 October, 2020
+10 November, 2021
 
 ----
 ## schedule
 
-- 27 Oct - Beam Deflection (discontinuity functions), HW 8 Due, HW 7 Self-Grade Due
-- 29 Oct - Beam Deflection (superposition)
-- 3 Nov - Statically Indeterminate Beams, HW 9 Due, HW 8 Self-Grade Due
-- 5 Nov - Statically Indeterminate Beams
+- 10 Nov - Beam Deflection (discontinuity functions)
+- 12 Nov - HW 8 Due, HW 7 Self-grade Due
+- 15 Nov - Beam Deflection (superposition)
+- 17 Nov - Statically Indeterminate Beams
+- 19 Nov - HW 9 Due, HW 8 Self-grade Due
 
 ----
 ## outline

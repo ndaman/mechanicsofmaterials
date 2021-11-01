@@ -4,17 +4,16 @@ Lecture 16 - Stress Transformation<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-27 October, 2021
+1 November, 2021
 
 ----
 ## schedule
 
-- 27 Oct - Exam 2 Return, Stress Transormation
-- 29 Oct - Project 2 Due, HW 6 Self-Grade Due
-- 1 Nov - Mohr's Circle
-- 3 Nov - Strain Transformation
+- 1 Nov - Stress Transormation
+- 3 Nov - Mohr's Circle
+- 8 Nov - Strain Transformation
 - 5 Nov - HW 7 Due
-- 8 Nov - Beam Deflection
+- 10 Nov - Beam Deflection
 
 ----
 ## outline
@@ -139,7 +138,7 @@ Find the principal stress for the stress state shown.
 -   Find the principal stresses
 
 ---
-# mohr’s circle
+# [mohr’s](mohr’s) circle
 
 ----
 ## mohr’s circle
@@ -158,7 +157,7 @@ Find the principal stress for the stress state shown.
 
 -   If we square each equation and add them together, we find
 
-`$$\left\[\sigma_{x^\prime} - \left( \frac{\sigma_x + \sigma_y}{2} \right) \right\]^2 + \tau_{x^\prime y^\prime}^2 = \left( \frac{\sigma_x - \sigma_y}{2} \right)^2+\tau_{xy}^2$$`
+`$$\left[\sigma_{x^\prime} - \left( \frac{\sigma_x + \sigma_y}{2} \right) \right]^2 + \tau_{x^\prime y^\prime}^2 = \left( \frac{\sigma_x - \sigma_y}{2} \right)^2+\tau_{xy}^2$$`
 
 
 ----

@@ -4,13 +4,11 @@ Lecture 18 - Deflection of Beams<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-3 November, 2021
+8 November, 2021
 
 ----
 ## schedule
 
-- 3 Nov - Strain Transformation
-- 5 Nov - HW 7 Due
 - 8 Nov - Beam Deflection
 - 10 Nov - Beam Deflection (discontinuity functions)
 - 12 Nov - HW 8 Due, HW 7 Self-grade Due
