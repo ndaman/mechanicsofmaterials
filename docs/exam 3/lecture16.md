@@ -138,7 +138,7 @@ Find the principal stress for the stress state shown.
 -   Find the principal stresses
 
 ---
-# [mohr’s](mohr’s) circle
+# mohr’s circle
 
 ----
 ## mohr’s circle
