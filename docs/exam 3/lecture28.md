@@ -4,17 +4,21 @@ Lecture 20 - Superposition<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-26 April, 2021
+15 November, 2021
 
 ----
 ## schedule
 
-- 26 April - Beam Deflection (superposition), HW 7 Self-grade Due, HW 8 Due
-- 28 April - Exam 3 (will only cover through strain transformation)
-- 3 May - Stress concentration, buckling
-- 5 May - Final exam review
-- 6 May - Project 3 Due
-- Homeworks 9-11 (posted to blackboard) are optional and provide some practice for exam
+- 15 Nov - Beam Deflection (superposition)
+- 17 Nov - Exam 3 Review
+- 19 Nov - HW 9 Due, HW 8 Self-grade Due
+- 22 Nov - Exam 3
+- (24 Nov) - No Class Thanksgiving Break
+- 29 Nov - Buckling, Stress Concentration
+- 1 Dec - Final Exam Review
+- 3 Dec - Project 3 Due, HW 10 & HW 9 Self-grade Due
+- 6 Dec - Final Exam 11:00 - 12:50
+
 
 ----
 ## outline
@@ -22,6 +26,7 @@ Wichita State University, Department of Aerospace Engineering
 <!-- vim-markdown-toc GFM -->
 
 * superposition
+* statically indeterminate
 
 <!-- vim-markdown-toc -->
 
@@ -61,3 +66,85 @@ Use superposition to find the displacement at C
 ![](../images/example-12-16.jpg)
 
 The steel bar is supported by springs with k=15 kip/ft originally unstretched. For the force shown, determine the displacement at C. Take $E_{st}=29$ Msi and $I=12\text{ in}^4$.
+
+---
+# statically indeterminate beams
+
+----
+## statically indeterminate
+
+-   If we have redundant supports, we can have some difficulty finding the displacement
+-   There are several approaches to solve these problems, we will consider direct integration and superposition
+
+----
+## integration
+
+-   We can take the extra unknowns and include them in our formulation for *M*(*x*)
+-   They will be solved for with the extra boundary conditions applied
+
+----
+## example 12.17
+
+![](../images/example-12-17.jpg)
+
+----
+## example 12.18
+
+![](../images/example-12-18.jpg)
+
+---
+# indeterminate beams - superposition
+
+----
+## superposition
+
+-   To use superposition for finding deflection of statically indeterminate beams, we must first identify redundant reactions
+-   We initially remove these, then superpose them back such that the deflection at that point is 0
+-   The choice of which reaction(s) is redundant is arbitrary, we can choose whatever we are most comfortable with
+-   We use Appendix C to find deflection and slope
+
+----
+## superposition
+
+![](../images/indeterminate-deflection.jpg)
+
+We can consider any reaction to be redundant.
+
+----
+## higher order indeterminacy
+
+![](../images/higher-order.jpg)
+
+We need to treat each reaction separately to match Appendix C.
+
+----
+## example 12.22
+
+![](../images/example-12-22.jpg)
+
+Determine the moment at B.
+
+---
+# group problems
+
+----
+## group one
+
+![](../images/group-12-4.png)
+
+Determine the reactions at A and B (EI is constant).
+
+----
+## group two
+
+![](../images/group-12-5.png)
+
+Determine the reactions at A and B (EI is constant).
+
+----
+## group three
+
+![](../images/group-12-6.png)
+
+Determine the reactions at A and B. The support at B settles 2 mm. *E* = 200 GPa, *I* = 65.0(10<sup>-6</sup>)m <sup>4</sup>.
+
