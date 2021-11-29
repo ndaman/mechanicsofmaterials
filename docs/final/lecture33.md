@@ -4,24 +4,22 @@ Lecture 22 - Stress Concentration<br/>
 Dr. Nicholas Smith<br/>
 Wichita State University, Department of Aerospace Engineering
 
-3 May, 2021
+29 November, 2021
 
 ----
 ## schedule
 
-- 3 May - Stress concentration, buckling
-- 5 May - Final exam review
-- 6 May - Project 3 Due
-- Homeworks 9-11 (posted to blackboard) are optional and provide some practice for exam
+- 29 November - Stress concentration, buckling
+- 1 December - Final exam review
+- 3 December - Project 3 Due
+- Homeworks 9-11 (posted to blackboard) are not graded, provide some practice for final exam
+- 6 December - 11:00 - 12:50
 
 ----
 ## outline
 
-<!-- vim-markdown-toc GFM -->
-
 * stress concentration factors
-
-<!-- vim-markdown-toc -->
+* buckling
 
 ---
 # stress concentration factors
